@@ -1,0 +1,7 @@
+@inproceedings{REPO180,
+    author = "Kuderer, Markus and Gulati, Shilpa and Burgard, Wolfram",
+    booktitle = "2015 IEEE International Conference on Robotics and Automation (ICRA)",
+    pages = "2641--2646",
+    title = "{Learning Driving Styles for Autonomous Vehicles from Demonstration}",
+    year = "2015"
+}
