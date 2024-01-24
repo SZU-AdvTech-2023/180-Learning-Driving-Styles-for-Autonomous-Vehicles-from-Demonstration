@@ -1,0 +1,1209 @@
+[INFO 12-08 16:36:05] ------------- 1_Traj_Initializer_Batch_Run_25 -------------
+[INFO 12-08 16:36:05] Learning rate: 0.001
+[INFO 12-08 16:36:05] Use device: cuda:0
+[INFO 12-08 16:36:05] scheduler_step_size: 20
+[INFO 12-08 16:36:05] task_epochs: 100
+[INFO 12-08 16:36:05] train_epochs: 1
+[INFO 12-08 16:36:05] test_epochs: 1
+[INFO 12-08 16:36:05] Dataset Prepared: 22189 train data, 18004 test data
+
+[INFO 12-08 16:36:07] 
+==========================task: 1============================
+[INFO 12-08 16:36:37] 
+Task Train-Progress: [   1/ 100]  Time: 32.048s/task
+[INFO 12-08 16:36:37] 
+loss: 4.777 IRL-loss: 0.021  plan-loss: 4.756
+[INFO 12-08 16:36:37] 
+plannerADE1: 0.1247, plannerFDE1: 0.3204
+[INFO 12-08 16:36:37] 
+plannerADE2: 0.9311, plannerFDE2: 2.5141
+[INFO 12-08 16:36:37] 
+plannerADE3: 2.2970, plannerFDE3: 6.7067
+[INFO 12-08 16:36:37] 
+==========================task: 2============================
+[INFO 12-08 16:37:11] 
+Task Train-Progress: [   2/ 100]  Time: 33.030s/task
+[INFO 12-08 16:37:11] 
+loss: 1.484 IRL-loss: 0.001  plan-loss: 1.484
+[INFO 12-08 16:37:11] 
+plannerADE1: 0.1136, plannerFDE1: 0.2865
+[INFO 12-08 16:37:11] 
+plannerADE2: 0.6997, plannerFDE2: 1.6405
+[INFO 12-08 16:37:11] 
+plannerADE3: 1.2293, plannerFDE3: 2.3765
+[INFO 12-08 16:37:11] 
+==========================task: 3============================
+[INFO 12-08 16:37:42] 
+Task Train-Progress: [   3/ 100]  Time: 32.386s/task
+[INFO 12-08 16:37:42] 
+loss: 1.122 IRL-loss: 0.000  plan-loss: 1.121
+[INFO 12-08 16:37:42] 
+plannerADE1: 0.1022, plannerFDE1: 0.2532
+[INFO 12-08 16:37:42] 
+plannerADE2: 0.5413, plannerFDE2: 1.1572
+[INFO 12-08 16:37:42] 
+plannerADE3: 0.9302, plannerFDE3: 1.9524
+[INFO 12-08 16:37:42] 
+==========================task: 4============================
+[INFO 12-08 16:38:14] 
+Task Train-Progress: [   4/ 100]  Time: 32.128s/task
+[INFO 12-08 16:38:14] 
+loss: 0.953 IRL-loss: 0.000  plan-loss: 0.952
+[INFO 12-08 16:38:14] 
+plannerADE1: 0.0969, plannerFDE1: 0.2382
+[INFO 12-08 16:38:14] 
+plannerADE2: 0.4767, plannerFDE2: 0.9674
+[INFO 12-08 16:38:14] 
+plannerADE3: 0.8091, plannerFDE3: 1.7467
+[INFO 12-08 16:38:14] 
+==========================task: 5============================
+[INFO 12-08 16:38:44] 
+Task Train-Progress: [   5/ 100]  Time: 31.864s/task
+[INFO 12-08 16:38:44] 
+loss: 0.916 IRL-loss: 0.000  plan-loss: 0.915
+[INFO 12-08 16:38:44] 
+plannerADE1: 0.0950, plannerFDE1: 0.2329
+[INFO 12-08 16:38:44] 
+plannerADE2: 0.4576, plannerFDE2: 0.9123
+[INFO 12-08 16:38:44] 
+plannerADE3: 0.7787, plannerFDE3: 1.7130
+[INFO 12-08 16:38:44] 
+==========================task: 6============================
+[INFO 12-08 16:39:15] 
+Task Train-Progress: [   6/ 100]  Time: 31.646s/task
+[INFO 12-08 16:39:15] 
+loss: 0.710 IRL-loss: 0.000  plan-loss: 0.710
+[INFO 12-08 16:39:15] 
+plannerADE1: 0.0911, plannerFDE1: 0.2220
+[INFO 12-08 16:39:15] 
+plannerADE2: 0.4106, plannerFDE2: 0.7720
+[INFO 12-08 16:39:15] 
+plannerADE3: 0.6693, plannerFDE3: 1.3927
+[INFO 12-08 16:39:15] 
+==========================task: 7============================
+[INFO 12-08 16:39:46] 
+Task Train-Progress: [   7/ 100]  Time: 31.608s/task
+[INFO 12-08 16:39:46] 
+loss: 0.645 IRL-loss: 0.000  plan-loss: 0.645
+[INFO 12-08 16:39:46] 
+plannerADE1: 0.0892, plannerFDE1: 0.2168
+[INFO 12-08 16:39:46] 
+plannerADE2: 0.3918, plannerFDE2: 0.7150
+[INFO 12-08 16:39:46] 
+plannerADE3: 0.6236, plannerFDE3: 1.2934
+[INFO 12-08 16:39:46] 
+==========================task: 8============================
+[INFO 12-08 16:40:17] 
+Task Train-Progress: [   8/ 100]  Time: 31.493s/task
+[INFO 12-08 16:40:17] 
+loss: 0.628 IRL-loss: 0.000  plan-loss: 0.628
+[INFO 12-08 16:40:17] 
+plannerADE1: 0.0883, plannerFDE1: 0.2145
+[INFO 12-08 16:40:17] 
+plannerADE2: 0.3857, plannerFDE2: 0.6989
+[INFO 12-08 16:40:17] 
+plannerADE3: 0.6120, plannerFDE3: 1.2748
+[INFO 12-08 16:40:17] 
+==========================task: 9============================
+[INFO 12-08 16:40:48] 
+Task Train-Progress: [   9/ 100]  Time: 31.457s/task
+[INFO 12-08 16:40:48] 
+loss: 0.579 IRL-loss: 0.000  plan-loss: 0.579
+[INFO 12-08 16:40:48] 
+plannerADE1: 0.0869, plannerFDE1: 0.2108
+[INFO 12-08 16:40:48] 
+plannerADE2: 0.3728, plannerFDE2: 0.6619
+[INFO 12-08 16:40:48] 
+plannerADE3: 0.5803, plannerFDE3: 1.1995
+[INFO 12-08 16:40:48] 
+==========================task: 10============================
+[INFO 12-08 16:41:19] 
+Task Train-Progress: [  10/ 100]  Time: 31.415s/task
+[INFO 12-08 16:41:19] 
+loss: 0.549 IRL-loss: 0.000  plan-loss: 0.548
+[INFO 12-08 16:41:19] 
+plannerADE1: 0.0856, plannerFDE1: 0.2073
+[INFO 12-08 16:41:19] 
+plannerADE2: 0.3611, plannerFDE2: 0.6291
+[INFO 12-08 16:41:19] 
+plannerADE3: 0.5603, plannerFDE3: 1.1606
+[INFO 12-08 16:41:19] 
+==========================task: 11============================
+[INFO 12-08 16:41:50] 
+Task Train-Progress: [  11/ 100]  Time: 31.369s/task
+[INFO 12-08 16:41:50] 
+loss: 0.526 IRL-loss: 0.000  plan-loss: 0.525
+[INFO 12-08 16:41:50] 
+plannerADE1: 0.0850, plannerFDE1: 0.2057
+[INFO 12-08 16:41:50] 
+plannerADE2: 0.3586, plannerFDE2: 0.6254
+[INFO 12-08 16:41:50] 
+plannerADE3: 0.5513, plannerFDE3: 1.1241
+[INFO 12-08 16:41:50] 
+==========================task: 12============================
+[INFO 12-08 16:42:21] 
+Task Train-Progress: [  12/ 100]  Time: 31.339s/task
+[INFO 12-08 16:42:21] 
+loss: 0.496 IRL-loss: 0.000  plan-loss: 0.496
+[INFO 12-08 16:42:21] 
+plannerADE1: 0.0841, plannerFDE1: 0.2035
+[INFO 12-08 16:42:21] 
+plannerADE2: 0.3495, plannerFDE2: 0.5949
+[INFO 12-08 16:42:21] 
+plannerADE3: 0.5300, plannerFDE3: 1.0821
+[INFO 12-08 16:42:21] 
+==========================task: 13============================
+[INFO 12-08 16:42:52] 
+Task Train-Progress: [  13/ 100]  Time: 31.314s/task
+[INFO 12-08 16:42:52] 
+loss: 0.441 IRL-loss: 0.000  plan-loss: 0.441
+[INFO 12-08 16:42:52] 
+plannerADE1: 0.0821, plannerFDE1: 0.1978
+[INFO 12-08 16:42:52] 
+plannerADE2: 0.3294, plannerFDE2: 0.5429
+[INFO 12-08 16:42:52] 
+plannerADE3: 0.4960, plannerFDE3: 0.9954
+[INFO 12-08 16:42:52] 
+==========================task: 14============================
+[INFO 12-08 16:43:23] 
+Task Train-Progress: [  14/ 100]  Time: 31.275s/task
+[INFO 12-08 16:43:23] 
+loss: 0.383 IRL-loss: 0.000  plan-loss: 0.383
+[INFO 12-08 16:43:23] 
+plannerADE1: 0.0811, plannerFDE1: 0.1952
+[INFO 12-08 16:43:23] 
+plannerADE2: 0.3192, plannerFDE2: 0.5061
+[INFO 12-08 16:43:23] 
+plannerADE3: 0.4615, plannerFDE3: 0.8954
+[INFO 12-08 16:43:23] 
+==========================task: 15============================
+[INFO 12-08 16:43:54] 
+Task Train-Progress: [  15/ 100]  Time: 31.279s/task
+[INFO 12-08 16:43:54] 
+loss: 0.447 IRL-loss: 0.000  plan-loss: 0.446
+[INFO 12-08 16:43:54] 
+plannerADE1: 0.0803, plannerFDE1: 0.1932
+[INFO 12-08 16:43:54] 
+plannerADE2: 0.3179, plannerFDE2: 0.5189
+[INFO 12-08 16:43:54] 
+plannerADE3: 0.4859, plannerFDE3: 1.0129
+[INFO 12-08 16:43:54] 
+==========================task: 16============================
+[INFO 12-08 16:44:25] 
+Task Train-Progress: [  16/ 100]  Time: 31.246s/task
+[INFO 12-08 16:44:25] 
+loss: 0.347 IRL-loss: 0.000  plan-loss: 0.347
+[INFO 12-08 16:44:25] 
+plannerADE1: 0.0797, plannerFDE1: 0.1915
+[INFO 12-08 16:44:25] 
+plannerADE2: 0.3076, plannerFDE2: 0.4720
+[INFO 12-08 16:44:25] 
+plannerADE3: 0.4353, plannerFDE3: 0.8444
+[INFO 12-08 16:44:25] 
+==========================task: 17============================
+[INFO 12-08 16:44:56] 
+Task Train-Progress: [  17/ 100]  Time: 31.234s/task
+[INFO 12-08 16:44:56] 
+loss: 0.302 IRL-loss: 0.000  plan-loss: 0.302
+[INFO 12-08 16:44:56] 
+plannerADE1: 0.0781, plannerFDE1: 0.1872
+[INFO 12-08 16:44:56] 
+plannerADE2: 0.2931, plannerFDE2: 0.4326
+[INFO 12-08 16:44:56] 
+plannerADE3: 0.4070, plannerFDE3: 0.7668
+[INFO 12-08 16:44:56] 
+==========================task: 18============================
+[INFO 12-08 16:45:27] 
+Task Train-Progress: [  18/ 100]  Time: 31.221s/task
+[INFO 12-08 16:45:27] 
+loss: 0.287 IRL-loss: 0.000  plan-loss: 0.287
+[INFO 12-08 16:45:27] 
+plannerADE1: 0.0780, plannerFDE1: 0.1868
+[INFO 12-08 16:45:27] 
+plannerADE2: 0.2917, plannerFDE2: 0.4234
+[INFO 12-08 16:45:27] 
+plannerADE3: 0.3969, plannerFDE3: 0.7539
+[INFO 12-08 16:45:27] 
+==========================task: 19============================
+[INFO 12-08 16:45:58] 
+Task Train-Progress: [  19/ 100]  Time: 31.189s/task
+[INFO 12-08 16:45:58] 
+loss: 0.338 IRL-loss: 0.000  plan-loss: 0.338
+[INFO 12-08 16:45:58] 
+plannerADE1: 0.0770, plannerFDE1: 0.1844
+[INFO 12-08 16:45:58] 
+plannerADE2: 0.2896, plannerFDE2: 0.4354
+[INFO 12-08 16:45:58] 
+plannerADE3: 0.4207, plannerFDE3: 0.8506
+[INFO 12-08 16:45:58] 
+==========================task: 20============================
+[INFO 12-08 16:46:29] 
+Task Train-Progress: [  20/ 100]  Time: 31.188s/task
+[INFO 12-08 16:46:29] 
+loss: 0.254 IRL-loss: 0.000  plan-loss: 0.254
+[INFO 12-08 16:46:29] 
+plannerADE1: 0.0761, plannerFDE1: 0.1819
+[INFO 12-08 16:46:29] 
+plannerADE2: 0.2796, plannerFDE2: 0.3969
+[INFO 12-08 16:46:29] 
+plannerADE3: 0.3776, plannerFDE3: 0.6908
+[INFO 12-08 16:46:29] 
+==========================task: 21============================
+[INFO 12-08 16:47:00] 
+Task Train-Progress: [  21/ 100]  Time: 31.205s/task
+[INFO 12-08 16:47:00] 
+loss: 0.121 IRL-loss: 0.000  plan-loss: 0.121
+[INFO 12-08 16:47:00] 
+plannerADE1: 0.0740, plannerFDE1: 0.1761
+[INFO 12-08 16:47:00] 
+plannerADE2: 0.2559, plannerFDE2: 0.3134
+[INFO 12-08 16:47:00] 
+plannerADE3: 0.2952, plannerFDE3: 0.3789
+[INFO 12-08 16:47:00] 
+==========================task: 22============================
+[INFO 12-08 16:47:32] 
+Task Train-Progress: [  22/ 100]  Time: 31.219s/task
+[INFO 12-08 16:47:32] 
+loss: 0.106 IRL-loss: 0.000  plan-loss: 0.106
+[INFO 12-08 16:47:32] 
+plannerADE1: 0.0716, plannerFDE1: 0.1698
+[INFO 12-08 16:47:32] 
+plannerADE2: 0.2428, plannerFDE2: 0.2890
+[INFO 12-08 16:47:32] 
+plannerADE3: 0.2761, plannerFDE3: 0.3449
+[INFO 12-08 16:47:32] 
+==========================task: 23============================
+[INFO 12-08 16:48:03] 
+Task Train-Progress: [  23/ 100]  Time: 31.217s/task
+[INFO 12-08 16:48:03] 
+loss: 0.107 IRL-loss: 0.000  plan-loss: 0.107
+[INFO 12-08 16:48:03] 
+plannerADE1: 0.0706, plannerFDE1: 0.1673
+[INFO 12-08 16:48:03] 
+plannerADE2: 0.2384, plannerFDE2: 0.2830
+[INFO 12-08 16:48:03] 
+plannerADE3: 0.2730, plannerFDE3: 0.3611
+[INFO 12-08 16:48:03] 
+==========================task: 24============================
+[INFO 12-08 16:48:34] 
+Task Train-Progress: [  24/ 100]  Time: 31.219s/task
+[INFO 12-08 16:48:34] 
+loss: 0.113 IRL-loss: 0.000  plan-loss: 0.113
+[INFO 12-08 16:48:34] 
+plannerADE1: 0.0706, plannerFDE1: 0.1674
+[INFO 12-08 16:48:34] 
+plannerADE2: 0.2395, plannerFDE2: 0.2872
+[INFO 12-08 16:48:34] 
+plannerADE3: 0.2774, plannerFDE3: 0.3801
+[INFO 12-08 16:48:34] 
+==========================task: 25============================
+[INFO 12-08 16:49:06] 
+Task Train-Progress: [  25/ 100]  Time: 31.215s/task
+[INFO 12-08 16:49:06] 
+loss: 0.116 IRL-loss: 0.000  plan-loss: 0.116
+[INFO 12-08 16:49:06] 
+plannerADE1: 0.0702, plannerFDE1: 0.1664
+[INFO 12-08 16:49:06] 
+plannerADE2: 0.2384, plannerFDE2: 0.2877
+[INFO 12-08 16:49:06] 
+plannerADE3: 0.2787, plannerFDE3: 0.3893
+[INFO 12-08 16:49:06] 
+==========================task: 26============================
+[INFO 12-08 16:49:37] 
+Task Train-Progress: [  26/ 100]  Time: 31.231s/task
+[INFO 12-08 16:49:37] 
+loss: 0.119 IRL-loss: 0.000  plan-loss: 0.119
+[INFO 12-08 16:49:37] 
+plannerADE1: 0.0697, plannerFDE1: 0.1651
+[INFO 12-08 16:49:37] 
+plannerADE2: 0.2368, plannerFDE2: 0.2882
+[INFO 12-08 16:49:37] 
+plannerADE3: 0.2796, plannerFDE3: 0.3987
+[INFO 12-08 16:49:37] 
+==========================task: 27============================
+[INFO 12-08 16:50:08] 
+Task Train-Progress: [  27/ 100]  Time: 31.221s/task
+[INFO 12-08 16:50:08] 
+loss: 0.132 IRL-loss: 0.000  plan-loss: 0.132
+[INFO 12-08 16:50:08] 
+plannerADE1: 0.0695, plannerFDE1: 0.1647
+[INFO 12-08 16:50:08] 
+plannerADE2: 0.2378, plannerFDE2: 0.2957
+[INFO 12-08 16:50:08] 
+plannerADE3: 0.2881, plannerFDE3: 0.4384
+[INFO 12-08 16:50:08] 
+==========================task: 28============================
+[INFO 12-08 16:50:39] 
+Task Train-Progress: [  28/ 100]  Time: 31.217s/task
+[INFO 12-08 16:50:39] 
+loss: 0.137 IRL-loss: 0.000  plan-loss: 0.137
+[INFO 12-08 16:50:39] 
+plannerADE1: 0.0691, plannerFDE1: 0.1638
+[INFO 12-08 16:50:39] 
+plannerADE2: 0.2378, plannerFDE2: 0.3009
+[INFO 12-08 16:50:39] 
+plannerADE3: 0.2926, plannerFDE3: 0.4543
+[INFO 12-08 16:50:39] 
+==========================task: 29============================
+[INFO 12-08 16:51:10] 
+Task Train-Progress: [  29/ 100]  Time: 31.210s/task
+[INFO 12-08 16:51:10] 
+loss: 0.101 IRL-loss: 0.000  plan-loss: 0.101
+[INFO 12-08 16:51:10] 
+plannerADE1: 0.0676, plannerFDE1: 0.1598
+[INFO 12-08 16:51:10] 
+plannerADE2: 0.2256, plannerFDE2: 0.2654
+[INFO 12-08 16:51:10] 
+plannerADE3: 0.2617, plannerFDE3: 0.3617
+[INFO 12-08 16:51:10] 
+==========================task: 30============================
+[INFO 12-08 16:51:41] 
+Task Train-Progress: [  30/ 100]  Time: 31.202s/task
+[INFO 12-08 16:51:41] 
+loss: 0.136 IRL-loss: 0.000  plan-loss: 0.136
+[INFO 12-08 16:51:41] 
+plannerADE1: 0.0675, plannerFDE1: 0.1597
+[INFO 12-08 16:51:41] 
+plannerADE2: 0.2298, plannerFDE2: 0.2889
+[INFO 12-08 16:51:41] 
+plannerADE3: 0.2851, plannerFDE3: 0.4554
+[INFO 12-08 16:51:41] 
+==========================task: 31============================
+[INFO 12-08 16:52:13] 
+Task Train-Progress: [  31/ 100]  Time: 31.207s/task
+[INFO 12-08 16:52:13] 
+loss: 0.105 IRL-loss: 0.000  plan-loss: 0.105
+[INFO 12-08 16:52:13] 
+plannerADE1: 0.0667, plannerFDE1: 0.1576
+[INFO 12-08 16:52:13] 
+plannerADE2: 0.2230, plannerFDE2: 0.2654
+[INFO 12-08 16:52:13] 
+plannerADE3: 0.2612, plannerFDE3: 0.3771
+[INFO 12-08 16:52:13] 
+==========================task: 32============================
+[INFO 12-08 16:52:44] 
+Task Train-Progress: [  32/ 100]  Time: 31.227s/task
+[INFO 12-08 16:52:44] 
+loss: 0.118 IRL-loss: 0.000  plan-loss: 0.118
+[INFO 12-08 16:52:44] 
+plannerADE1: 0.0664, plannerFDE1: 0.1569
+[INFO 12-08 16:52:44] 
+plannerADE2: 0.2241, plannerFDE2: 0.2755
+[INFO 12-08 16:52:44] 
+plannerADE3: 0.2707, plannerFDE3: 0.4069
+[INFO 12-08 16:52:44] 
+==========================task: 33============================
+[INFO 12-08 16:53:15] 
+Task Train-Progress: [  33/ 100]  Time: 31.211s/task
+[INFO 12-08 16:53:15] 
+loss: 0.140 IRL-loss: 0.000  plan-loss: 0.140
+[INFO 12-08 16:53:15] 
+plannerADE1: 0.0660, plannerFDE1: 0.1558
+[INFO 12-08 16:53:15] 
+plannerADE2: 0.2253, plannerFDE2: 0.2875
+[INFO 12-08 16:53:15] 
+plannerADE3: 0.2811, plannerFDE3: 0.4579
+[INFO 12-08 16:53:15] 
+==========================task: 34============================
+[INFO 12-08 16:53:46] 
+Task Train-Progress: [  34/ 100]  Time: 31.202s/task
+[INFO 12-08 16:53:46] 
+loss: 0.103 IRL-loss: 0.000  plan-loss: 0.103
+[INFO 12-08 16:53:46] 
+plannerADE1: 0.0651, plannerFDE1: 0.1536
+[INFO 12-08 16:53:46] 
+plannerADE2: 0.2164, plannerFDE2: 0.2575
+[INFO 12-08 16:53:46] 
+plannerADE3: 0.2553, plannerFDE3: 0.3699
+[INFO 12-08 16:53:46] 
+==========================task: 35============================
+[INFO 12-08 16:54:17] 
+Task Train-Progress: [  35/ 100]  Time: 31.205s/task
+[INFO 12-08 16:54:17] 
+loss: 0.109 IRL-loss: 0.000  plan-loss: 0.109
+[INFO 12-08 16:54:17] 
+plannerADE1: 0.0645, plannerFDE1: 0.1521
+[INFO 12-08 16:54:17] 
+plannerADE2: 0.2150, plannerFDE2: 0.2604
+[INFO 12-08 16:54:17] 
+plannerADE3: 0.2585, plannerFDE3: 0.3894
+[INFO 12-08 16:54:17] 
+==========================task: 36============================
+[INFO 12-08 16:54:48] 
+Task Train-Progress: [  36/ 100]  Time: 31.192s/task
+[INFO 12-08 16:54:48] 
+loss: 0.115 IRL-loss: 0.000  plan-loss: 0.115
+[INFO 12-08 16:54:48] 
+plannerADE1: 0.0640, plannerFDE1: 0.1508
+[INFO 12-08 16:54:48] 
+plannerADE2: 0.2140, plannerFDE2: 0.2638
+[INFO 12-08 16:54:48] 
+plannerADE3: 0.2616, plannerFDE3: 0.4024
+[INFO 12-08 16:54:48] 
+==========================task: 37============================
+[INFO 12-08 16:55:19] 
+Task Train-Progress: [  37/ 100]  Time: 31.180s/task
+[INFO 12-08 16:55:19] 
+loss: 0.097 IRL-loss: 0.000  plan-loss: 0.097
+[INFO 12-08 16:55:19] 
+plannerADE1: 0.0613, plannerFDE1: 0.1438
+[INFO 12-08 16:55:19] 
+plannerADE2: 0.2017, plannerFDE2: 0.2451
+[INFO 12-08 16:55:19] 
+plannerADE3: 0.2448, plannerFDE3: 0.3733
+[INFO 12-08 16:55:19] 
+==========================task: 38============================
+[INFO 12-08 16:55:50] 
+Task Train-Progress: [  38/ 100]  Time: 31.173s/task
+[INFO 12-08 16:55:50] 
+loss: 0.117 IRL-loss: 0.000  plan-loss: 0.117
+[INFO 12-08 16:55:50] 
+plannerADE1: 0.0626, plannerFDE1: 0.1471
+[INFO 12-08 16:55:50] 
+plannerADE2: 0.2084, plannerFDE2: 0.2590
+[INFO 12-08 16:55:50] 
+plannerADE3: 0.2589, plannerFDE3: 0.4201
+[INFO 12-08 16:55:50] 
+==========================task: 39============================
+[INFO 12-08 16:56:21] 
+Task Train-Progress: [  39/ 100]  Time: 31.169s/task
+[INFO 12-08 16:56:21] 
+loss: 0.117 IRL-loss: 0.000  plan-loss: 0.116
+[INFO 12-08 16:56:21] 
+plannerADE1: 0.0620, plannerFDE1: 0.1456
+[INFO 12-08 16:56:21] 
+plannerADE2: 0.2057, plannerFDE2: 0.2558
+[INFO 12-08 16:56:21] 
+plannerADE3: 0.2590, plannerFDE3: 0.4346
+[INFO 12-08 16:56:21] 
+==========================task: 40============================
+[INFO 12-08 16:56:52] 
+Task Train-Progress: [  40/ 100]  Time: 31.164s/task
+[INFO 12-08 16:56:52] 
+loss: 0.120 IRL-loss: 0.000  plan-loss: 0.120
+[INFO 12-08 16:56:52] 
+plannerADE1: 0.0625, plannerFDE1: 0.1471
+[INFO 12-08 16:56:52] 
+plannerADE2: 0.2104, plannerFDE2: 0.2678
+[INFO 12-08 16:56:52] 
+plannerADE3: 0.2660, plannerFDE3: 0.4437
+[INFO 12-08 16:56:52] 
+==========================task: 41============================
+[INFO 12-08 16:57:23] 
+Task Train-Progress: [  41/ 100]  Time: 31.160s/task
+[INFO 12-08 16:57:23] 
+loss: 0.061 IRL-loss: 0.000  plan-loss: 0.061
+[INFO 12-08 16:57:23] 
+plannerADE1: 0.0562, plannerFDE1: 0.1307
+[INFO 12-08 16:57:23] 
+plannerADE2: 0.1751, plannerFDE2: 0.1949
+[INFO 12-08 16:57:23] 
+plannerADE3: 0.1993, plannerFDE3: 0.2487
+[INFO 12-08 16:57:23] 
+==========================task: 42============================
+[INFO 12-08 16:57:54] 
+Task Train-Progress: [  42/ 100]  Time: 31.157s/task
+[INFO 12-08 16:57:54] 
+loss: 0.059 IRL-loss: 0.000  plan-loss: 0.059
+[INFO 12-08 16:57:54] 
+plannerADE1: 0.0523, plannerFDE1: 0.1209
+[INFO 12-08 16:57:54] 
+plannerADE2: 0.1596, plannerFDE2: 0.1802
+[INFO 12-08 16:57:54] 
+plannerADE3: 0.1862, plannerFDE3: 0.2539
+[INFO 12-08 16:57:54] 
+==========================task: 43============================
+[INFO 12-08 16:58:25] 
+Task Train-Progress: [  43/ 100]  Time: 31.158s/task
+[INFO 12-08 16:58:25] 
+loss: 0.058 IRL-loss: 0.000  plan-loss: 0.058
+[INFO 12-08 16:58:25] 
+plannerADE1: 0.0502, plannerFDE1: 0.1154
+[INFO 12-08 16:58:25] 
+plannerADE2: 0.1510, plannerFDE2: 0.1730
+[INFO 12-08 16:58:25] 
+plannerADE3: 0.1794, plannerFDE3: 0.2559
+[INFO 12-08 16:58:25] 
+==========================task: 44============================
+[INFO 12-08 16:58:56] 
+Task Train-Progress: [  44/ 100]  Time: 31.150s/task
+[INFO 12-08 16:58:56] 
+loss: 0.064 IRL-loss: 0.000  plan-loss: 0.064
+[INFO 12-08 16:58:56] 
+plannerADE1: 0.0498, plannerFDE1: 0.1144
+[INFO 12-08 16:58:56] 
+plannerADE2: 0.1502, plannerFDE2: 0.1767
+[INFO 12-08 16:58:56] 
+plannerADE3: 0.1837, plannerFDE3: 0.2849
+[INFO 12-08 16:58:56] 
+==========================task: 45============================
+[INFO 12-08 16:59:27] 
+Task Train-Progress: [  45/ 100]  Time: 31.147s/task
+[INFO 12-08 16:59:27] 
+loss: 0.058 IRL-loss: 0.000  plan-loss: 0.058
+[INFO 12-08 16:59:27] 
+plannerADE1: 0.0491, plannerFDE1: 0.1126
+[INFO 12-08 16:59:27] 
+plannerADE2: 0.1468, plannerFDE2: 0.1707
+[INFO 12-08 16:59:27] 
+plannerADE3: 0.1770, plannerFDE3: 0.2604
+[INFO 12-08 16:59:27] 
+==========================task: 46============================
+[INFO 12-08 16:59:58] 
+Task Train-Progress: [  46/ 100]  Time: 31.151s/task
+[INFO 12-08 16:59:58] 
+loss: 0.065 IRL-loss: 0.000  plan-loss: 0.065
+[INFO 12-08 16:59:58] 
+plannerADE1: 0.0484, plannerFDE1: 0.1109
+[INFO 12-08 16:59:58] 
+plannerADE2: 0.1459, plannerFDE2: 0.1770
+[INFO 12-08 16:59:58] 
+plannerADE3: 0.1818, plannerFDE3: 0.2910
+[INFO 12-08 16:59:58] 
+==========================task: 47============================
+[INFO 12-08 17:00:29] 
+Task Train-Progress: [  47/ 100]  Time: 31.148s/task
+[INFO 12-08 17:00:29] 
+loss: 0.059 IRL-loss: 0.000  plan-loss: 0.059
+[INFO 12-08 17:00:29] 
+plannerADE1: 0.0492, plannerFDE1: 0.1128
+[INFO 12-08 17:00:29] 
+plannerADE2: 0.1473, plannerFDE2: 0.1720
+[INFO 12-08 17:00:29] 
+plannerADE3: 0.1782, plannerFDE3: 0.2664
+[INFO 12-08 17:00:29] 
+==========================task: 48============================
+[INFO 12-08 17:01:00] 
+Task Train-Progress: [  48/ 100]  Time: 31.145s/task
+[INFO 12-08 17:01:00] 
+loss: 0.057 IRL-loss: 0.000  plan-loss: 0.057
+[INFO 12-08 17:01:00] 
+plannerADE1: 0.0467, plannerFDE1: 0.1065
+[INFO 12-08 17:01:00] 
+plannerADE2: 0.1379, plannerFDE2: 0.1651
+[INFO 12-08 17:01:00] 
+plannerADE3: 0.1696, plannerFDE3: 0.2628
+[INFO 12-08 17:01:00] 
+==========================task: 49============================
+[INFO 12-08 17:01:31] 
+Task Train-Progress: [  49/ 100]  Time: 31.150s/task
+[INFO 12-08 17:01:31] 
+loss: 0.056 IRL-loss: 0.000  plan-loss: 0.056
+[INFO 12-08 17:01:31] 
+plannerADE1: 0.0453, plannerFDE1: 0.1030
+[INFO 12-08 17:01:31] 
+plannerADE2: 0.1332, plannerFDE2: 0.1632
+[INFO 12-08 17:01:31] 
+plannerADE3: 0.1671, plannerFDE3: 0.2637
+[INFO 12-08 17:01:31] 
+==========================task: 50============================
+[INFO 12-08 17:02:03] 
+Task Train-Progress: [  50/ 100]  Time: 31.149s/task
+[INFO 12-08 17:02:03] 
+loss: 0.061 IRL-loss: 0.000  plan-loss: 0.061
+[INFO 12-08 17:02:03] 
+plannerADE1: 0.0440, plannerFDE1: 0.0996
+[INFO 12-08 17:02:03] 
+plannerADE2: 0.1296, plannerFDE2: 0.1667
+[INFO 12-08 17:02:03] 
+plannerADE3: 0.1694, plannerFDE3: 0.2877
+[INFO 12-08 17:02:03] 
+==========================task: 51============================
+[INFO 12-08 17:02:34] 
+Task Train-Progress: [  51/ 100]  Time: 31.150s/task
+[INFO 12-08 17:02:34] 
+loss: 0.060 IRL-loss: 0.000  plan-loss: 0.060
+[INFO 12-08 17:02:34] 
+plannerADE1: 0.0468, plannerFDE1: 0.1068
+[INFO 12-08 17:02:34] 
+plannerADE2: 0.1398, plannerFDE2: 0.1723
+[INFO 12-08 17:02:34] 
+plannerADE3: 0.1749, plannerFDE3: 0.2802
+[INFO 12-08 17:02:34] 
+==========================task: 52============================
+[INFO 12-08 17:03:05] 
+Task Train-Progress: [  52/ 100]  Time: 31.150s/task
+[INFO 12-08 17:03:05] 
+loss: 0.059 IRL-loss: 0.000  plan-loss: 0.059
+[INFO 12-08 17:03:05] 
+plannerADE1: 0.0454, plannerFDE1: 0.1033
+[INFO 12-08 17:03:05] 
+plannerADE2: 0.1347, plannerFDE2: 0.1690
+[INFO 12-08 17:03:05] 
+plannerADE3: 0.1717, plannerFDE3: 0.2813
+[INFO 12-08 17:03:05] 
+==========================task: 53============================
+[INFO 12-08 17:03:36] 
+Task Train-Progress: [  53/ 100]  Time: 31.148s/task
+[INFO 12-08 17:03:36] 
+loss: 0.067 IRL-loss: 0.000  plan-loss: 0.067
+[INFO 12-08 17:03:36] 
+plannerADE1: 0.0462, plannerFDE1: 0.1053
+[INFO 12-08 17:03:36] 
+plannerADE2: 0.1390, plannerFDE2: 0.1779
+[INFO 12-08 17:03:36] 
+plannerADE3: 0.1806, plannerFDE3: 0.3063
+[INFO 12-08 17:03:36] 
+==========================task: 54============================
+[INFO 12-08 17:04:07] 
+Task Train-Progress: [  54/ 100]  Time: 31.144s/task
+[INFO 12-08 17:04:07] 
+loss: 0.056 IRL-loss: 0.000  plan-loss: 0.056
+[INFO 12-08 17:04:07] 
+plannerADE1: 0.0431, plannerFDE1: 0.0975
+[INFO 12-08 17:04:07] 
+plannerADE2: 0.1256, plannerFDE2: 0.1591
+[INFO 12-08 17:04:07] 
+plannerADE3: 0.1616, plannerFDE3: 0.2677
+[INFO 12-08 17:04:07] 
+==========================task: 55============================
+[INFO 12-08 17:04:38] 
+Task Train-Progress: [  55/ 100]  Time: 31.140s/task
+[INFO 12-08 17:04:38] 
+loss: 0.060 IRL-loss: 0.000  plan-loss: 0.060
+[INFO 12-08 17:04:38] 
+plannerADE1: 0.0456, plannerFDE1: 0.1036
+[INFO 12-08 17:04:38] 
+plannerADE2: 0.1350, plannerFDE2: 0.1676
+[INFO 12-08 17:04:38] 
+plannerADE3: 0.1707, plannerFDE3: 0.2794
+[INFO 12-08 17:04:38] 
+==========================task: 56============================
+[INFO 12-08 17:05:09] 
+Task Train-Progress: [  56/ 100]  Time: 31.142s/task
+[INFO 12-08 17:05:09] 
+loss: 0.067 IRL-loss: 0.000  plan-loss: 0.067
+[INFO 12-08 17:05:09] 
+plannerADE1: 0.0452, plannerFDE1: 0.1027
+[INFO 12-08 17:05:09] 
+plannerADE2: 0.1358, plannerFDE2: 0.1777
+[INFO 12-08 17:05:09] 
+plannerADE3: 0.1792, plannerFDE3: 0.3072
+[INFO 12-08 17:05:09] 
+==========================task: 57============================
+[INFO 12-08 17:05:40] 
+Task Train-Progress: [  57/ 100]  Time: 31.142s/task
+[INFO 12-08 17:05:40] 
+loss: 0.057 IRL-loss: 0.000  plan-loss: 0.057
+[INFO 12-08 17:05:40] 
+plannerADE1: 0.0445, plannerFDE1: 0.1010
+[INFO 12-08 17:05:40] 
+plannerADE2: 0.1307, plannerFDE2: 0.1623
+[INFO 12-08 17:05:40] 
+plannerADE3: 0.1653, plannerFDE3: 0.2706
+[INFO 12-08 17:05:40] 
+==========================task: 58============================
+[INFO 12-08 17:06:11] 
+Task Train-Progress: [  58/ 100]  Time: 31.136s/task
+[INFO 12-08 17:06:11] 
+loss: 0.061 IRL-loss: 0.000  plan-loss: 0.061
+[INFO 12-08 17:06:11] 
+plannerADE1: 0.0436, plannerFDE1: 0.0987
+[INFO 12-08 17:06:11] 
+plannerADE2: 0.1291, plannerFDE2: 0.1689
+[INFO 12-08 17:06:11] 
+plannerADE3: 0.1694, plannerFDE3: 0.2864
+[INFO 12-08 17:06:11] 
+==========================task: 59============================
+[INFO 12-08 17:06:42] 
+Task Train-Progress: [  59/ 100]  Time: 31.135s/task
+[INFO 12-08 17:06:42] 
+loss: 0.058 IRL-loss: 0.000  plan-loss: 0.058
+[INFO 12-08 17:06:42] 
+plannerADE1: 0.0431, plannerFDE1: 0.0974
+[INFO 12-08 17:06:42] 
+plannerADE2: 0.1262, plannerFDE2: 0.1620
+[INFO 12-08 17:06:42] 
+plannerADE3: 0.1638, plannerFDE3: 0.2797
+[INFO 12-08 17:06:42] 
+==========================task: 60============================
+[INFO 12-08 17:07:13] 
+Task Train-Progress: [  60/ 100]  Time: 31.136s/task
+[INFO 12-08 17:07:13] 
+loss: 0.056 IRL-loss: 0.000  plan-loss: 0.056
+[INFO 12-08 17:07:13] 
+plannerADE1: 0.0431, plannerFDE1: 0.0974
+[INFO 12-08 17:07:13] 
+plannerADE2: 0.1263, plannerFDE2: 0.1627
+[INFO 12-08 17:07:13] 
+plannerADE3: 0.1631, plannerFDE3: 0.2671
+[INFO 12-08 17:07:13] 
+==========================task: 61============================
+[INFO 12-08 17:07:45] 
+Task Train-Progress: [  61/ 100]  Time: 31.137s/task
+[INFO 12-08 17:07:45] 
+loss: 0.041 IRL-loss: 0.000  plan-loss: 0.041
+[INFO 12-08 17:07:45] 
+plannerADE1: 0.0393, plannerFDE1: 0.0877
+[INFO 12-08 17:07:45] 
+plannerADE2: 0.1086, plannerFDE2: 0.1340
+[INFO 12-08 17:07:45] 
+plannerADE3: 0.1354, plannerFDE3: 0.2035
+[INFO 12-08 17:07:45] 
+==========================task: 62============================
+[INFO 12-08 17:08:15] 
+Task Train-Progress: [  62/ 100]  Time: 31.134s/task
+[INFO 12-08 17:08:15] 
+loss: 0.040 IRL-loss: 0.000  plan-loss: 0.040
+[INFO 12-08 17:08:15] 
+plannerADE1: 0.0374, plannerFDE1: 0.0828
+[INFO 12-08 17:08:15] 
+plannerADE2: 0.1018, plannerFDE2: 0.1293
+[INFO 12-08 17:08:15] 
+plannerADE3: 0.1298, plannerFDE3: 0.2044
+[INFO 12-08 17:08:15] 
+==========================task: 63============================
+[INFO 12-08 17:08:47] 
+Task Train-Progress: [  63/ 100]  Time: 31.136s/task
+[INFO 12-08 17:08:47] 
+loss: 0.040 IRL-loss: 0.000  plan-loss: 0.040
+[INFO 12-08 17:08:47] 
+plannerADE1: 0.0371, plannerFDE1: 0.0820
+[INFO 12-08 17:08:47] 
+plannerADE2: 0.1007, plannerFDE2: 0.1289
+[INFO 12-08 17:08:47] 
+plannerADE3: 0.1291, plannerFDE3: 0.2063
+[INFO 12-08 17:08:47] 
+==========================task: 64============================
+[INFO 12-08 17:09:18] 
+Task Train-Progress: [  64/ 100]  Time: 31.131s/task
+[INFO 12-08 17:09:18] 
+loss: 0.039 IRL-loss: 0.000  plan-loss: 0.039
+[INFO 12-08 17:09:18] 
+plannerADE1: 0.0368, plannerFDE1: 0.0812
+[INFO 12-08 17:09:18] 
+plannerADE2: 0.0994, plannerFDE2: 0.1273
+[INFO 12-08 17:09:18] 
+plannerADE3: 0.1275, plannerFDE3: 0.2046
+[INFO 12-08 17:09:18] 
+==========================task: 65============================
+[INFO 12-08 17:09:48] 
+Task Train-Progress: [  65/ 100]  Time: 31.128s/task
+[INFO 12-08 17:09:48] 
+loss: 0.040 IRL-loss: 0.000  plan-loss: 0.040
+[INFO 12-08 17:09:48] 
+plannerADE1: 0.0366, plannerFDE1: 0.0809
+[INFO 12-08 17:09:48] 
+plannerADE2: 0.0990, plannerFDE2: 0.1280
+[INFO 12-08 17:09:48] 
+plannerADE3: 0.1278, plannerFDE3: 0.2076
+[INFO 12-08 17:09:48] 
+==========================task: 66============================
+[INFO 12-08 17:10:20] 
+Task Train-Progress: [  66/ 100]  Time: 31.130s/task
+[INFO 12-08 17:10:20] 
+loss: 0.040 IRL-loss: 0.000  plan-loss: 0.040
+[INFO 12-08 17:10:20] 
+plannerADE1: 0.0366, plannerFDE1: 0.0809
+[INFO 12-08 17:10:20] 
+plannerADE2: 0.0992, plannerFDE2: 0.1293
+[INFO 12-08 17:10:20] 
+plannerADE3: 0.1288, plannerFDE3: 0.2115
+[INFO 12-08 17:10:20] 
+==========================task: 67============================
+[INFO 12-08 17:10:51] 
+Task Train-Progress: [  67/ 100]  Time: 31.128s/task
+[INFO 12-08 17:10:51] 
+loss: 0.041 IRL-loss: 0.000  plan-loss: 0.041
+[INFO 12-08 17:10:51] 
+plannerADE1: 0.0365, plannerFDE1: 0.0806
+[INFO 12-08 17:10:51] 
+plannerADE2: 0.0989, plannerFDE2: 0.1300
+[INFO 12-08 17:10:51] 
+plannerADE3: 0.1292, plannerFDE3: 0.2146
+[INFO 12-08 17:10:51] 
+==========================task: 68============================
+[INFO 12-08 17:11:22] 
+Task Train-Progress: [  68/ 100]  Time: 31.131s/task
+[INFO 12-08 17:11:22] 
+loss: 0.040 IRL-loss: 0.000  plan-loss: 0.040
+[INFO 12-08 17:11:22] 
+plannerADE1: 0.0363, plannerFDE1: 0.0801
+[INFO 12-08 17:11:22] 
+plannerADE2: 0.0982, plannerFDE2: 0.1300
+[INFO 12-08 17:11:22] 
+plannerADE3: 0.1291, plannerFDE3: 0.2162
+[INFO 12-08 17:11:22] 
+==========================task: 69============================
+[INFO 12-08 17:11:53] 
+Task Train-Progress: [  69/ 100]  Time: 31.128s/task
+[INFO 12-08 17:11:53] 
+loss: 0.040 IRL-loss: 0.000  plan-loss: 0.040
+[INFO 12-08 17:11:53] 
+plannerADE1: 0.0359, plannerFDE1: 0.0791
+[INFO 12-08 17:11:53] 
+plannerADE2: 0.0969, plannerFDE2: 0.1297
+[INFO 12-08 17:11:53] 
+plannerADE3: 0.1281, plannerFDE3: 0.2162
+[INFO 12-08 17:11:53] 
+==========================task: 70============================
+[INFO 12-08 17:12:24] 
+Task Train-Progress: [  70/ 100]  Time: 31.125s/task
+[INFO 12-08 17:12:24] 
+loss: 0.041 IRL-loss: 0.000  plan-loss: 0.041
+[INFO 12-08 17:12:24] 
+plannerADE1: 0.0359, plannerFDE1: 0.0790
+[INFO 12-08 17:12:24] 
+plannerADE2: 0.0973, plannerFDE2: 0.1314
+[INFO 12-08 17:12:24] 
+plannerADE3: 0.1292, plannerFDE3: 0.2211
+[INFO 12-08 17:12:24] 
+==========================task: 71============================
+[INFO 12-08 17:12:55] 
+Task Train-Progress: [  71/ 100]  Time: 31.128s/task
+[INFO 12-08 17:12:55] 
+loss: 0.039 IRL-loss: 0.000  plan-loss: 0.039
+[INFO 12-08 17:12:55] 
+plannerADE1: 0.0352, plannerFDE1: 0.0772
+[INFO 12-08 17:12:55] 
+plannerADE2: 0.0942, plannerFDE2: 0.1275
+[INFO 12-08 17:12:55] 
+plannerADE3: 0.1249, plannerFDE3: 0.2102
+[INFO 12-08 17:12:55] 
+==========================task: 72============================
+[INFO 12-08 17:13:26] 
+Task Train-Progress: [  72/ 100]  Time: 31.122s/task
+[INFO 12-08 17:13:26] 
+loss: 0.040 IRL-loss: 0.000  plan-loss: 0.040
+[INFO 12-08 17:13:26] 
+plannerADE1: 0.0353, plannerFDE1: 0.0776
+[INFO 12-08 17:13:26] 
+plannerADE2: 0.0952, plannerFDE2: 0.1293
+[INFO 12-08 17:13:26] 
+plannerADE3: 0.1268, plannerFDE3: 0.2182
+[INFO 12-08 17:13:26] 
+==========================task: 73============================
+[INFO 12-08 17:13:57] 
+Task Train-Progress: [  73/ 100]  Time: 31.123s/task
+[INFO 12-08 17:13:57] 
+loss: 0.038 IRL-loss: 0.000  plan-loss: 0.038
+[INFO 12-08 17:13:57] 
+plannerADE1: 0.0347, plannerFDE1: 0.0760
+[INFO 12-08 17:13:57] 
+plannerADE2: 0.0925, plannerFDE2: 0.1262
+[INFO 12-08 17:13:57] 
+plannerADE3: 0.1232, plannerFDE3: 0.2094
+[INFO 12-08 17:13:57] 
+==========================task: 74============================
+[INFO 12-08 17:14:28] 
+Task Train-Progress: [  74/ 100]  Time: 31.120s/task
+[INFO 12-08 17:14:28] 
+loss: 0.040 IRL-loss: 0.000  plan-loss: 0.040
+[INFO 12-08 17:14:28] 
+plannerADE1: 0.0347, plannerFDE1: 0.0759
+[INFO 12-08 17:14:28] 
+plannerADE2: 0.0928, plannerFDE2: 0.1283
+[INFO 12-08 17:14:28] 
+plannerADE3: 0.1249, plannerFDE3: 0.2167
+[INFO 12-08 17:14:28] 
+==========================task: 75============================
+[INFO 12-08 17:14:59] 
+Task Train-Progress: [  75/ 100]  Time: 31.120s/task
+[INFO 12-08 17:14:59] 
+loss: 0.039 IRL-loss: 0.000  plan-loss: 0.039
+[INFO 12-08 17:14:59] 
+plannerADE1: 0.0346, plannerFDE1: 0.0757
+[INFO 12-08 17:14:59] 
+plannerADE2: 0.0926, plannerFDE2: 0.1278
+[INFO 12-08 17:14:59] 
+plannerADE3: 0.1243, plannerFDE3: 0.2149
+[INFO 12-08 17:14:59] 
+==========================task: 76============================
+[INFO 12-08 17:15:31] 
+Task Train-Progress: [  76/ 100]  Time: 31.124s/task
+[INFO 12-08 17:15:31] 
+loss: 0.039 IRL-loss: 0.000  plan-loss: 0.039
+[INFO 12-08 17:15:31] 
+plannerADE1: 0.0345, plannerFDE1: 0.0755
+[INFO 12-08 17:15:31] 
+plannerADE2: 0.0926, plannerFDE2: 0.1292
+[INFO 12-08 17:15:31] 
+plannerADE3: 0.1249, plannerFDE3: 0.2166
+[INFO 12-08 17:15:31] 
+==========================task: 77============================
+[INFO 12-08 17:16:02] 
+Task Train-Progress: [  77/ 100]  Time: 31.124s/task
+[INFO 12-08 17:16:02] 
+loss: 0.041 IRL-loss: 0.000  plan-loss: 0.041
+[INFO 12-08 17:16:02] 
+plannerADE1: 0.0350, plannerFDE1: 0.0767
+[INFO 12-08 17:16:02] 
+plannerADE2: 0.0946, plannerFDE2: 0.1323
+[INFO 12-08 17:16:02] 
+plannerADE3: 0.1285, plannerFDE3: 0.2283
+[INFO 12-08 17:16:02] 
+==========================task: 78============================
+[INFO 12-08 17:16:33] 
+Task Train-Progress: [  78/ 100]  Time: 31.123s/task
+[INFO 12-08 17:16:33] 
+loss: 0.037 IRL-loss: 0.000  plan-loss: 0.037
+[INFO 12-08 17:16:33] 
+plannerADE1: 0.0340, plannerFDE1: 0.0742
+[INFO 12-08 17:16:33] 
+plannerADE2: 0.0904, plannerFDE2: 0.1259
+[INFO 12-08 17:16:33] 
+plannerADE3: 0.1215, plannerFDE3: 0.2091
+[INFO 12-08 17:16:33] 
+==========================task: 79============================
+[INFO 12-08 17:17:04] 
+Task Train-Progress: [  79/ 100]  Time: 31.129s/task
+[INFO 12-08 17:17:04] 
+loss: 0.038 IRL-loss: 0.000  plan-loss: 0.038
+[INFO 12-08 17:17:04] 
+plannerADE1: 0.0338, plannerFDE1: 0.0737
+[INFO 12-08 17:17:04] 
+plannerADE2: 0.0899, plannerFDE2: 0.1268
+[INFO 12-08 17:17:04] 
+plannerADE3: 0.1217, plannerFDE3: 0.2112
+[INFO 12-08 17:17:04] 
+==========================task: 80============================
+[INFO 12-08 17:17:35] 
+Task Train-Progress: [  80/ 100]  Time: 31.127s/task
+[INFO 12-08 17:17:35] 
+loss: 0.038 IRL-loss: 0.000  plan-loss: 0.038
+[INFO 12-08 17:17:35] 
+plannerADE1: 0.0337, plannerFDE1: 0.0734
+[INFO 12-08 17:17:35] 
+plannerADE2: 0.0896, plannerFDE2: 0.1271
+[INFO 12-08 17:17:35] 
+plannerADE3: 0.1215, plannerFDE3: 0.2108
+[INFO 12-08 17:17:35] 
+==========================task: 81============================
+[INFO 12-08 17:18:06] 
+Task Train-Progress: [  81/ 100]  Time: 31.123s/task
+[INFO 12-08 17:18:06] 
+loss: 0.033 IRL-loss: 0.000  plan-loss: 0.033
+[INFO 12-08 17:18:06] 
+plannerADE1: 0.0328, plannerFDE1: 0.0709
+[INFO 12-08 17:18:06] 
+plannerADE2: 0.0845, plannerFDE2: 0.1164
+[INFO 12-08 17:18:06] 
+plannerADE3: 0.1105, plannerFDE3: 0.1782
+[INFO 12-08 17:18:06] 
+==========================task: 82============================
+[INFO 12-08 17:18:41] 
+Task Train-Progress: [  82/ 100]  Time: 31.167s/task
+[INFO 12-08 17:18:41] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:18:41] 
+plannerADE1: 0.0323, plannerFDE1: 0.0698
+[INFO 12-08 17:18:41] 
+plannerADE2: 0.0830, plannerFDE2: 0.1151
+[INFO 12-08 17:18:41] 
+plannerADE3: 0.1087, plannerFDE3: 0.1748
+[INFO 12-08 17:18:41] 
+==========================task: 83============================
+[INFO 12-08 17:19:13] 
+Task Train-Progress: [  83/ 100]  Time: 31.184s/task
+[INFO 12-08 17:19:13] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:19:13] 
+plannerADE1: 0.0321, plannerFDE1: 0.0693
+[INFO 12-08 17:19:13] 
+plannerADE2: 0.0825, plannerFDE2: 0.1151
+[INFO 12-08 17:19:13] 
+plannerADE3: 0.1083, plannerFDE3: 0.1735
+[INFO 12-08 17:19:13] 
+==========================task: 84============================
+[INFO 12-08 17:19:45] 
+Task Train-Progress: [  84/ 100]  Time: 31.183s/task
+[INFO 12-08 17:19:45] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:19:45] 
+plannerADE1: 0.0320, plannerFDE1: 0.0689
+[INFO 12-08 17:19:45] 
+plannerADE2: 0.0821, plannerFDE2: 0.1153
+[INFO 12-08 17:19:45] 
+plannerADE3: 0.1081, plannerFDE3: 0.1735
+[INFO 12-08 17:19:45] 
+==========================task: 85============================
+[INFO 12-08 17:20:16] 
+Task Train-Progress: [  85/ 100]  Time: 31.184s/task
+[INFO 12-08 17:20:16] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:20:16] 
+plannerADE1: 0.0319, plannerFDE1: 0.0687
+[INFO 12-08 17:20:16] 
+plannerADE2: 0.0819, plannerFDE2: 0.1154
+[INFO 12-08 17:20:16] 
+plannerADE3: 0.1081, plannerFDE3: 0.1748
+[INFO 12-08 17:20:16] 
+==========================task: 86============================
+[INFO 12-08 17:20:47] 
+Task Train-Progress: [  86/ 100]  Time: 31.187s/task
+[INFO 12-08 17:20:47] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:20:47] 
+plannerADE1: 0.0319, plannerFDE1: 0.0687
+[INFO 12-08 17:20:47] 
+plannerADE2: 0.0818, plannerFDE2: 0.1155
+[INFO 12-08 17:20:47] 
+plannerADE3: 0.1083, plannerFDE3: 0.1770
+[INFO 12-08 17:20:47] 
+==========================task: 87============================
+[INFO 12-08 17:21:18] 
+Task Train-Progress: [  87/ 100]  Time: 31.184s/task
+[INFO 12-08 17:21:18] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:21:18] 
+plannerADE1: 0.0319, plannerFDE1: 0.0686
+[INFO 12-08 17:21:18] 
+plannerADE2: 0.0818, plannerFDE2: 0.1158
+[INFO 12-08 17:21:18] 
+plannerADE3: 0.1086, plannerFDE3: 0.1793
+[INFO 12-08 17:21:18] 
+==========================task: 88============================
+[INFO 12-08 17:21:50] 
+Task Train-Progress: [  88/ 100]  Time: 31.189s/task
+[INFO 12-08 17:21:50] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:21:50] 
+plannerADE1: 0.0318, plannerFDE1: 0.0685
+[INFO 12-08 17:21:50] 
+plannerADE2: 0.0817, plannerFDE2: 0.1161
+[INFO 12-08 17:21:50] 
+plannerADE3: 0.1088, plannerFDE3: 0.1811
+[INFO 12-08 17:21:50] 
+==========================task: 89============================
+[INFO 12-08 17:22:21] 
+Task Train-Progress: [  89/ 100]  Time: 31.186s/task
+[INFO 12-08 17:22:21] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:22:21] 
+plannerADE1: 0.0318, plannerFDE1: 0.0684
+[INFO 12-08 17:22:21] 
+plannerADE2: 0.0816, plannerFDE2: 0.1163
+[INFO 12-08 17:22:21] 
+plannerADE3: 0.1089, plannerFDE3: 0.1822
+[INFO 12-08 17:22:21] 
+==========================task: 90============================
+[INFO 12-08 17:22:52] 
+Task Train-Progress: [  90/ 100]  Time: 31.186s/task
+[INFO 12-08 17:22:52] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:22:52] 
+plannerADE1: 0.0317, plannerFDE1: 0.0683
+[INFO 12-08 17:22:52] 
+plannerADE2: 0.0814, plannerFDE2: 0.1163
+[INFO 12-08 17:22:52] 
+plannerADE3: 0.1088, plannerFDE3: 0.1825
+[INFO 12-08 17:22:52] 
+==========================task: 91============================
+[INFO 12-08 17:23:24] 
+Task Train-Progress: [  91/ 100]  Time: 31.193s/task
+[INFO 12-08 17:23:24] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:23:24] 
+plannerADE1: 0.0317, plannerFDE1: 0.0681
+[INFO 12-08 17:23:24] 
+plannerADE2: 0.0811, plannerFDE2: 0.1161
+[INFO 12-08 17:23:24] 
+plannerADE3: 0.1085, plannerFDE3: 0.1824
+[INFO 12-08 17:23:24] 
+==========================task: 92============================
+[INFO 12-08 17:23:55] 
+Task Train-Progress: [  92/ 100]  Time: 31.193s/task
+[INFO 12-08 17:23:55] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:23:55] 
+plannerADE1: 0.0316, plannerFDE1: 0.0679
+[INFO 12-08 17:23:55] 
+plannerADE2: 0.0808, plannerFDE2: 0.1158
+[INFO 12-08 17:23:55] 
+plannerADE3: 0.1081, plannerFDE3: 0.1819
+[INFO 12-08 17:23:55] 
+==========================task: 93============================
+[INFO 12-08 17:24:26] 
+Task Train-Progress: [  93/ 100]  Time: 31.192s/task
+[INFO 12-08 17:24:26] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:24:26] 
+plannerADE1: 0.0315, plannerFDE1: 0.0676
+[INFO 12-08 17:24:26] 
+plannerADE2: 0.0804, plannerFDE2: 0.1155
+[INFO 12-08 17:24:26] 
+plannerADE3: 0.1076, plannerFDE3: 0.1812
+[INFO 12-08 17:24:26] 
+==========================task: 94============================
+[INFO 12-08 17:24:58] 
+Task Train-Progress: [  94/ 100]  Time: 31.202s/task
+[INFO 12-08 17:24:58] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:24:58] 
+plannerADE1: 0.0314, plannerFDE1: 0.0674
+[INFO 12-08 17:24:58] 
+plannerADE2: 0.0801, plannerFDE2: 0.1153
+[INFO 12-08 17:24:58] 
+plannerADE3: 0.1071, plannerFDE3: 0.1805
+[INFO 12-08 17:24:58] 
+==========================task: 95============================
+[INFO 12-08 17:25:31] 
+Task Train-Progress: [  95/ 100]  Time: 31.215s/task
+[INFO 12-08 17:25:31] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:25:31] 
+plannerADE1: 0.0313, plannerFDE1: 0.0671
+[INFO 12-08 17:25:31] 
+plannerADE2: 0.0797, plannerFDE2: 0.1151
+[INFO 12-08 17:25:31] 
+plannerADE3: 0.1068, plannerFDE3: 0.1799
+[INFO 12-08 17:25:31] 
+==========================task: 96============================
+[INFO 12-08 17:26:02] 
+Task Train-Progress: [  96/ 100]  Time: 31.220s/task
+[INFO 12-08 17:26:02] 
+loss: 0.032 IRL-loss: 0.000  plan-loss: 0.032
+[INFO 12-08 17:26:02] 
+plannerADE1: 0.0312, plannerFDE1: 0.0668
+[INFO 12-08 17:26:02] 
+plannerADE2: 0.0794, plannerFDE2: 0.1151
+[INFO 12-08 17:26:02] 
+plannerADE3: 0.1065, plannerFDE3: 0.1796
+[INFO 12-08 17:26:02] 
+==========================task: 97============================
+[INFO 12-08 17:26:33] 
+Task Train-Progress: [  97/ 100]  Time: 31.218s/task
+[INFO 12-08 17:26:33] 
+loss: 0.031 IRL-loss: 0.000  plan-loss: 0.031
+[INFO 12-08 17:26:33] 
+plannerADE1: 0.0311, plannerFDE1: 0.0666
+[INFO 12-08 17:26:33] 
+plannerADE2: 0.0791, plannerFDE2: 0.1151
+[INFO 12-08 17:26:33] 
+plannerADE3: 0.1063, plannerFDE3: 0.1795
+[INFO 12-08 17:26:33] 
+==========================task: 98============================
+[INFO 12-08 17:27:04] 
+Task Train-Progress: [  98/ 100]  Time: 31.216s/task
+[INFO 12-08 17:27:04] 
+loss: 0.031 IRL-loss: 0.000  plan-loss: 0.031
+[INFO 12-08 17:27:04] 
+plannerADE1: 0.0310, plannerFDE1: 0.0663
+[INFO 12-08 17:27:04] 
+plannerADE2: 0.0789, plannerFDE2: 0.1151
+[INFO 12-08 17:27:04] 
+plannerADE3: 0.1061, plannerFDE3: 0.1795
+[INFO 12-08 17:27:04] 
+==========================task: 99============================
+[INFO 12-08 17:27:36] 
+Task Train-Progress: [  99/ 100]  Time: 31.216s/task
+[INFO 12-08 17:27:36] 
+loss: 0.031 IRL-loss: 0.000  plan-loss: 0.031
+[INFO 12-08 17:27:36] 
+plannerADE1: 0.0309, plannerFDE1: 0.0661
+[INFO 12-08 17:27:36] 
+plannerADE2: 0.0786, plannerFDE2: 0.1150
+[INFO 12-08 17:27:36] 
+plannerADE3: 0.1059, plannerFDE3: 0.1794
+[INFO 12-08 17:27:36] 
+==========================task: 100============================
+[INFO 12-08 17:28:07] 
+Task Train-Progress: [ 100/ 100]  Time: 31.219s/task
+[INFO 12-08 17:28:07] 
+loss: 0.031 IRL-loss: 0.000  plan-loss: 0.031
+[INFO 12-08 17:28:07] 
+plannerADE1: 0.0308, plannerFDE1: 0.0659
+[INFO 12-08 17:28:07] 
+plannerADE2: 0.0784, plannerFDE2: 0.1150
+[INFO 12-08 17:28:07] 
+plannerADE3: 0.1057, plannerFDE3: 0.1794

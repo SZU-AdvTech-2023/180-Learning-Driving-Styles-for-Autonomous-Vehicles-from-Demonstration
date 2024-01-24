@@ -1,0 +1,1690 @@
+[INFO 12-24 19:54:08] ------------- 4_FastLearn_Raw_MultiCheck_Run_raw -------------
+[INFO 12-24 19:54:08] seed: 25
+[INFO 12-24 19:54:08] Learning rate: 0.01
+[INFO 12-24 19:54:08] Use device: cuda:0
+[INFO 12-24 19:54:08] learn_epoch_max: 25
+[INFO 12-24 19:54:08] step_N: 20
+[INFO 12-24 19:54:08] max_iterations: 1
+[INFO 12-24 19:54:08] opt_step_size: 0.3
+[INFO 12-24 19:54:08] Dataset Prepared: 35 test data
+
+[INFO 12-24 19:54:09] ==========================task_i: 1============================
+[INFO 12-24 19:54:09] behavior_i: 2  style_i: 1
+[INFO 12-24 19:54:10] learn result:
+[INFO 12-24 19:54:10] raw loss--> loss:0.0213  IRL-loss:0.0213  end-loss:4.8925  traj-loss:0.7534  plan-cost:0.0000
+[INFO 12-24 19:54:19] before learn --> loss:0.0650  IRL-loss:0.0650  end-loss:2.7035  traj-loss:0.4668  plan-cost:0.0839
+[INFO 12-24 19:55:50] cross learn --> loss:0.0078  IRL-loss:0.0078  end-loss:3.2217  traj-loss:0.5094  plan-cost:0.0597  stop_value:0.0086  
+[INFO 12-24 19:55:52] after learn --> loss:0.0077  IRL-loss:0.0077  end-loss:3.2222  traj-loss:0.5094  plan-cost:0.0597
+[INFO 12-24 19:55:56] train metrics:
+[INFO 12-24 19:55:56] raw-plannerADE1: 0.0249, raw-plannerFDE1: 0.0503
+[INFO 12-24 19:55:56] raw-plannerADE1: 0.1630, raw-plannerFDE1: 0.7057
+[INFO 12-24 19:55:56] raw-plannerADE1: 1.5203, raw-plannerFDE1: 8.3750
+[INFO 12-24 19:55:56] before-plannerADE1: 0.1668, before-plannerFDE1: 0.3210
+[INFO 12-24 19:55:56] before-plannerADE1: 0.4892, before-plannerFDE1: 1.1458
+[INFO 12-24 19:55:56] before-plannerADE1: 1.2659, before-plannerFDE1: 5.3476
+[INFO 12-24 19:55:56] cross-plannerADE1: 0.0447, cross-plannerFDE1: 0.0926
+[INFO 12-24 19:55:56] cross-plannerADE1: 0.1700, cross-plannerFDE1: 0.6070
+[INFO 12-24 19:55:56] cross-plannerADE1: 1.1997, cross-plannerFDE1: 6.1522
+[INFO 12-24 19:55:56] after-plannerADE1: 0.0443, after-plannerFDE1: 0.0918
+[INFO 12-24 19:55:56] after-plannerADE1: 0.1691, after-plannerFDE1: 0.6044
+[INFO 12-24 19:55:56] after-plannerADE1: 1.1993, after-plannerFDE1: 6.1546
+[INFO 12-24 19:55:56] check metrics:
+[INFO 12-24 19:55:56] raw_check-plannerADE1: 0.0248, raw_check-plannerFDE1: 0.0502
+[INFO 12-24 19:55:56] raw_check-plannerADE1: 0.1541, raw_check-plannerFDE1: 0.6685
+[INFO 12-24 19:55:56] raw_check-plannerADE1: 1.4722, raw_check-plannerFDE1: 8.1258
+[INFO 12-24 19:55:56] before_check-plannerADE1: 0.1746, before_check-plannerFDE1: 0.3417
+[INFO 12-24 19:55:56] before_check-plannerADE1: 0.4204, before_check-plannerFDE1: 0.8706
+[INFO 12-24 19:55:56] before_check-plannerADE1: 1.1698, before_check-plannerFDE1: 5.0697
+[INFO 12-24 19:55:56] check-plannerADE1: 0.0306, check-plannerFDE1: 0.0621
+[INFO 12-24 19:55:56] check-plannerADE1: 0.1404, check-plannerFDE1: 0.5566
+[INFO 12-24 19:55:56] check-plannerADE1: 1.2170, check-plannerFDE1: 6.6034
+[INFO 12-24 19:55:56] In sum: 
+[INFO 12-24 19:55:56] ******************learn*******************
+[INFO 12-24 19:55:56] Task-Progress: [  1/ 35]  Time: 108.062s/task  
+[INFO 12-24 19:55:56] before-Time:8.866s|20-step  learn-Time: 13.147s|23-step  after-Time: 1.201s|3-step 
+[INFO 12-24 19:55:56] ******************check*******************
+[INFO 12-24 19:55:56] before-Time:7.797s|20-step  check-Time:0.388s| 1-step  loss-Val[raw|before|after]:[0.0073|0.0506|0.0066]
+[INFO 12-24 19:55:56] before-Time:8.260s|20-step  check-Time:0.388s| 1-step  loss-Val[raw|before|after]:[0.0082|0.0476|0.0062]
+[INFO 12-24 19:55:56] before-Time:7.864s|20-step  check-Time:0.383s| 1-step  loss-Val[raw|before|after]:[0.0086|0.0190|0.0059]
+[INFO 12-24 19:55:56] before-Time:7.689s|20-step  check-Time:0.388s| 1-step  loss-Val[raw|before|after]:[0.0077|0.0328|0.0077]
+[INFO 12-24 19:55:56] before-Time:7.645s|20-step  check-Time:0.775s| 2-step  loss-Val[raw|before|after]:[0.0101|0.0298|0.0071]
+[INFO 12-24 19:55:56] before-Time:7.950s|20-step  check-Time:0.391s| 1-step  loss-Val[raw|before|after]:[0.0035|0.0133|0.0027]
+[INFO 12-24 19:55:56] before-Time:7.686s|20-step  check-Time:0.770s| 2-step  loss-Val[raw|before|after]:[0.0143|0.0404|0.0060]
+[INFO 12-24 19:55:56] before-Time:7.722s|20-step  check-Time:0.387s| 1-step  loss-Val[raw|before|after]:[0.0032|0.0195|0.0024]
+[INFO 12-24 19:55:56] before-Time:7.696s|20-step  check-Time:0.384s| 1-step  loss-Val[raw|before|after]:[0.0039|0.0305|0.0027]
+[INFO 12-24 19:55:56] before-Time:7.670s|20-step  check-Time:0.387s| 1-step  loss-Val[raw|before|after]:[0.0070|0.0592|0.0060]
+[INFO 12-24 19:55:56] check mean result:
+[INFO 12-24 19:55:56] before-MeanTime:7.798s|20.0-step  check-MeanTime:0.464s|1.2-step  loss-MeanVal[raw|before|after]:[0.0074|0.0343|0.0053]
+[INFO 12-24 19:55:56] ******************************************
+[INFO 12-24 19:55:56] ==========================task_i: 2============================
+[INFO 12-24 19:55:56] behavior_i: 3  style_i: 1
+[INFO 12-24 19:55:57] learn result:
+[INFO 12-24 19:55:57] raw loss--> loss:0.0082  IRL-loss:0.0082  end-loss:4.1851  traj-loss:0.6510  plan-cost:0.1220
+[INFO 12-24 19:56:05] before learn --> loss:0.3653  IRL-loss:0.3653  end-loss:8.0098  traj-loss:2.6149  plan-cost:0.2130
+[INFO 12-24 19:58:12] cross learn --> loss:0.0098  IRL-loss:0.0098  end-loss:3.6103  traj-loss:0.5832  plan-cost:0.1320  stop_value:0.0132  
+[INFO 12-24 19:58:12] after learn --> loss:0.0098  IRL-loss:0.0098  end-loss:3.6103  traj-loss:0.5832  plan-cost:0.1320
+[INFO 12-24 19:58:16] train metrics:
+[INFO 12-24 19:58:16] raw-plannerADE1: 0.0562, raw-plannerFDE1: 0.1171
+[INFO 12-24 19:58:16] raw-plannerADE1: 0.2019, raw-plannerFDE1: 0.6510
+[INFO 12-24 19:58:16] raw-plannerADE1: 1.3666, raw-plannerFDE1: 7.2270
+[INFO 12-24 19:58:16] before-plannerADE1: 1.2612, before-plannerFDE1: 2.6049
+[INFO 12-24 19:58:16] before-plannerADE1: 2.6377, before-plannerFDE1: 4.1624
+[INFO 12-24 19:58:16] before-plannerADE1: 4.7804, before-plannerFDE1: 13.2856
+[INFO 12-24 19:58:16] cross-plannerADE1: 0.0976, cross-plannerFDE1: 0.2071
+[INFO 12-24 19:58:16] cross-plannerADE1: 0.2800, cross-plannerFDE1: 0.6628
+[INFO 12-24 19:58:16] cross-plannerADE1: 1.2908, cross-plannerFDE1: 6.4133
+[INFO 12-24 19:58:16] after-plannerADE1: 0.0976, after-plannerFDE1: 0.2071
+[INFO 12-24 19:58:16] after-plannerADE1: 0.2800, after-plannerFDE1: 0.6628
+[INFO 12-24 19:58:16] after-plannerADE1: 1.2908, after-plannerFDE1: 6.4133
+[INFO 12-24 19:58:16] check metrics:
+[INFO 12-24 19:58:16] raw_check-plannerADE1: 0.0562, raw_check-plannerFDE1: 0.1172
+[INFO 12-24 19:58:16] raw_check-plannerADE1: 0.2105, raw_check-plannerFDE1: 0.6903
+[INFO 12-24 19:58:16] raw_check-plannerADE1: 1.5197, raw_check-plannerFDE1: 8.1966
+[INFO 12-24 19:58:16] before_check-plannerADE1: 1.1484, before_check-plannerFDE1: 2.3948
+[INFO 12-24 19:58:16] before_check-plannerADE1: 2.5847, before_check-plannerFDE1: 4.1957
+[INFO 12-24 19:58:16] before_check-plannerADE1: 4.8162, before_check-plannerFDE1: 13.6892
+[INFO 12-24 19:58:16] check-plannerADE1: 0.0967, check-plannerFDE1: 0.2056
+[INFO 12-24 19:58:16] check-plannerADE1: 0.2859, check-plannerFDE1: 0.6868
+[INFO 12-24 19:58:16] check-plannerADE1: 1.3772, check-plannerFDE1: 6.9980
+[INFO 12-24 19:58:16] In sum: 
+[INFO 12-24 19:58:16] ******************learn*******************
+[INFO 12-24 19:58:16] Task-Progress: [  2/ 35]  Time: 123.902s/task  
+[INFO 12-24 19:58:16] before-Time:7.684s|20-step  learn-Time: 20.567s|41-step  after-Time: 0.386s|1-step 
+[INFO 12-24 19:58:16] ******************check*******************
+[INFO 12-24 19:58:16] before-Time:7.742s|20-step  check-Time:0.383s| 1-step  loss-Val[raw|before|after]:[0.0063|0.3468|0.0070]
+[INFO 12-24 19:58:16] before-Time:7.898s|20-step  check-Time:0.386s| 1-step  loss-Val[raw|before|after]:[0.0027|0.2825|0.0040]
+[INFO 12-24 19:58:16] before-Time:11.907s|20-step  check-Time:0.382s| 1-step  loss-Val[raw|before|after]:[0.0053|0.4147|0.0060]
+[INFO 12-24 19:58:16] before-Time:12.062s|20-step  check-Time:0.379s| 1-step  loss-Val[raw|before|after]:[0.0066|0.3047|0.0070]
+[INFO 12-24 19:58:16] before-Time:12.254s|20-step  check-Time:0.379s| 1-step  loss-Val[raw|before|after]:[0.0041|0.3921|0.0058]
+[INFO 12-24 19:58:16] before-Time:12.417s|20-step  check-Time:0.380s| 1-step  loss-Val[raw|before|after]:[0.0068|0.3142|0.0078]
+[INFO 12-24 19:58:16] before-Time:12.301s|20-step  check-Time:0.381s| 1-step  loss-Val[raw|before|after]:[0.0063|0.3443|0.0067]
+[INFO 12-24 19:58:16] before-Time:8.451s|20-step  check-Time:0.379s| 1-step  loss-Val[raw|before|after]:[0.0037|0.3154|0.0046]
+[INFO 12-24 19:58:16] before-Time:10.635s|20-step  check-Time:0.379s| 1-step  loss-Val[raw|before|after]:[0.0048|0.2876|0.0051]
+[INFO 12-24 19:58:16] before-Time:10.740s|20-step  check-Time:0.382s| 1-step  loss-Val[raw|before|after]:[0.0043|0.4503|0.0064]
+[INFO 12-24 19:58:16] check mean result:
+[INFO 12-24 19:58:16] before-MeanTime:10.641s|20.0-step  check-MeanTime:0.381s|1.0-step  loss-MeanVal[raw|before|after]:[0.0051|0.3453|0.0060]
+[INFO 12-24 19:58:16] ******************************************
+[INFO 12-24 19:58:16] ==========================task_i: 3============================
+[INFO 12-24 19:58:16] behavior_i: 8  style_i: 0
+[INFO 12-24 19:58:17] learn result:
+[INFO 12-24 19:58:17] raw loss--> loss:0.0054  IRL-loss:0.0054  end-loss:5.4055  traj-loss:0.8616  plan-cost:0.1472
+[INFO 12-24 19:58:25] before learn --> loss:0.8452  IRL-loss:0.8452  end-loss:5.1394  traj-loss:4.1390  plan-cost:0.0345
+[INFO 12-24 20:00:30] cross learn --> loss:0.0160  IRL-loss:0.0160  end-loss:4.7063  traj-loss:0.8213  plan-cost:0.2056  stop_value:0.0391  
+[INFO 12-24 20:00:30] after learn --> loss:0.0160  IRL-loss:0.0160  end-loss:4.7063  traj-loss:0.8213  plan-cost:0.2056
+[INFO 12-24 20:00:56] train metrics:
+[INFO 12-24 20:00:56] raw-plannerADE1: 0.0815, raw-plannerFDE1: 0.1690
+[INFO 12-24 20:00:56] raw-plannerADE1: 0.2983, raw-plannerFDE1: 0.8655
+[INFO 12-24 20:00:56] raw-plannerADE1: 1.7530, raw-plannerFDE1: 9.1671
+[INFO 12-24 20:00:56] before-plannerADE1: 4.7763, before-plannerFDE1: 9.6914
+[INFO 12-24 20:00:56] before-plannerADE1: 6.7240, before-plannerFDE1: 5.6562
+[INFO 12-24 20:00:56] before-plannerADE1: 6.9070, before-plannerFDE1: 8.3199
+[INFO 12-24 20:00:56] cross-plannerADE1: 0.3292, cross-plannerFDE1: 0.6725
+[INFO 12-24 20:00:56] cross-plannerADE1: 0.6763, cross-plannerFDE1: 0.9957
+[INFO 12-24 20:00:56] cross-plannerADE1: 1.8029, cross-plannerFDE1: 8.2095
+[INFO 12-24 20:00:56] after-plannerADE1: 0.3292, after-plannerFDE1: 0.6725
+[INFO 12-24 20:00:56] after-plannerADE1: 0.6763, after-plannerFDE1: 0.9957
+[INFO 12-24 20:00:56] after-plannerADE1: 1.8029, after-plannerFDE1: 8.2095
+[INFO 12-24 20:00:56] check metrics:
+[INFO 12-24 20:00:56] raw_check-plannerADE1: 0.0814, raw_check-plannerFDE1: 0.1689
+[INFO 12-24 20:00:56] raw_check-plannerADE1: 0.2815, raw_check-plannerFDE1: 0.7761
+[INFO 12-24 20:00:56] raw_check-plannerADE1: 1.6021, raw_check-plannerFDE1: 8.3646
+[INFO 12-24 20:00:56] before_check-plannerADE1: 4.7852, before_check-plannerFDE1: 9.6993
+[INFO 12-24 20:00:56] before_check-plannerADE1: 6.6976, before_check-plannerFDE1: 5.6615
+[INFO 12-24 20:00:56] before_check-plannerADE1: 6.9070, before_check-plannerFDE1: 8.4043
+[INFO 12-24 20:00:56] check-plannerADE1: 0.8898, check-plannerFDE1: 1.7960
+[INFO 12-24 20:00:56] check-plannerADE1: 1.4221, check-plannerFDE1: 1.6995
+[INFO 12-24 20:00:56] check-plannerADE1: 2.4723, check-plannerFDE1: 8.0122
+[INFO 12-24 20:00:56] In sum: 
+[INFO 12-24 20:00:56] ******************learn*******************
+[INFO 12-24 20:00:56] Task-Progress: [  3/ 35]  Time: 136.085s/task  
+[INFO 12-24 20:00:56] before-Time:8.235s|20-step  learn-Time: 8.967s|21-step  after-Time: 0.379s|1-step 
+[INFO 12-24 20:00:56] ******************check*******************
+[INFO 12-24 20:00:56] before-Time:13.469s|20-step  check-Time:0.377s| 1-step  loss-Val[raw|before|after]:[0.0017|0.8608|0.0153]
+[INFO 12-24 20:00:56] before-Time:12.678s|20-step  check-Time:0.373s| 1-step  loss-Val[raw|before|after]:[0.0019|0.8407|0.0097]
+[INFO 12-24 20:00:56] before-Time:12.739s|20-step  check-Time:0.370s| 1-step  loss-Val[raw|before|after]:[0.0017|0.8352|0.0108]
+[INFO 12-24 20:00:56] before-Time:12.596s|20-step  check-Time:0.370s| 1-step  loss-Val[raw|before|after]:[0.0016|0.8655|0.0138]
+[INFO 12-24 20:00:56] before-Time:12.582s|20-step  check-Time:10.211s|20-step  loss-Val[raw|before|after]:[0.0017|0.8508|0.6284]
+[INFO 12-24 20:00:56] before-Time:12.589s|20-step  check-Time:0.630s| 1-step  loss-Val[raw|before|after]:[0.0026|0.8032|0.0235]
+[INFO 12-24 20:00:56] before-Time:12.534s|20-step  check-Time:0.632s| 1-step  loss-Val[raw|before|after]:[0.0030|0.8753|0.0182]
+[INFO 12-24 20:00:56] before-Time:11.885s|20-step  check-Time:0.628s| 1-step  loss-Val[raw|before|after]:[0.0014|0.8872|0.0184]
+[INFO 12-24 20:00:56] before-Time:7.501s|20-step  check-Time:11.991s|20-step  loss-Val[raw|before|after]:[0.0047|0.8442|0.6383]
+[INFO 12-24 20:00:56] before-Time:7.490s|20-step  check-Time:0.380s| 1-step  loss-Val[raw|before|after]:[0.0017|0.8856|0.0165]
+[INFO 12-24 20:00:56] check mean result:
+[INFO 12-24 20:00:56] before-MeanTime:11.606s|20.0-step  check-MeanTime:2.596s|4.8-step  loss-MeanVal[raw|before|after]:[0.0022|0.8548|0.1393]
+[INFO 12-24 20:00:56] ******************************************
+[INFO 12-24 20:00:56] ==========================task_i: 4============================
+[INFO 12-24 20:00:56] behavior_i: 2  style_i: 4
+[INFO 12-24 20:00:57] learn result:
+[INFO 12-24 20:00:57] raw loss--> loss:0.0045  IRL-loss:0.0045  end-loss:4.6946  traj-loss:0.7140  plan-cost:0.1854
+[INFO 12-24 20:01:05] before learn --> loss:0.6091  IRL-loss:0.6091  end-loss:27.3643  traj-loss:14.1891  plan-cost:0.2113
+[INFO 12-24 20:02:53] cross learn --> loss:0.0096  IRL-loss:0.0096  end-loss:4.4747  traj-loss:0.6721  plan-cost:0.3753  stop_value:0.0288  
+[INFO 12-24 20:02:54] after learn --> loss:0.0096  IRL-loss:0.0096  end-loss:4.4747  traj-loss:0.6721  plan-cost:0.3753
+[INFO 12-24 20:03:00] train metrics:
+[INFO 12-24 20:03:00] raw-plannerADE1: 0.0241, raw-plannerFDE1: 0.0512
+[INFO 12-24 20:03:00] raw-plannerADE1: 0.1448, raw-plannerFDE1: 0.6339
+[INFO 12-24 20:03:00] raw-plannerADE1: 1.4359, raw-plannerFDE1: 7.9707
+[INFO 12-24 20:03:00] before-plannerADE1: 5.2501, before-plannerFDE1: 11.7410
+[INFO 12-24 20:03:00] before-plannerADE1: 16.2320, before-plannerFDE1: 25.7971
+[INFO 12-24 20:03:00] before-plannerADE1: 23.6260, before-plannerFDE1: 46.2452
+[INFO 12-24 20:03:00] cross-plannerADE1: 0.0827, cross-plannerFDE1: 0.1733
+[INFO 12-24 20:03:00] cross-plannerADE1: 0.2599, cross-plannerFDE1: 0.6775
+[INFO 12-24 20:03:00] cross-plannerADE1: 1.4100, cross-plannerFDE1: 7.5683
+[INFO 12-24 20:03:00] after-plannerADE1: 0.0827, after-plannerFDE1: 0.1733
+[INFO 12-24 20:03:00] after-plannerADE1: 0.2599, after-plannerFDE1: 0.6775
+[INFO 12-24 20:03:00] after-plannerADE1: 1.4100, after-plannerFDE1: 7.5683
+[INFO 12-24 20:03:00] check metrics:
+[INFO 12-24 20:03:00] raw_check-plannerADE1: 0.0243, raw_check-plannerFDE1: 0.0517
+[INFO 12-24 20:03:00] raw_check-plannerADE1: 0.1466, raw_check-plannerFDE1: 0.6323
+[INFO 12-24 20:03:00] raw_check-plannerADE1: 1.3990, raw_check-plannerFDE1: 7.7247
+[INFO 12-24 20:03:00] before_check-plannerADE1: 5.1186, before_check-plannerFDE1: 11.5322
+[INFO 12-24 20:03:00] before_check-plannerADE1: 16.4753, before_check-plannerFDE1: 26.7293
+[INFO 12-24 20:03:00] before_check-plannerADE1: 23.5534, before_check-plannerFDE1: 44.7537
+[INFO 12-24 20:03:00] check-plannerADE1: 0.0831, check-plannerFDE1: 0.1723
+[INFO 12-24 20:03:00] check-plannerADE1: 0.2588, check-plannerFDE1: 0.6835
+[INFO 12-24 20:03:00] check-plannerADE1: 1.3811, check-plannerFDE1: 7.4840
+[INFO 12-24 20:03:00] In sum: 
+[INFO 12-24 20:03:00] ******************learn*******************
+[INFO 12-24 20:03:00] Task-Progress: [  4/ 35]  Time: 132.997s/task  
+[INFO 12-24 20:03:00] before-Time:7.492s|20-step  learn-Time: 25.802s|41-step  after-Time: 0.638s|1-step 
+[INFO 12-24 20:03:00] ******************check*******************
+[INFO 12-24 20:03:00] before-Time:7.461s|20-step  check-Time:0.648s| 1-step  loss-Val[raw|before|after]:[0.0023|0.5639|0.0075]
+[INFO 12-24 20:03:00] before-Time:7.456s|20-step  check-Time:0.634s| 1-step  loss-Val[raw|before|after]:[0.0042|0.5819|0.0098]
+[INFO 12-24 20:03:00] before-Time:7.478s|20-step  check-Time:0.631s| 1-step  loss-Val[raw|before|after]:[0.0021|0.6250|0.0053]
+[INFO 12-24 20:03:00] before-Time:7.460s|20-step  check-Time:0.632s| 1-step  loss-Val[raw|before|after]:[0.0027|0.6741|0.0052]
+[INFO 12-24 20:03:00] before-Time:7.499s|20-step  check-Time:0.627s| 1-step  loss-Val[raw|before|after]:[0.0015|0.5963|0.0062]
+[INFO 12-24 20:03:00] before-Time:7.490s|20-step  check-Time:0.631s| 1-step  loss-Val[raw|before|after]:[0.0033|0.6029|0.0079]
+[INFO 12-24 20:03:00] before-Time:7.524s|20-step  check-Time:0.627s| 1-step  loss-Val[raw|before|after]:[0.0009|0.4875|0.0035]
+[INFO 12-24 20:03:00] before-Time:7.497s|20-step  check-Time:0.628s| 1-step  loss-Val[raw|before|after]:[0.0029|0.6270|0.0063]
+[INFO 12-24 20:03:00] before-Time:10.183s|20-step  check-Time:0.629s| 1-step  loss-Val[raw|before|after]:[0.0026|0.6119|0.0089]
+[INFO 12-24 20:03:00] before-Time:12.591s|20-step  check-Time:0.634s| 1-step  loss-Val[raw|before|after]:[0.0012|0.5322|0.0050]
+[INFO 12-24 20:03:00] check mean result:
+[INFO 12-24 20:03:00] before-MeanTime:8.264s|20.0-step  check-MeanTime:0.632s|1.0-step  loss-MeanVal[raw|before|after]:[0.0024|0.5903|0.0066]
+[INFO 12-24 20:03:00] ******************************************
+[INFO 12-24 20:03:00] ==========================task_i: 5============================
+[INFO 12-24 20:03:00] behavior_i: 6  style_i: 2
+[INFO 12-24 20:03:01] learn result:
+[INFO 12-24 20:03:01] raw loss--> loss:0.0111  IRL-loss:0.0111  end-loss:5.3568  traj-loss:0.8394  plan-cost:0.3984
+[INFO 12-24 20:03:14] before learn --> loss:0.1256  IRL-loss:0.1256  end-loss:7.2208  traj-loss:2.6463  plan-cost:0.7644
+[INFO 12-24 20:09:44] cross learn --> loss:0.0798  IRL-loss:0.0798  end-loss:6.3088  traj-loss:2.3957  plan-cost:0.0131  stop_value:0.0127  
+[INFO 12-24 20:09:52] after learn --> loss:0.0808  IRL-loss:0.0808  end-loss:6.7765  traj-loss:2.5999  plan-cost:0.0164
+[INFO 12-24 20:10:03] train metrics:
+[INFO 12-24 20:10:03] raw-plannerADE1: 0.0705, raw-plannerFDE1: 0.1463
+[INFO 12-24 20:10:03] raw-plannerADE1: 0.2609, raw-plannerFDE1: 0.8094
+[INFO 12-24 20:10:03] raw-plannerADE1: 1.7093, raw-plannerFDE1: 9.0955
+[INFO 12-24 20:10:03] before-plannerADE1: 1.1978, before-plannerFDE1: 2.5104
+[INFO 12-24 20:10:03] before-plannerADE1: 2.8627, before-plannerFDE1: 5.0933
+[INFO 12-24 20:10:03] before-plannerADE1: 4.9516, before-plannerFDE1: 13.0438
+[INFO 12-24 20:10:03] cross-plannerADE1: 1.3433, cross-plannerFDE1: 2.8453
+[INFO 12-24 20:10:03] cross-plannerADE1: 3.1827, cross-plannerFDE1: 4.5845
+[INFO 12-24 20:10:03] cross-plannerADE1: 4.5690, cross-plannerFDE1: 11.5891
+[INFO 12-24 20:10:03] after-plannerADE1: 1.3984, after-plannerFDE1: 2.9618
+[INFO 12-24 20:10:03] after-plannerADE1: 3.3269, after-plannerFDE1: 4.8964
+[INFO 12-24 20:10:03] after-plannerADE1: 4.9149, after-plannerFDE1: 12.4190
+[INFO 12-24 20:10:03] check metrics:
+[INFO 12-24 20:10:03] raw_check-plannerADE1: 0.0708, raw_check-plannerFDE1: 0.1475
+[INFO 12-24 20:10:03] raw_check-plannerADE1: 0.2521, raw_check-plannerFDE1: 0.7335
+[INFO 12-24 20:10:03] raw_check-plannerADE1: 1.5202, raw_check-plannerFDE1: 7.9993
+[INFO 12-24 20:10:03] before_check-plannerADE1: 1.0366, before_check-plannerFDE1: 2.1945
+[INFO 12-24 20:10:03] before_check-plannerADE1: 2.6838, before_check-plannerFDE1: 4.9611
+[INFO 12-24 20:10:03] before_check-plannerADE1: 4.8654, before_check-plannerFDE1: 12.8291
+[INFO 12-24 20:10:03] check-plannerADE1: 0.3262, check-plannerFDE1: 0.7144
+[INFO 12-24 20:10:03] check-plannerADE1: 0.9416, check-plannerFDE1: 1.5328
+[INFO 12-24 20:10:03] check-plannerADE1: 2.0197, check-plannerFDE1: 7.8742
+[INFO 12-24 20:10:03] In sum: 
+[INFO 12-24 20:10:03] ******************learn*******************
+[INFO 12-24 20:10:03] Task-Progress: [  5/ 35]  Time: 190.912s/task  
+[INFO 12-24 20:10:03] before-Time:12.353s|20-step  learn-Time: 288.551s|500-step  after-Time: 7.529s|20-step 
+[INFO 12-24 20:10:03] ******************check*******************
+[INFO 12-24 20:10:03] before-Time:12.748s|20-step  check-Time:0.386s| 1-step  loss-Val[raw|before|after]:[0.0037|0.0797|0.0044]
+[INFO 12-24 20:10:03] before-Time:12.675s|20-step  check-Time:0.373s| 1-step  loss-Val[raw|before|after]:[0.0039|0.0608|0.0023]
+[INFO 12-24 20:10:03] before-Time:12.641s|20-step  check-Time:0.388s| 1-step  loss-Val[raw|before|after]:[0.0039|0.1335|0.0031]
+[INFO 12-24 20:10:03] before-Time:12.601s|20-step  check-Time:7.506s|20-step  loss-Val[raw|before|after]:[0.0016|0.0721|0.0663]
+[INFO 12-24 20:10:03] before-Time:9.152s|20-step  check-Time:0.375s| 1-step  loss-Val[raw|before|after]:[0.0012|0.0862|0.0057]
+[INFO 12-24 20:10:03] before-Time:7.498s|20-step  check-Time:0.378s| 1-step  loss-Val[raw|before|after]:[0.0025|0.0887|0.0059]
+[INFO 12-24 20:10:03] before-Time:7.516s|20-step  check-Time:0.373s| 1-step  loss-Val[raw|before|after]:[0.0045|0.0865|0.0033]
+[INFO 12-24 20:10:03] before-Time:7.501s|20-step  check-Time:0.376s| 1-step  loss-Val[raw|before|after]:[0.0022|0.0985|0.0071]
+[INFO 12-24 20:10:03] before-Time:7.803s|20-step  check-Time:0.381s| 1-step  loss-Val[raw|before|after]:[0.0062|0.1118|0.0069]
+[INFO 12-24 20:10:03] before-Time:11.736s|20-step  check-Time:0.378s| 1-step  loss-Val[raw|before|after]:[0.0067|0.0808|0.0083]
+[INFO 12-24 20:10:03] check mean result:
+[INFO 12-24 20:10:03] before-MeanTime:10.187s|20.0-step  check-MeanTime:1.091s|2.9-step  loss-MeanVal[raw|before|after]:[0.0036|0.0899|0.0113]
+[INFO 12-24 20:10:03] ******************************************
+[INFO 12-24 20:10:03] ==========================task_i: 6============================
+[INFO 12-24 20:10:03] behavior_i: 9  style_i: 1
+[INFO 12-24 20:10:04] learn result:
+[INFO 12-24 20:10:04] raw loss--> loss:0.0045  IRL-loss:0.0045  end-loss:5.0825  traj-loss:0.7913  plan-cost:0.0209
+[INFO 12-24 20:10:11] before learn --> loss:0.0602  IRL-loss:0.0602  end-loss:2.2171  traj-loss:1.0575  plan-cost:0.1416
+[INFO 12-24 20:11:29] cross learn --> loss:0.0039  IRL-loss:0.0039  end-loss:3.0646  traj-loss:0.6949  plan-cost:0.0942  stop_value:0.0064  
+[INFO 12-24 20:11:31] after learn --> loss:0.0038  IRL-loss:0.0038  end-loss:3.0712  traj-loss:0.6946  plan-cost:0.0940
+[INFO 12-24 20:11:36] train metrics:
+[INFO 12-24 20:11:36] raw-plannerADE1: 0.0641, raw-plannerFDE1: 0.1405
+[INFO 12-24 20:11:36] raw-plannerADE1: 0.2321, raw-plannerFDE1: 0.7337
+[INFO 12-24 20:11:36] raw-plannerADE1: 1.6314, raw-plannerFDE1: 8.7563
+[INFO 12-24 20:11:36] before-plannerADE1: 0.6565, before-plannerFDE1: 1.3851
+[INFO 12-24 20:11:36] before-plannerADE1: 1.7147, before-plannerFDE1: 2.7613
+[INFO 12-24 20:11:36] before-plannerADE1: 2.2635, before-plannerFDE1: 4.4085
+[INFO 12-24 20:11:36] cross-plannerADE1: 0.2108, cross-plannerFDE1: 0.4467
+[INFO 12-24 20:11:36] cross-plannerADE1: 0.6413, cross-plannerFDE1: 1.3415
+[INFO 12-24 20:11:36] cross-plannerADE1: 1.5904, cross-plannerFDE1: 5.7140
+[INFO 12-24 20:11:36] after-plannerADE1: 0.2108, after-plannerFDE1: 0.4467
+[INFO 12-24 20:11:36] after-plannerADE1: 0.6385, after-plannerFDE1: 1.3346
+[INFO 12-24 20:11:36] after-plannerADE1: 1.5894, after-plannerFDE1: 5.7248
+[INFO 12-24 20:11:36] check metrics:
+[INFO 12-24 20:11:36] raw_check-plannerADE1: 0.0639, raw_check-plannerFDE1: 0.1398
+[INFO 12-24 20:11:36] raw_check-plannerADE1: 0.2152, raw_check-plannerFDE1: 0.6570
+[INFO 12-24 20:11:36] raw_check-plannerADE1: 1.4592, raw_check-plannerFDE1: 7.8228
+[INFO 12-24 20:11:36] before_check-plannerADE1: 0.6128, before_check-plannerFDE1: 1.3028
+[INFO 12-24 20:11:36] before_check-plannerADE1: 1.6509, before_check-plannerFDE1: 2.7162
+[INFO 12-24 20:11:36] before_check-plannerADE1: 2.3157, before_check-plannerFDE1: 4.9568
+[INFO 12-24 20:11:36] check-plannerADE1: 0.0973, check-plannerFDE1: 0.2084
+[INFO 12-24 20:11:36] check-plannerADE1: 0.2997, check-plannerFDE1: 0.7117
+[INFO 12-24 20:11:36] check-plannerADE1: 1.3487, check-plannerFDE1: 6.7449
+[INFO 12-24 20:11:36] In sum: 
+[INFO 12-24 20:11:36] ******************learn*******************
+[INFO 12-24 20:11:36] Task-Progress: [  6/ 35]  Time: 174.694s/task  
+[INFO 12-24 20:11:36] before-Time:7.526s|20-step  learn-Time: 10.263s|24-step  after-Time: 1.513s|4-step 
+[INFO 12-24 20:11:36] ******************check*******************
+[INFO 12-24 20:11:36] before-Time:7.544s|20-step  check-Time:0.379s| 1-step  loss-Val[raw|before|after]:[0.0014|0.0791|0.0019]
+[INFO 12-24 20:11:36] before-Time:7.510s|20-step  check-Time:0.374s| 1-step  loss-Val[raw|before|after]:[0.0014|0.0493|0.0014]
+[INFO 12-24 20:11:36] before-Time:7.471s|20-step  check-Time:0.499s| 1-step  loss-Val[raw|before|after]:[0.0023|0.0563|0.0019]
+[INFO 12-24 20:11:36] before-Time:7.480s|20-step  check-Time:0.628s| 1-step  loss-Val[raw|before|after]:[0.0023|0.0681|0.0018]
+[INFO 12-24 20:11:36] before-Time:7.468s|20-step  check-Time:0.623s| 1-step  loss-Val[raw|before|after]:[0.0015|0.0424|0.0018]
+[INFO 12-24 20:11:36] before-Time:7.489s|20-step  check-Time:0.627s| 1-step  loss-Val[raw|before|after]:[0.0022|0.0529|0.0023]
+[INFO 12-24 20:11:36] before-Time:7.498s|20-step  check-Time:0.633s| 1-step  loss-Val[raw|before|after]:[0.0030|0.0327|0.0027]
+[INFO 12-24 20:11:36] before-Time:7.498s|20-step  check-Time:0.631s| 1-step  loss-Val[raw|before|after]:[0.0008|0.0738|0.0006]
+[INFO 12-24 20:11:36] before-Time:0.376s| 1-step  check-Time:0.612s| 1-step  loss-Val[raw|before|after]:[0.0014|0.0007|0.0005]
+[INFO 12-24 20:11:36] before-Time:7.496s|20-step  check-Time:0.626s| 1-step  loss-Val[raw|before|after]:[0.0025|0.1355|0.0018]
+[INFO 12-24 20:11:36] check mean result:
+[INFO 12-24 20:11:36] before-MeanTime:6.783s|18.1-step  check-MeanTime:0.563s|1.0-step  loss-MeanVal[raw|before|after]:[0.0019|0.0591|0.0017]
+[INFO 12-24 20:11:36] ******************************************
+[INFO 12-24 20:11:36] ==========================task_i: 7============================
+[INFO 12-24 20:11:36] behavior_i: 2  style_i: 2
+[INFO 12-24 20:11:37] learn result:
+[INFO 12-24 20:11:37] raw loss--> loss:0.0101  IRL-loss:0.0101  end-loss:5.2991  traj-loss:0.8254  plan-cost:0.1757
+[INFO 12-24 20:11:45] before learn --> loss:0.0566  IRL-loss:0.0566  end-loss:8.3011  traj-loss:4.0418  plan-cost:0.0389
+[INFO 12-24 20:14:27] cross learn --> loss:0.0060  IRL-loss:0.0060  end-loss:3.8447  traj-loss:0.6106  plan-cost:0.1248  stop_value:0.0063  
+[INFO 12-24 20:14:28] after learn --> loss:0.0060  IRL-loss:0.0060  end-loss:3.8434  traj-loss:0.6103  plan-cost:0.1248
+[INFO 12-24 20:14:34] train metrics:
+[INFO 12-24 20:14:34] raw-plannerADE1: 0.0403, raw-plannerFDE1: 0.0853
+[INFO 12-24 20:14:34] raw-plannerADE1: 0.2027, raw-plannerFDE1: 0.7595
+[INFO 12-24 20:14:34] raw-plannerADE1: 1.6346, raw-plannerFDE1: 8.9056
+[INFO 12-24 20:14:34] before-plannerADE1: 1.3505, before-plannerFDE1: 3.0665
+[INFO 12-24 20:14:34] before-plannerADE1: 4.8602, before-plannerFDE1: 9.0634
+[INFO 12-24 20:14:34] before-plannerADE1: 7.8444, before-plannerFDE1: 15.5026
+[INFO 12-24 20:14:34] cross-plannerADE1: 0.0687, cross-plannerFDE1: 0.1448
+[INFO 12-24 20:14:34] cross-plannerADE1: 0.2555, cross-plannerFDE1: 0.7287
+[INFO 12-24 20:14:34] cross-plannerADE1: 1.3541, cross-plannerFDE1: 6.7877
+[INFO 12-24 20:14:34] after-plannerADE1: 0.0689, after-plannerFDE1: 0.1450
+[INFO 12-24 20:14:34] after-plannerADE1: 0.2550, after-plannerFDE1: 0.7277
+[INFO 12-24 20:14:34] after-plannerADE1: 1.3536, after-plannerFDE1: 6.7866
+[INFO 12-24 20:14:34] check metrics:
+[INFO 12-24 20:14:34] raw_check-plannerADE1: 0.0403, raw_check-plannerFDE1: 0.0849
+[INFO 12-24 20:14:34] raw_check-plannerADE1: 0.1943, raw_check-plannerFDE1: 0.7170
+[INFO 12-24 20:14:34] raw_check-plannerADE1: 1.5110, raw_check-plannerFDE1: 8.1484
+[INFO 12-24 20:14:34] before_check-plannerADE1: 1.3300, before_check-plannerFDE1: 3.0268
+[INFO 12-24 20:14:34] before_check-plannerADE1: 4.8812, before_check-plannerFDE1: 9.2271
+[INFO 12-24 20:14:34] before_check-plannerADE1: 7.9043, before_check-plannerFDE1: 15.5456
+[INFO 12-24 20:14:34] check-plannerADE1: 0.0544, check-plannerFDE1: 0.1148
+[INFO 12-24 20:14:34] check-plannerADE1: 0.2046, check-plannerFDE1: 0.6431
+[INFO 12-24 20:14:34] check-plannerADE1: 1.3167, check-plannerFDE1: 6.8928
+[INFO 12-24 20:14:34] In sum: 
+[INFO 12-24 20:14:34] ******************learn*******************
+[INFO 12-24 20:14:34] Task-Progress: [  7/ 35]  Time: 175.123s/task  
+[INFO 12-24 20:14:34] before-Time:7.513s|20-step  learn-Time: 72.359s|102-step  after-Time: 1.184s|2-step 
+[INFO 12-24 20:14:34] ******************check*******************
+[INFO 12-24 20:14:34] before-Time:7.496s|20-step  check-Time:0.617s| 1-step  loss-Val[raw|before|after]:[0.0012|0.0598|0.0018]
+[INFO 12-24 20:14:34] before-Time:7.490s|20-step  check-Time:0.582s| 1-step  loss-Val[raw|before|after]:[0.0038|0.0533|0.0028]
+[INFO 12-24 20:14:34] before-Time:7.483s|20-step  check-Time:0.592s| 1-step  loss-Val[raw|before|after]:[0.0007|0.0520|0.0007]
+[INFO 12-24 20:14:34] before-Time:7.456s|20-step  check-Time:0.578s| 1-step  loss-Val[raw|before|after]:[0.0015|0.0554|0.0018]
+[INFO 12-24 20:14:34] before-Time:7.480s|20-step  check-Time:0.589s| 1-step  loss-Val[raw|before|after]:[0.0020|0.0400|0.0029]
+[INFO 12-24 20:14:34] before-Time:7.498s|20-step  check-Time:0.557s| 1-step  loss-Val[raw|before|after]:[0.0012|0.0471|0.0014]
+[INFO 12-24 20:14:34] before-Time:7.470s|20-step  check-Time:0.627s| 1-step  loss-Val[raw|before|after]:[0.0008|0.0459|0.0010]
+[INFO 12-24 20:14:34] before-Time:12.342s|20-step  check-Time:0.637s| 1-step  loss-Val[raw|before|after]:[0.0008|0.0538|0.0010]
+[INFO 12-24 20:14:34] before-Time:12.557s|20-step  check-Time:0.583s| 1-step  loss-Val[raw|before|after]:[0.0014|0.0515|0.0023]
+[INFO 12-24 20:14:34] before-Time:12.575s|20-step  check-Time:0.572s| 1-step  loss-Val[raw|before|after]:[0.0006|0.0590|0.0013]
+[INFO 12-24 20:14:34] check mean result:
+[INFO 12-24 20:14:34] before-MeanTime:8.985s|20.0-step  check-MeanTime:0.593s|1.0-step  loss-MeanVal[raw|before|after]:[0.0014|0.0518|0.0017]
+[INFO 12-24 20:14:34] ******************************************
+[INFO 12-24 20:14:34] ==========================task_i: 8============================
+[INFO 12-24 20:14:34] behavior_i: 9  style_i: 4
+[INFO 12-24 20:14:35] learn result:
+[INFO 12-24 20:14:35] raw loss--> loss:0.0065  IRL-loss:0.0065  end-loss:5.1080  traj-loss:0.8063  plan-cost:0.1566
+[INFO 12-24 20:14:48] before learn --> loss:0.7310  IRL-loss:0.7310  end-loss:8.0586  traj-loss:4.6110  plan-cost:0.0951
+[INFO 12-24 20:20:58] cross learn --> loss:0.0845  IRL-loss:0.0845  end-loss:10.9314  traj-loss:6.4212  plan-cost:0.6720  stop_value:0.0330  
+[INFO 12-24 20:21:11] after learn --> loss:0.0865  IRL-loss:0.0865  end-loss:10.8135  traj-loss:6.3606  plan-cost:0.6747
+[INFO 12-24 20:23:16] train metrics:
+[INFO 12-24 20:23:16] raw-plannerADE1: 0.0570, raw-plannerFDE1: 0.1229
+[INFO 12-24 20:23:16] raw-plannerADE1: 0.2359, raw-plannerFDE1: 0.7775
+[INFO 12-24 20:23:16] raw-plannerADE1: 1.6727, raw-plannerFDE1: 8.9346
+[INFO 12-24 20:23:16] before-plannerADE1: 3.5510, before-plannerFDE1: 7.6470
+[INFO 12-24 20:23:16] before-plannerADE1: 7.4079, before-plannerFDE1: 5.7785
+[INFO 12-24 20:23:16] before-plannerADE1: 7.4791, before-plannerFDE1: 12.8738
+[INFO 12-24 20:23:16] cross-plannerADE1: 2.8393, cross-plannerFDE1: 6.1437
+[INFO 12-24 20:23:16] cross-plannerADE1: 7.9297, cross-plannerFDE1: 13.1629
+[INFO 12-24 20:23:16] cross-plannerADE1: 10.9999, cross-plannerFDE1: 17.9192
+[INFO 12-24 20:23:16] after-plannerADE1: 2.8391, after-plannerFDE1: 6.1362
+[INFO 12-24 20:23:16] after-plannerADE1: 7.8846, after-plannerFDE1: 13.0697
+[INFO 12-24 20:23:16] after-plannerADE1: 10.9203, after-plannerFDE1: 17.7922
+[INFO 12-24 20:23:16] check metrics:
+[INFO 12-24 20:23:16] raw_check-plannerADE1: 0.0568, raw_check-plannerFDE1: 0.1222
+[INFO 12-24 20:23:16] raw_check-plannerADE1: 0.2189, raw_check-plannerFDE1: 0.6950
+[INFO 12-24 20:23:16] raw_check-plannerADE1: 1.4821, raw_check-plannerFDE1: 7.9341
+[INFO 12-24 20:23:16] before_check-plannerADE1: 3.4913, before_check-plannerFDE1: 7.5151
+[INFO 12-24 20:23:16] before_check-plannerADE1: 7.2992, before_check-plannerFDE1: 5.7869
+[INFO 12-24 20:23:16] before_check-plannerADE1: 7.6109, before_check-plannerFDE1: 13.5456
+[INFO 12-24 20:23:16] check-plannerADE1: 2.7712, check-plannerFDE1: 5.9873
+[INFO 12-24 20:23:16] check-plannerADE1: 7.7549, check-plannerFDE1: 13.1640
+[INFO 12-24 20:23:16] check-plannerADE1: 11.2178, check-plannerFDE1: 19.2650
+[INFO 12-24 20:23:16] In sum: 
+[INFO 12-24 20:23:16] ******************learn*******************
+[INFO 12-24 20:23:16] Task-Progress: [  8/ 35]  Time: 218.510s/task  
+[INFO 12-24 20:23:16] before-Time:12.404s|20-step  learn-Time: 294.857s|500-step  after-Time: 12.599s|20-step 
+[INFO 12-24 20:23:16] ******************check*******************
+[INFO 12-24 20:23:16] before-Time:8.213s|20-step  check-Time:12.565s|20-step  loss-Val[raw|before|after]:[0.0033|0.6775|0.1051]
+[INFO 12-24 20:23:16] before-Time:7.520s|20-step  check-Time:12.591s|20-step  loss-Val[raw|before|after]:[0.0037|0.6604|0.0929]
+[INFO 12-24 20:23:16] before-Time:7.471s|20-step  check-Time:12.613s|20-step  loss-Val[raw|before|after]:[0.0027|0.7685|0.1280]
+[INFO 12-24 20:23:16] before-Time:7.461s|20-step  check-Time:12.608s|20-step  loss-Val[raw|before|after]:[0.0009|0.6554|0.1099]
+[INFO 12-24 20:23:16] before-Time:7.463s|20-step  check-Time:12.612s|20-step  loss-Val[raw|before|after]:[0.0019|0.6878|0.0924]
+[INFO 12-24 20:23:16] before-Time:7.476s|20-step  check-Time:12.393s|20-step  loss-Val[raw|before|after]:[0.0021|0.7784|0.1150]
+[INFO 12-24 20:23:16] before-Time:7.494s|20-step  check-Time:12.425s|20-step  loss-Val[raw|before|after]:[0.0053|0.7423|0.0895]
+[INFO 12-24 20:23:16] before-Time:7.460s|20-step  check-Time:12.687s|20-step  loss-Val[raw|before|after]:[0.0051|0.7295|0.0817]
+[INFO 12-24 20:23:16] before-Time:7.480s|20-step  check-Time:12.294s|20-step  loss-Val[raw|before|after]:[0.0047|0.6728|0.0991]
+[INFO 12-24 20:23:16] before-Time:7.455s|20-step  check-Time:12.693s|20-step  loss-Val[raw|before|after]:[0.0033|0.7111|0.0986]
+[INFO 12-24 20:23:16] check mean result:
+[INFO 12-24 20:23:16] before-MeanTime:7.549s|20.0-step  check-MeanTime:12.548s|20.0-step  loss-MeanVal[raw|before|after]:[0.0033|0.7084|0.1012]
+[INFO 12-24 20:23:16] ******************************************
+[INFO 12-24 20:23:16] ==========================task_i: 9============================
+[INFO 12-24 20:23:16] behavior_i: 2  style_i: 0
+[INFO 12-24 20:23:18] learn result:
+[INFO 12-24 20:23:18] raw loss--> loss:0.0069  IRL-loss:0.0069  end-loss:4.6275  traj-loss:0.7037  plan-cost:0.6274
+[INFO 12-24 20:23:30] before learn --> loss:0.0537  IRL-loss:0.0537  end-loss:11.8053  traj-loss:5.6970  plan-cost:0.1638
+[INFO 12-24 20:31:22] cross learn --> loss:0.0385  IRL-loss:0.0385  end-loss:11.9097  traj-loss:6.0593  plan-cost:0.1715  stop_value:0.0266  
+[INFO 12-24 20:31:34] after learn --> loss:0.0378  IRL-loss:0.0378  end-loss:11.8606  traj-loss:6.0470  plan-cost:0.1724
+[INFO 12-24 20:33:35] train metrics:
+[INFO 12-24 20:33:35] raw-plannerADE1: 0.0283, raw-plannerFDE1: 0.0597
+[INFO 12-24 20:33:35] raw-plannerADE1: 0.1595, raw-plannerFDE1: 0.6577
+[INFO 12-24 20:33:35] raw-plannerADE1: 1.4459, raw-plannerFDE1: 7.9442
+[INFO 12-24 20:33:35] before-plannerADE1: 1.7613, before-plannerFDE1: 3.9913
+[INFO 12-24 20:33:35] before-plannerADE1: 6.5102, before-plannerFDE1: 12.6530
+[INFO 12-24 20:33:35] before-plannerADE1: 10.8504, before-plannerFDE1: 21.8544
+[INFO 12-24 20:33:35] cross-plannerADE1: 1.8002, cross-plannerFDE1: 4.0979
+[INFO 12-24 20:33:35] cross-plannerADE1: 6.8921, cross-plannerFDE1: 13.6917
+[INFO 12-24 20:33:35] cross-plannerADE1: 11.5046, cross-plannerFDE1: 22.3173
+[INFO 12-24 20:33:35] after-plannerADE1: 1.8008, after-plannerFDE1: 4.0989
+[INFO 12-24 20:33:35] after-plannerADE1: 6.8893, after-plannerFDE1: 13.6788
+[INFO 12-24 20:33:35] after-plannerADE1: 11.4844, after-plannerFDE1: 22.2425
+[INFO 12-24 20:33:35] check metrics:
+[INFO 12-24 20:33:35] raw_check-plannerADE1: 0.0281, raw_check-plannerFDE1: 0.0590
+[INFO 12-24 20:33:35] raw_check-plannerADE1: 0.1573, raw_check-plannerFDE1: 0.6535
+[INFO 12-24 20:33:35] raw_check-plannerADE1: 1.4398, raw_check-plannerFDE1: 7.9193
+[INFO 12-24 20:33:35] before_check-plannerADE1: 1.7127, before_check-plannerFDE1: 3.9108
+[INFO 12-24 20:33:35] before_check-plannerADE1: 6.6040, before_check-plannerFDE1: 13.1342
+[INFO 12-24 20:33:35] before_check-plannerADE1: 11.3366, before_check-plannerFDE1: 23.7130
+[INFO 12-24 20:33:35] check-plannerADE1: 1.7833, check-plannerFDE1: 4.0684
+[INFO 12-24 20:33:35] check-plannerADE1: 6.9434, check-plannerFDE1: 13.9488
+[INFO 12-24 20:33:35] check-plannerADE1: 11.7626, check-plannerFDE1: 23.3561
+[INFO 12-24 20:33:35] In sum: 
+[INFO 12-24 20:33:35] ******************learn*******************
+[INFO 12-24 20:33:35] Task-Progress: [  9/ 35]  Time: 262.935s/task  
+[INFO 12-24 20:33:35] before-Time:12.720s|20-step  learn-Time: 347.127s|500-step  after-Time: 11.819s|20-step 
+[INFO 12-24 20:33:35] ******************check*******************
+[INFO 12-24 20:33:35] before-Time:12.653s|20-step  check-Time:11.771s|20-step  loss-Val[raw|before|after]:[0.0037|0.0456|0.0298]
+[INFO 12-24 20:33:35] before-Time:12.637s|20-step  check-Time:11.715s|20-step  loss-Val[raw|before|after]:[0.0017|0.0730|0.0513]
+[INFO 12-24 20:33:35] before-Time:11.911s|20-step  check-Time:11.820s|20-step  loss-Val[raw|before|after]:[0.0023|0.0532|0.0363]
+[INFO 12-24 20:33:35] before-Time:11.817s|20-step  check-Time:11.672s|20-step  loss-Val[raw|before|after]:[0.0021|0.0447|0.0261]
+[INFO 12-24 20:33:35] before-Time:12.027s|20-step  check-Time:12.065s|20-step  loss-Val[raw|before|after]:[0.0042|0.0353|0.0388]
+[INFO 12-24 20:33:35] before-Time:12.732s|20-step  check-Time:11.903s|20-step  loss-Val[raw|before|after]:[0.0023|0.0368|0.0217]
+[INFO 12-24 20:33:35] before-Time:12.633s|20-step  check-Time:12.546s|20-step  loss-Val[raw|before|after]:[0.0035|0.0557|0.0376]
+[INFO 12-24 20:33:35] before-Time:12.721s|20-step  check-Time:12.630s|20-step  loss-Val[raw|before|after]:[0.0020|0.0597|0.0396]
+[INFO 12-24 20:33:35] before-Time:12.718s|20-step  check-Time:12.267s|20-step  loss-Val[raw|before|after]:[0.0046|0.0567|0.0450]
+[INFO 12-24 20:33:35] before-Time:12.682s|20-step  check-Time:12.412s|20-step  loss-Val[raw|before|after]:[0.0026|0.0521|0.0341]
+[INFO 12-24 20:33:35] check mean result:
+[INFO 12-24 20:33:35] before-MeanTime:12.453s|20.0-step  check-MeanTime:12.080s|20.0-step  loss-MeanVal[raw|before|after]:[0.0029|0.0513|0.0360]
+[INFO 12-24 20:33:35] ******************************************
+[INFO 12-24 20:33:35] ==========================task_i: 10============================
+[INFO 12-24 20:33:35] behavior_i: 2  style_i: 3
+[INFO 12-24 20:33:36] learn result:
+[INFO 12-24 20:33:36] raw loss--> loss:0.0030  IRL-loss:0.0030  end-loss:4.5503  traj-loss:0.6958  plan-cost:0.2035
+[INFO 12-24 20:33:49] before learn --> loss:0.4349  IRL-loss:0.4349  end-loss:6.9563  traj-loss:2.9569  plan-cost:0.1765
+[INFO 12-24 20:36:10] cross learn --> loss:0.0030  IRL-loss:0.0030  end-loss:3.8099  traj-loss:0.5676  plan-cost:0.2267  stop_value:0.0039  
+[INFO 12-24 20:36:10] after learn --> loss:0.0030  IRL-loss:0.0030  end-loss:3.8099  traj-loss:0.5676  plan-cost:0.2267
+[INFO 12-24 20:36:28] train metrics:
+[INFO 12-24 20:36:28] raw-plannerADE1: 0.0380, raw-plannerFDE1: 0.0824
+[INFO 12-24 20:36:28] raw-plannerADE1: 0.1769, raw-plannerFDE1: 0.6652
+[INFO 12-24 20:36:28] raw-plannerADE1: 1.4447, raw-plannerFDE1: 7.9030
+[INFO 12-24 20:36:28] before-plannerADE1: 1.8308, before-plannerFDE1: 3.8359
+[INFO 12-24 20:36:28] before-plannerADE1: 3.7795, before-plannerFDE1: 5.1113
+[INFO 12-24 20:36:28] before-plannerADE1: 5.4072, before-plannerFDE1: 11.5974
+[INFO 12-24 20:36:28] cross-plannerADE1: 0.0630, cross-plannerFDE1: 0.1295
+[INFO 12-24 20:36:28] cross-plannerADE1: 0.2121, cross-plannerFDE1: 0.6329
+[INFO 12-24 20:36:28] cross-plannerADE1: 1.2540, cross-plannerFDE1: 6.6673
+[INFO 12-24 20:36:28] after-plannerADE1: 0.0630, after-plannerFDE1: 0.1295
+[INFO 12-24 20:36:28] after-plannerADE1: 0.2121, after-plannerFDE1: 0.6329
+[INFO 12-24 20:36:28] after-plannerADE1: 1.2540, after-plannerFDE1: 6.6673
+[INFO 12-24 20:36:28] check metrics:
+[INFO 12-24 20:36:28] raw_check-plannerADE1: 0.0379, raw_check-plannerFDE1: 0.0820
+[INFO 12-24 20:36:28] raw_check-plannerADE1: 0.1733, raw_check-plannerFDE1: 0.6744
+[INFO 12-24 20:36:28] raw_check-plannerADE1: 1.4864, raw_check-plannerFDE1: 8.1365
+[INFO 12-24 20:36:28] before_check-plannerADE1: 1.8408, before_check-plannerFDE1: 3.8966
+[INFO 12-24 20:36:28] before_check-plannerADE1: 3.9790, before_check-plannerFDE1: 5.0455
+[INFO 12-24 20:36:28] before_check-plannerADE1: 5.7212, before_check-plannerFDE1: 12.9565
+[INFO 12-24 20:36:28] check-plannerADE1: 0.1348, check-plannerFDE1: 0.2814
+[INFO 12-24 20:36:28] check-plannerADE1: 0.3788, check-plannerFDE1: 0.8931
+[INFO 12-24 20:36:28] check-plannerADE1: 1.4988, check-plannerFDE1: 7.0903
+[INFO 12-24 20:36:28] In sum: 
+[INFO 12-24 20:36:28] ******************learn*******************
+[INFO 12-24 20:36:28] Task-Progress: [ 10/ 35]  Time: 254.023s/task  
+[INFO 12-24 20:36:28] before-Time:12.684s|20-step  learn-Time: 14.619s|21-step  after-Time: 0.588s|1-step 
+[INFO 12-24 20:36:28] ******************check*******************
+[INFO 12-24 20:36:28] before-Time:12.653s|20-step  check-Time:0.582s| 1-step  loss-Val[raw|before|after]:[0.0019|0.3784|0.0016]
+[INFO 12-24 20:36:28] before-Time:12.678s|20-step  check-Time:0.588s| 1-step  loss-Val[raw|before|after]:[0.0006|0.1446|0.0044]
+[INFO 12-24 20:36:28] before-Time:12.613s|20-step  check-Time:0.596s| 1-step  loss-Val[raw|before|after]:[0.0007|0.2666|0.0040]
+[INFO 12-24 20:36:28] before-Time:12.628s|20-step  check-Time:0.626s| 1-step  loss-Val[raw|before|after]:[0.0003|0.2153|0.0019]
+[INFO 12-24 20:36:28] before-Time:12.615s|20-step  check-Time:0.630s| 1-step  loss-Val[raw|before|after]:[0.0017|0.2094|0.0038]
+[INFO 12-24 20:36:28] before-Time:12.730s|20-step  check-Time:0.627s| 1-step  loss-Val[raw|before|after]:[0.0013|0.3753|0.0018]
+[INFO 12-24 20:36:28] before-Time:12.585s|20-step  check-Time:12.556s|20-step  loss-Val[raw|before|after]:[0.0026|0.2772|0.1327]
+[INFO 12-24 20:36:28] before-Time:12.682s|20-step  check-Time:0.632s| 1-step  loss-Val[raw|before|after]:[0.0013|0.2413|0.0035]
+[INFO 12-24 20:36:28] before-Time:12.663s|20-step  check-Time:0.627s| 1-step  loss-Val[raw|before|after]:[0.0007|0.1729|0.0020]
+[INFO 12-24 20:36:28] before-Time:12.639s|20-step  check-Time:0.630s| 1-step  loss-Val[raw|before|after]:[0.0015|0.2452|0.0021]
+[INFO 12-24 20:36:28] check mean result:
+[INFO 12-24 20:36:28] before-MeanTime:12.648s|20.0-step  check-MeanTime:1.809s|2.9-step  loss-MeanVal[raw|before|after]:[0.0013|0.2526|0.0158]
+[INFO 12-24 20:36:28] ******************************************
+[INFO 12-24 20:36:28] ==========================task_i: 11============================
+[INFO 12-24 20:36:28] behavior_i: 3  style_i: 0
+[INFO 12-24 20:36:30] learn result:
+[INFO 12-24 20:36:30] raw loss--> loss:0.0079  IRL-loss:0.0079  end-loss:4.6448  traj-loss:0.7285  plan-cost:0.2171
+[INFO 12-24 20:36:42] before learn --> loss:0.0445  IRL-loss:0.0445  end-loss:2.7010  traj-loss:0.6011  plan-cost:0.0242
+[INFO 12-24 20:39:02] cross learn --> loss:0.0035  IRL-loss:0.0035  end-loss:2.9847  traj-loss:0.4990  plan-cost:0.0449  stop_value:0.0040  
+[INFO 12-24 20:39:04] after learn --> loss:0.0034  IRL-loss:0.0034  end-loss:2.9835  traj-loss:0.4991  plan-cost:0.0449
+[INFO 12-24 20:39:22] train metrics:
+[INFO 12-24 20:39:22] raw-plannerADE1: 0.0546, raw-plannerFDE1: 0.1245
+[INFO 12-24 20:39:22] raw-plannerADE1: 0.2195, raw-plannerFDE1: 0.7274
+[INFO 12-24 20:39:22] raw-plannerADE1: 1.5200, raw-plannerFDE1: 8.0604
+[INFO 12-24 20:39:22] before-plannerADE1: 0.2901, before-plannerFDE1: 0.6164
+[INFO 12-24 20:39:22] before-plannerADE1: 0.8159, before-plannerFDE1: 1.3999
+[INFO 12-24 20:39:22] before-plannerADE1: 1.5133, before-plannerFDE1: 5.1660
+[INFO 12-24 20:39:22] cross-plannerADE1: 0.1150, cross-plannerFDE1: 0.2507
+[INFO 12-24 20:39:22] cross-plannerADE1: 0.3464, cross-plannerFDE1: 0.7627
+[INFO 12-24 20:39:22] cross-plannerADE1: 1.2206, cross-plannerFDE1: 5.4917
+[INFO 12-24 20:39:22] after-plannerADE1: 0.1150, after-plannerFDE1: 0.2509
+[INFO 12-24 20:39:22] after-plannerADE1: 0.3469, after-plannerFDE1: 0.7634
+[INFO 12-24 20:39:22] after-plannerADE1: 1.2211, after-plannerFDE1: 5.4901
+[INFO 12-24 20:39:22] check metrics:
+[INFO 12-24 20:39:22] raw_check-plannerADE1: 0.0547, raw_check-plannerFDE1: 0.1247
+[INFO 12-24 20:39:22] raw_check-plannerADE1: 0.2093, raw_check-plannerFDE1: 0.6739
+[INFO 12-24 20:39:22] raw_check-plannerADE1: 1.4555, raw_check-plannerFDE1: 7.7910
+[INFO 12-24 20:39:22] before_check-plannerADE1: 0.2956, before_check-plannerFDE1: 0.6336
+[INFO 12-24 20:39:22] before_check-plannerADE1: 0.8369, before_check-plannerFDE1: 1.4112
+[INFO 12-24 20:39:22] before_check-plannerADE1: 1.5227, before_check-plannerFDE1: 4.9254
+[INFO 12-24 20:39:22] check-plannerADE1: 0.0913, check-plannerFDE1: 0.2014
+[INFO 12-24 20:39:22] check-plannerADE1: 0.3019, check-plannerFDE1: 0.7393
+[INFO 12-24 20:39:22] check-plannerADE1: 1.2898, check-plannerFDE1: 6.1697
+[INFO 12-24 20:39:22] In sum: 
+[INFO 12-24 20:39:22] ******************learn*******************
+[INFO 12-24 20:39:22] Task-Progress: [ 11/ 35]  Time: 246.715s/task  
+[INFO 12-24 20:39:22] before-Time:11.817s|20-step  learn-Time: 15.928s|23-step  after-Time: 1.759s|3-step 
+[INFO 12-24 20:39:22] ******************check*******************
+[INFO 12-24 20:39:22] before-Time:11.959s|20-step  check-Time:0.600s| 1-step  loss-Val[raw|before|after]:[0.0058|0.0355|0.0034]
+[INFO 12-24 20:39:22] before-Time:12.551s|20-step  check-Time:0.577s| 1-step  loss-Val[raw|before|after]:[0.0023|0.0255|0.0014]
+[INFO 12-24 20:39:22] before-Time:12.614s|20-step  check-Time:1.186s| 2-step  loss-Val[raw|before|after]:[0.0045|0.0237|0.0042]
+[INFO 12-24 20:39:22] before-Time:12.308s|20-step  check-Time:11.671s|20-step  loss-Val[raw|before|after]:[0.0048|0.0334|0.0070]
+[INFO 12-24 20:39:22] before-Time:12.586s|20-step  check-Time:0.578s| 1-step  loss-Val[raw|before|after]:[0.0036|0.0118|0.0021]
+[INFO 12-24 20:39:22] before-Time:12.511s|20-step  check-Time:1.140s| 2-step  loss-Val[raw|before|after]:[0.0054|0.0251|0.0030]
+[INFO 12-24 20:39:22] before-Time:12.561s|20-step  check-Time:0.576s| 1-step  loss-Val[raw|before|after]:[0.0020|0.0536|0.0031]
+[INFO 12-24 20:39:22] before-Time:12.552s|20-step  check-Time:0.574s| 1-step  loss-Val[raw|before|after]:[0.0017|0.0145|0.0016]
+[INFO 12-24 20:39:22] before-Time:12.562s|20-step  check-Time:0.577s| 1-step  loss-Val[raw|before|after]:[0.0030|0.0410|0.0029]
+[INFO 12-24 20:39:22] before-Time:12.531s|20-step  check-Time:0.578s| 1-step  loss-Val[raw|before|after]:[0.0010|0.0546|0.0016]
+[INFO 12-24 20:39:22] check mean result:
+[INFO 12-24 20:39:22] before-MeanTime:12.474s|20.0-step  check-MeanTime:1.806s|3.1-step  loss-MeanVal[raw|before|after]:[0.0034|0.0319|0.0030]
+[INFO 12-24 20:39:22] ******************************************
+[INFO 12-24 20:39:22] ==========================task_i: 12============================
+[INFO 12-24 20:39:22] behavior_i: 6  style_i: 1
+[INFO 12-24 20:39:23] learn result:
+[INFO 12-24 20:39:23] raw loss--> loss:0.0075  IRL-loss:0.0075  end-loss:4.5869  traj-loss:0.7140  plan-cost:0.0959
+[INFO 12-24 20:39:35] before learn --> loss:0.4765  IRL-loss:0.4765  end-loss:5.8424  traj-loss:1.8608  plan-cost:0.3583
+[INFO 12-24 20:41:53] cross learn --> loss:0.0077  IRL-loss:0.0077  end-loss:4.0331  traj-loss:0.6621  plan-cost:0.3755  stop_value:0.0115  
+[INFO 12-24 20:41:54] after learn --> loss:0.0077  IRL-loss:0.0077  end-loss:4.0331  traj-loss:0.6621  plan-cost:0.3755
+[INFO 12-24 20:42:00] train metrics:
+[INFO 12-24 20:42:00] raw-plannerADE1: 0.0574, raw-plannerFDE1: 0.1220
+[INFO 12-24 20:42:00] raw-plannerADE1: 0.2397, raw-plannerFDE1: 0.7503
+[INFO 12-24 20:42:00] raw-plannerADE1: 1.4966, raw-plannerFDE1: 7.9048
+[INFO 12-24 20:42:00] before-plannerADE1: 1.3659, before-plannerFDE1: 2.7851
+[INFO 12-24 20:42:00] before-plannerADE1: 2.2790, before-plannerFDE1: 3.1823
+[INFO 12-24 20:42:00] before-plannerADE1: 3.4949, before-plannerFDE1: 9.8133
+[INFO 12-24 20:42:00] cross-plannerADE1: 0.1376, cross-plannerFDE1: 0.2887
+[INFO 12-24 20:42:00] cross-plannerADE1: 0.4021, cross-plannerFDE1: 0.8669
+[INFO 12-24 20:42:00] cross-plannerADE1: 1.4758, cross-plannerFDE1: 7.0231
+[INFO 12-24 20:42:00] after-plannerADE1: 0.1376, after-plannerFDE1: 0.2887
+[INFO 12-24 20:42:00] after-plannerADE1: 0.4021, after-plannerFDE1: 0.8669
+[INFO 12-24 20:42:00] after-plannerADE1: 1.4758, after-plannerFDE1: 7.0231
+[INFO 12-24 20:42:00] check metrics:
+[INFO 12-24 20:42:00] raw_check-plannerADE1: 0.0575, raw_check-plannerFDE1: 0.1222
+[INFO 12-24 20:42:00] raw_check-plannerADE1: 0.2305, raw_check-plannerFDE1: 0.6879
+[INFO 12-24 20:42:00] raw_check-plannerADE1: 1.4341, raw_check-plannerFDE1: 7.6070
+[INFO 12-24 20:42:00] before_check-plannerADE1: 1.2918, before_check-plannerFDE1: 2.6273
+[INFO 12-24 20:42:00] before_check-plannerADE1: 2.2000, before_check-plannerFDE1: 2.9012
+[INFO 12-24 20:42:00] before_check-plannerADE1: 3.3728, before_check-plannerFDE1: 9.3478
+[INFO 12-24 20:42:00] check-plannerADE1: 0.1448, check-plannerFDE1: 0.2971
+[INFO 12-24 20:42:00] check-plannerADE1: 0.3877, check-plannerFDE1: 0.8684
+[INFO 12-24 20:42:00] check-plannerADE1: 1.4364, check-plannerFDE1: 6.7778
+[INFO 12-24 20:42:00] In sum: 
+[INFO 12-24 20:42:00] ******************learn*******************
+[INFO 12-24 20:42:00] Task-Progress: [ 12/ 35]  Time: 239.345s/task  
+[INFO 12-24 20:42:00] before-Time:11.780s|20-step  learn-Time: 14.836s|21-step  after-Time: 0.620s|1-step 
+[INFO 12-24 20:42:00] ******************check*******************
+[INFO 12-24 20:42:00] before-Time:12.399s|20-step  check-Time:0.637s| 1-step  loss-Val[raw|before|after]:[0.0035|0.6476|0.0074]
+[INFO 12-24 20:42:00] before-Time:12.547s|20-step  check-Time:0.625s| 1-step  loss-Val[raw|before|after]:[0.0048|0.5016|0.0045]
+[INFO 12-24 20:42:00] before-Time:12.567s|20-step  check-Time:0.625s| 1-step  loss-Val[raw|before|after]:[0.0057|0.5267|0.0077]
+[INFO 12-24 20:42:00] before-Time:12.501s|20-step  check-Time:0.627s| 1-step  loss-Val[raw|before|after]:[0.0033|0.4565|0.0029]
+[INFO 12-24 20:42:00] before-Time:12.569s|20-step  check-Time:0.631s| 1-step  loss-Val[raw|before|after]:[0.0032|0.4368|0.0044]
+[INFO 12-24 20:42:00] before-Time:11.918s|20-step  check-Time:0.638s| 1-step  loss-Val[raw|before|after]:[0.0068|0.4676|0.0073]
+[INFO 12-24 20:42:00] before-Time:11.839s|20-step  check-Time:0.625s| 1-step  loss-Val[raw|before|after]:[0.0042|0.3793|0.0055]
+[INFO 12-24 20:42:00] before-Time:11.945s|20-step  check-Time:0.630s| 1-step  loss-Val[raw|before|after]:[0.0066|0.5464|0.0071]
+[INFO 12-24 20:42:00] before-Time:12.611s|20-step  check-Time:0.631s| 1-step  loss-Val[raw|before|after]:[0.0017|0.4838|0.0041]
+[INFO 12-24 20:42:00] before-Time:12.501s|20-step  check-Time:0.627s| 1-step  loss-Val[raw|before|after]:[0.0055|0.5240|0.0057]
+[INFO 12-24 20:42:00] check mean result:
+[INFO 12-24 20:42:00] before-MeanTime:12.340s|20.0-step  check-MeanTime:0.630s|1.0-step  loss-MeanVal[raw|before|after]:[0.0045|0.4970|0.0057]
+[INFO 12-24 20:42:00] ******************************************
+[INFO 12-24 20:42:00] ==========================task_i: 13============================
+[INFO 12-24 20:42:00] behavior_i: 3  style_i: 3
+[INFO 12-24 20:42:02] learn result:
+[INFO 12-24 20:42:02] raw loss--> loss:0.0043  IRL-loss:0.0043  end-loss:4.2444  traj-loss:0.6693  plan-cost:0.3501
+[INFO 12-24 20:42:14] before learn --> loss:0.0539  IRL-loss:0.0539  end-loss:5.6777  traj-loss:1.8458  plan-cost:0.1438
+[INFO 12-24 20:44:19] cross learn --> loss:0.0031  IRL-loss:0.0031  end-loss:3.5796  traj-loss:0.5660  plan-cost:0.1678  stop_value:0.0042  
+[INFO 12-24 20:44:20] after learn --> loss:0.0031  IRL-loss:0.0031  end-loss:3.5796  traj-loss:0.5660  plan-cost:0.1678
+[INFO 12-24 20:44:26] train metrics:
+[INFO 12-24 20:44:26] raw-plannerADE1: 0.0677, raw-plannerFDE1: 0.1369
+[INFO 12-24 20:44:26] raw-plannerADE1: 0.2342, raw-plannerFDE1: 0.7243
+[INFO 12-24 20:44:26] raw-plannerADE1: 1.4492, raw-plannerFDE1: 7.5527
+[INFO 12-24 20:44:26] before-plannerADE1: 0.6062, before-plannerFDE1: 1.3133
+[INFO 12-24 20:44:26] before-plannerADE1: 1.7960, before-plannerFDE1: 3.0851
+[INFO 12-24 20:44:26] before-plannerADE1: 3.3880, before-plannerFDE1: 9.1511
+[INFO 12-24 20:44:26] cross-plannerADE1: 0.0864, cross-plannerFDE1: 0.1775
+[INFO 12-24 20:44:26] cross-plannerADE1: 0.2640, cross-plannerFDE1: 0.6860
+[INFO 12-24 20:44:26] cross-plannerADE1: 1.2812, cross-plannerFDE1: 6.3836
+[INFO 12-24 20:44:26] after-plannerADE1: 0.0864, after-plannerFDE1: 0.1775
+[INFO 12-24 20:44:26] after-plannerADE1: 0.2640, after-plannerFDE1: 0.6860
+[INFO 12-24 20:44:26] after-plannerADE1: 1.2812, after-plannerFDE1: 6.3836
+[INFO 12-24 20:44:26] check metrics:
+[INFO 12-24 20:44:26] raw_check-plannerADE1: 0.0679, raw_check-plannerFDE1: 0.1371
+[INFO 12-24 20:44:26] raw_check-plannerADE1: 0.2413, raw_check-plannerFDE1: 0.7578
+[INFO 12-24 20:44:26] raw_check-plannerADE1: 1.5634, raw_check-plannerFDE1: 8.2692
+[INFO 12-24 20:44:26] before_check-plannerADE1: 0.5629, before_check-plannerFDE1: 1.2111
+[INFO 12-24 20:44:26] before_check-plannerADE1: 1.5695, before_check-plannerFDE1: 2.7244
+[INFO 12-24 20:44:26] before_check-plannerADE1: 3.0122, before_check-plannerFDE1: 8.5525
+[INFO 12-24 20:44:26] check-plannerADE1: 0.0859, check-plannerFDE1: 0.1766
+[INFO 12-24 20:44:26] check-plannerADE1: 0.2746, check-plannerFDE1: 0.7414
+[INFO 12-24 20:44:26] check-plannerADE1: 1.3802, check-plannerFDE1: 6.9029
+[INFO 12-24 20:44:26] In sum: 
+[INFO 12-24 20:44:26] ******************learn*******************
+[INFO 12-24 20:44:26] Task-Progress: [ 13/ 35]  Time: 232.120s/task  
+[INFO 12-24 20:44:26] before-Time:12.534s|20-step  learn-Time: 28.254s|41-step  after-Time: 0.582s|1-step 
+[INFO 12-24 20:44:26] ******************check*******************
+[INFO 12-24 20:44:26] before-Time:0.628s| 1-step  check-Time:0.585s| 1-step  loss-Val[raw|before|after]:[0.0005|0.0006|0.0003]
+[INFO 12-24 20:44:26] before-Time:12.504s|20-step  check-Time:0.575s| 1-step  loss-Val[raw|before|after]:[0.0004|0.1145|0.0007]
+[INFO 12-24 20:44:26] before-Time:12.489s|20-step  check-Time:0.622s| 1-step  loss-Val[raw|before|after]:[0.0004|0.0381|0.0014]
+[INFO 12-24 20:44:26] before-Time:11.919s|20-step  check-Time:0.580s| 1-step  loss-Val[raw|before|after]:[0.0026|0.0858|0.0033]
+[INFO 12-24 20:44:26] before-Time:11.584s|20-step  check-Time:0.579s| 1-step  loss-Val[raw|before|after]:[0.0011|0.0463|0.0011]
+[INFO 12-24 20:44:26] before-Time:0.573s| 1-step  check-Time:0.630s| 1-step  loss-Val[raw|before|after]:[0.0014|0.0006|0.0003]
+[INFO 12-24 20:44:26] before-Time:11.788s|20-step  check-Time:0.573s| 1-step  loss-Val[raw|before|after]:[0.0007|0.0382|0.0012]
+[INFO 12-24 20:44:26] before-Time:11.685s|20-step  check-Time:0.591s| 1-step  loss-Val[raw|before|after]:[0.0017|0.0586|0.0018]
+[INFO 12-24 20:44:26] before-Time:11.830s|20-step  check-Time:0.580s| 1-step  loss-Val[raw|before|after]:[0.0018|0.0232|0.0022]
+[INFO 12-24 20:44:26] before-Time:11.801s|20-step  check-Time:0.574s| 1-step  loss-Val[raw|before|after]:[0.0004|0.0741|0.0009]
+[INFO 12-24 20:44:26] check mean result:
+[INFO 12-24 20:44:26] before-MeanTime:9.680s|16.2-step  check-MeanTime:0.589s|1.0-step  loss-MeanVal[raw|before|after]:[0.0011|0.0480|0.0013]
+[INFO 12-24 20:44:26] ******************************************
+[INFO 12-24 20:44:26] ==========================task_i: 14============================
+[INFO 12-24 20:44:26] behavior_i: 9  style_i: 3
+[INFO 12-24 20:44:27] learn result:
+[INFO 12-24 20:44:27] raw loss--> loss:0.0056  IRL-loss:0.0056  end-loss:4.6346  traj-loss:0.7256  plan-cost:0.2269
+[INFO 12-24 20:44:39] before learn --> loss:0.3704  IRL-loss:0.3704  end-loss:15.7274  traj-loss:8.4443  plan-cost:0.4742
+[INFO 12-24 20:52:09] cross learn --> loss:0.1196  IRL-loss:0.1196  end-loss:16.7484  traj-loss:10.3530  plan-cost:0.5664  stop_value:0.0413  
+[INFO 12-24 20:52:20] after learn --> loss:0.1189  IRL-loss:0.1189  end-loss:16.7720  traj-loss:10.3560  plan-cost:0.5660
+[INFO 12-24 20:54:05] train metrics:
+[INFO 12-24 20:54:05] raw-plannerADE1: 0.0714, raw-plannerFDE1: 0.1544
+[INFO 12-24 20:54:05] raw-plannerADE1: 0.2528, raw-plannerFDE1: 0.7249
+[INFO 12-24 20:54:05] raw-plannerADE1: 1.5107, raw-plannerFDE1: 7.9020
+[INFO 12-24 20:54:05] before-plannerADE1: 4.5218, before-plannerFDE1: 9.6819
+[INFO 12-24 20:54:05] before-plannerADE1: 10.1419, before-plannerFDE1: 12.2510
+[INFO 12-24 20:54:05] before-plannerADE1: 13.5142, before-plannerFDE1: 24.8331
+[INFO 12-24 20:54:05] cross-plannerADE1: 3.8373, cross-plannerFDE1: 8.5625
+[INFO 12-24 20:54:05] cross-plannerADE1: 12.3411, cross-plannerFDE1: 21.0965
+[INFO 12-24 20:54:05] cross-plannerADE1: 17.2339, cross-plannerFDE1: 27.7875
+[INFO 12-24 20:54:05] after-plannerADE1: 3.8409, after-plannerFDE1: 8.5706
+[INFO 12-24 20:54:05] after-plannerADE1: 12.3513, after-plannerFDE1: 21.1051
+[INFO 12-24 20:54:05] after-plannerADE1: 17.2341, after-plannerFDE1: 27.7660
+[INFO 12-24 20:54:05] check metrics:
+[INFO 12-24 20:54:05] raw_check-plannerADE1: 0.0713, raw_check-plannerFDE1: 0.1541
+[INFO 12-24 20:54:05] raw_check-plannerADE1: 0.2459, raw_check-plannerFDE1: 0.6768
+[INFO 12-24 20:54:05] raw_check-plannerADE1: 1.4710, raw_check-plannerFDE1: 7.7908
+[INFO 12-24 20:54:05] before_check-plannerADE1: 4.5163, before_check-plannerFDE1: 9.6763
+[INFO 12-24 20:54:05] before_check-plannerADE1: 10.1606, before_check-plannerFDE1: 12.2622
+[INFO 12-24 20:54:05] before_check-plannerADE1: 13.5022, before_check-plannerFDE1: 24.7371
+[INFO 12-24 20:54:05] check-plannerADE1: 3.8446, check-plannerFDE1: 8.5762
+[INFO 12-24 20:54:05] check-plannerADE1: 12.3530, check-plannerFDE1: 21.1016
+[INFO 12-24 20:54:05] check-plannerADE1: 17.1943, check-plannerFDE1: 27.5416
+[INFO 12-24 20:54:05] In sum: 
+[INFO 12-24 20:54:05] ******************learn*******************
+[INFO 12-24 20:54:05] Task-Progress: [ 14/ 35]  Time: 256.934s/task  
+[INFO 12-24 20:54:05] before-Time:11.860s|20-step  learn-Time: 329.784s|500-step  after-Time: 10.828s|20-step 
+[INFO 12-24 20:54:05] ******************check*******************
+[INFO 12-24 20:54:05] before-Time:11.854s|20-step  check-Time:12.763s|20-step  loss-Val[raw|before|after]:[0.0013|0.3698|0.1156]
+[INFO 12-24 20:54:05] before-Time:11.760s|20-step  check-Time:12.600s|20-step  loss-Val[raw|before|after]:[0.0024|0.3689|0.1234]
+[INFO 12-24 20:54:05] before-Time:11.688s|20-step  check-Time:11.878s|20-step  loss-Val[raw|before|after]:[0.0010|0.3697|0.1123]
+[INFO 12-24 20:54:05] before-Time:11.708s|20-step  check-Time:11.927s|20-step  loss-Val[raw|before|after]:[0.0008|0.3670|0.1198]
+[INFO 12-24 20:54:05] before-Time:11.635s|20-step  check-Time:11.891s|20-step  loss-Val[raw|before|after]:[0.0018|0.3699|0.1096]
+[INFO 12-24 20:54:05] before-Time:11.944s|20-step  check-Time:11.939s|20-step  loss-Val[raw|before|after]:[0.0006|0.3688|0.1205]
+[INFO 12-24 20:54:05] before-Time:12.146s|20-step  check-Time:10.043s|20-step  loss-Val[raw|before|after]:[0.0006|0.3679|0.1257]
+[INFO 12-24 20:54:05] before-Time:12.476s|20-step  check-Time:7.511s|20-step  loss-Val[raw|before|after]:[0.0012|0.3657|0.1213]
+[INFO 12-24 20:54:05] before-Time:12.496s|20-step  check-Time:7.485s|20-step  loss-Val[raw|before|after]:[0.0010|0.3501|0.1123]
+[INFO 12-24 20:54:05] before-Time:12.448s|20-step  check-Time:7.510s|20-step  loss-Val[raw|before|after]:[0.0014|0.3700|0.1135]
+[INFO 12-24 20:54:05] check mean result:
+[INFO 12-24 20:54:05] before-MeanTime:12.016s|20.0-step  check-MeanTime:10.555s|20.0-step  loss-MeanVal[raw|before|after]:[0.0012|0.3668|0.1174]
+[INFO 12-24 20:54:05] ******************************************
+[INFO 12-24 20:54:05] ==========================task_i: 15============================
+[INFO 12-24 20:54:05] behavior_i: 5  style_i: 2
+[INFO 12-24 20:54:06] learn result:
+[INFO 12-24 20:54:06] raw loss--> loss:0.0025  IRL-loss:0.0025  end-loss:4.0962  traj-loss:0.6326  plan-cost:0.5641
+[INFO 12-24 20:54:14] before learn --> loss:0.0720  IRL-loss:0.0720  end-loss:16.9887  traj-loss:8.2029  plan-cost:0.1108
+[INFO 12-24 21:00:27] cross learn --> loss:0.0296  IRL-loss:0.0296  end-loss:15.1609  traj-loss:7.2821  plan-cost:0.0333  stop_value:0.0061  
+[INFO 12-24 21:00:35] after learn --> loss:0.0266  IRL-loss:0.0266  end-loss:14.7225  traj-loss:7.0133  plan-cost:0.0364
+[INFO 12-24 21:01:00] train metrics:
+[INFO 12-24 21:01:00] raw-plannerADE1: 0.0719, raw-plannerFDE1: 0.1470
+[INFO 12-24 21:01:00] raw-plannerADE1: 0.2377, raw-plannerFDE1: 0.6839
+[INFO 12-24 21:01:00] raw-plannerADE1: 1.3900, raw-plannerFDE1: 7.2851
+[INFO 12-24 21:01:00] before-plannerADE1: 1.8358, before-plannerFDE1: 4.2477
+[INFO 12-24 21:01:00] before-plannerADE1: 7.4012, before-plannerFDE1: 14.7258
+[INFO 12-24 21:01:00] before-plannerADE1: 12.4320, before-plannerFDE1: 25.2064
+[INFO 12-24 21:01:00] cross-plannerADE1: 1.7220, cross-plannerFDE1: 3.9402
+[INFO 12-24 21:01:00] cross-plannerADE1: 6.6088, cross-plannerFDE1: 12.9625
+[INFO 12-24 21:01:00] cross-plannerADE1: 11.0881, cross-plannerFDE1: 22.4542
+[INFO 12-24 21:01:00] after-plannerADE1: 1.6662, after-plannerFDE1: 3.8078
+[INFO 12-24 21:01:00] after-plannerADE1: 6.3551, after-plannerFDE1: 12.4783
+[INFO 12-24 21:01:00] after-plannerADE1: 10.7050, after-plannerFDE1: 21.8229
+[INFO 12-24 21:01:00] check metrics:
+[INFO 12-24 21:01:00] raw_check-plannerADE1: 0.0720, raw_check-plannerFDE1: 0.1475
+[INFO 12-24 21:01:00] raw_check-plannerADE1: 0.2502, raw_check-plannerFDE1: 0.7214
+[INFO 12-24 21:01:00] raw_check-plannerADE1: 1.4999, raw_check-plannerFDE1: 7.9264
+[INFO 12-24 21:01:00] before_check-plannerADE1: 1.6946, before_check-plannerFDE1: 3.9099
+[INFO 12-24 21:01:00] before_check-plannerADE1: 6.7586, before_check-plannerFDE1: 13.4343
+[INFO 12-24 21:01:00] before_check-plannerADE1: 11.3751, before_check-plannerFDE1: 23.0542
+[INFO 12-24 21:01:00] check-plannerADE1: 0.6005, check-plannerFDE1: 1.3690
+[INFO 12-24 21:01:00] check-plannerADE1: 2.3070, check-plannerFDE1: 4.5748
+[INFO 12-24 21:01:00] check-plannerADE1: 4.3341, check-plannerFDE1: 11.3349
+[INFO 12-24 21:01:00] In sum: 
+[INFO 12-24 21:01:00] ******************learn*******************
+[INFO 12-24 21:01:00] Task-Progress: [ 15/ 35]  Time: 267.465s/task  
+[INFO 12-24 21:01:00] before-Time:7.549s|20-step  learn-Time: 302.994s|500-step  after-Time: 7.540s|20-step 
+[INFO 12-24 21:01:00] ******************check*******************
+[INFO 12-24 21:01:00] before-Time:7.493s|20-step  check-Time:0.384s| 1-step  loss-Val[raw|before|after]:[0.0005|0.0789|0.0022]
+[INFO 12-24 21:01:00] before-Time:7.507s|20-step  check-Time:0.375s| 1-step  loss-Val[raw|before|after]:[0.0012|0.1546|0.0014]
+[INFO 12-24 21:01:00] before-Time:7.489s|20-step  check-Time:7.502s|20-step  loss-Val[raw|before|after]:[0.0022|0.0726|0.0270]
+[INFO 12-24 21:01:00] before-Time:7.487s|20-step  check-Time:0.375s| 1-step  loss-Val[raw|before|after]:[0.0005|0.0808|0.0013]
+[INFO 12-24 21:01:00] before-Time:7.462s|20-step  check-Time:7.513s|20-step  loss-Val[raw|before|after]:[0.0009|0.1082|0.0438]
+[INFO 12-24 21:01:00] before-Time:7.465s|20-step  check-Time:0.376s| 1-step  loss-Val[raw|before|after]:[0.0008|0.1194|0.0018]
+[INFO 12-24 21:01:00] before-Time:7.511s|20-step  check-Time:7.515s|20-step  loss-Val[raw|before|after]:[0.0008|0.0636|0.0274]
+[INFO 12-24 21:01:00] before-Time:7.507s|20-step  check-Time:0.378s| 1-step  loss-Val[raw|before|after]:[0.0025|0.1059|0.0007]
+[INFO 12-24 21:01:00] before-Time:10.241s|20-step  check-Time:0.377s| 1-step  loss-Val[raw|before|after]:[0.0003|0.0880|0.0011]
+[INFO 12-24 21:01:00] before-Time:0.637s| 1-step  check-Time:0.376s| 1-step  loss-Val[raw|before|after]:[0.0004|0.0011|0.0014]
+[INFO 12-24 21:01:00] check mean result:
+[INFO 12-24 21:01:00] before-MeanTime:7.080s|18.1-step  check-MeanTime:2.517s|6.7-step  loss-MeanVal[raw|before|after]:[0.0010|0.0873|0.0108]
+[INFO 12-24 21:01:00] ******************************************
+[INFO 12-24 21:01:00] ==========================task_i: 16============================
+[INFO 12-24 21:01:00] behavior_i: 5  style_i: 4
+[INFO 12-24 21:01:01] learn result:
+[INFO 12-24 21:01:01] raw loss--> loss:0.0086  IRL-loss:0.0086  end-loss:5.3394  traj-loss:0.8307  plan-cost:0.1097
+[INFO 12-24 21:01:09] before learn --> loss:0.0760  IRL-loss:0.0760  end-loss:10.1494  traj-loss:4.8095  plan-cost:0.0857
+[INFO 12-24 21:04:14] cross learn --> loss:0.0061  IRL-loss:0.0061  end-loss:4.3409  traj-loss:0.7569  plan-cost:0.1590  stop_value:0.0066  
+[INFO 12-24 21:04:16] after learn --> loss:0.0060  IRL-loss:0.0060  end-loss:4.3412  traj-loss:0.7570  plan-cost:0.1590
+[INFO 12-24 21:04:21] train metrics:
+[INFO 12-24 21:04:21] raw-plannerADE1: 0.0589, raw-plannerFDE1: 0.1264
+[INFO 12-24 21:04:21] raw-plannerADE1: 0.2440, raw-plannerFDE1: 0.7683
+[INFO 12-24 21:04:21] raw-plannerADE1: 1.7040, raw-plannerFDE1: 9.2280
+[INFO 12-24 21:04:21] before-plannerADE1: 1.4132, before-plannerFDE1: 3.2108
+[INFO 12-24 21:04:21] before-plannerADE1: 4.9427, before-plannerFDE1: 8.6917
+[INFO 12-24 21:04:21] before-plannerADE1: 7.5666, before-plannerFDE1: 15.4966
+[INFO 12-24 21:04:21] cross-plannerADE1: 0.1462, cross-plannerFDE1: 0.3090
+[INFO 12-24 21:04:21] cross-plannerADE1: 0.4308, cross-plannerFDE1: 0.9132
+[INFO 12-24 21:04:21] cross-plannerADE1: 1.6437, cross-plannerFDE1: 7.6409
+[INFO 12-24 21:04:21] after-plannerADE1: 0.1458, after-plannerFDE1: 0.3083
+[INFO 12-24 21:04:21] after-plannerADE1: 0.4304, after-plannerFDE1: 0.9129
+[INFO 12-24 21:04:21] after-plannerADE1: 1.6436, after-plannerFDE1: 7.6412
+[INFO 12-24 21:04:21] check metrics:
+[INFO 12-24 21:04:21] raw_check-plannerADE1: 0.0586, raw_check-plannerFDE1: 0.1254
+[INFO 12-24 21:04:21] raw_check-plannerADE1: 0.2374, raw_check-plannerFDE1: 0.7190
+[INFO 12-24 21:04:21] raw_check-plannerADE1: 1.4681, raw_check-plannerFDE1: 7.7368
+[INFO 12-24 21:04:21] before_check-plannerADE1: 1.2323, before_check-plannerFDE1: 2.8327
+[INFO 12-24 21:04:21] before_check-plannerADE1: 4.6348, before_check-plannerFDE1: 8.6729
+[INFO 12-24 21:04:21] before_check-plannerADE1: 7.3384, before_check-plannerFDE1: 14.8929
+[INFO 12-24 21:04:21] check-plannerADE1: 0.0958, check-plannerFDE1: 0.2032
+[INFO 12-24 21:04:21] check-plannerADE1: 0.3045, check-plannerFDE1: 0.7097
+[INFO 12-24 21:04:21] check-plannerADE1: 1.3481, check-plannerFDE1: 6.6672
+[INFO 12-24 21:04:21] In sum: 
+[INFO 12-24 21:04:21] ******************learn*******************
+[INFO 12-24 21:04:21] Task-Progress: [ 16/ 35]  Time: 263.284s/task  
+[INFO 12-24 21:04:21] before-Time:7.543s|20-step  learn-Time: 110.922s|182-step  after-Time: 1.265s|2-step 
+[INFO 12-24 21:04:21] ******************check*******************
+[INFO 12-24 21:04:21] before-Time:7.488s|20-step  check-Time:0.635s| 1-step  loss-Val[raw|before|after]:[0.0042|0.0479|0.0038]
+[INFO 12-24 21:04:21] before-Time:7.492s|20-step  check-Time:0.631s| 1-step  loss-Val[raw|before|after]:[0.0063|0.0507|0.0053]
+[INFO 12-24 21:04:21] before-Time:7.483s|20-step  check-Time:0.630s| 1-step  loss-Val[raw|before|after]:[0.0024|0.0339|0.0022]
+[INFO 12-24 21:04:21] before-Time:7.503s|20-step  check-Time:0.634s| 1-step  loss-Val[raw|before|after]:[0.0028|0.0742|0.0022]
+[INFO 12-24 21:04:21] before-Time:7.503s|20-step  check-Time:0.632s| 1-step  loss-Val[raw|before|after]:[0.0020|0.0161|0.0018]
+[INFO 12-24 21:04:21] before-Time:7.479s|20-step  check-Time:0.438s| 1-step  loss-Val[raw|before|after]:[0.0015|0.1030|0.0009]
+[INFO 12-24 21:04:21] before-Time:7.500s|20-step  check-Time:0.369s| 1-step  loss-Val[raw|before|after]:[0.0030|0.0238|0.0022]
+[INFO 12-24 21:04:21] before-Time:7.485s|20-step  check-Time:0.382s| 1-step  loss-Val[raw|before|after]:[0.0024|0.1221|0.0010]
+[INFO 12-24 21:04:21] before-Time:7.497s|20-step  check-Time:0.375s| 1-step  loss-Val[raw|before|after]:[0.0036|0.1269|0.0028]
+[INFO 12-24 21:04:21] before-Time:7.464s|20-step  check-Time:0.372s| 1-step  loss-Val[raw|before|after]:[0.0025|0.0692|0.0017]
+[INFO 12-24 21:04:21] check mean result:
+[INFO 12-24 21:04:21] before-MeanTime:7.489s|20.0-step  check-MeanTime:0.510s|1.0-step  loss-MeanVal[raw|before|after]:[0.0031|0.0668|0.0024]
+[INFO 12-24 21:04:21] ******************************************
+[INFO 12-24 21:04:21] ==========================task_i: 17============================
+[INFO 12-24 21:04:21] behavior_i: 8  style_i: 2
+[INFO 12-24 21:04:21] learn result:
+[INFO 12-24 21:04:21] raw loss--> loss:0.0459  IRL-loss:0.0459  end-loss:5.9327  traj-loss:0.9579  plan-cost:0.2393
+[INFO 12-24 21:04:29] before learn --> loss:0.0200  IRL-loss:0.0200  end-loss:8.5396  traj-loss:3.8811  plan-cost:0.2113
+[INFO 12-24 21:06:32] cross learn --> loss:0.0050  IRL-loss:0.0050  end-loss:2.9150  traj-loss:0.8570  plan-cost:0.1104  stop_value:0.0066  
+[INFO 12-24 21:06:39] after learn --> loss:0.0049  IRL-loss:0.0049  end-loss:3.3034  traj-loss:0.8416  plan-cost:0.1164
+[INFO 12-24 21:08:17] train metrics:
+[INFO 12-24 21:08:17] raw-plannerADE1: 0.0788, raw-plannerFDE1: 0.1813
+[INFO 12-24 21:08:17] raw-plannerADE1: 0.2864, raw-plannerFDE1: 0.8232
+[INFO 12-24 21:08:17] raw-plannerADE1: 1.8160, raw-plannerFDE1: 9.5411
+[INFO 12-24 21:08:17] before-plannerADE1: 1.5154, before-plannerFDE1: 3.3984
+[INFO 12-24 21:08:17] before-plannerADE1: 4.6464, before-plannerFDE1: 7.2118
+[INFO 12-24 21:08:17] before-plannerADE1: 6.6837, before-plannerFDE1: 13.6078
+[INFO 12-24 21:08:17] cross-plannerADE1: 0.3745, cross-plannerFDE1: 0.7815
+[INFO 12-24 21:08:17] cross-plannerADE1: 0.8964, cross-plannerFDE1: 1.6702
+[INFO 12-24 21:08:17] cross-plannerADE1: 1.8654, cross-plannerFDE1: 5.1307
+[INFO 12-24 21:08:17] after-plannerADE1: 0.3299, after-plannerFDE1: 0.6843
+[INFO 12-24 21:08:17] after-plannerADE1: 0.7489, after-plannerFDE1: 1.3864
+[INFO 12-24 21:08:17] after-plannerADE1: 1.7858, after-plannerFDE1: 5.5831
+[INFO 12-24 21:08:17] check metrics:
+[INFO 12-24 21:08:17] raw_check-plannerADE1: 0.0783, raw_check-plannerFDE1: 0.1793
+[INFO 12-24 21:08:17] raw_check-plannerADE1: 0.2696, raw_check-plannerFDE1: 0.7104
+[INFO 12-24 21:08:17] raw_check-plannerADE1: 1.5111, raw_check-plannerFDE1: 7.8863
+[INFO 12-24 21:08:17] before_check-plannerADE1: 1.3521, before_check-plannerFDE1: 3.0714
+[INFO 12-24 21:08:17] before_check-plannerADE1: 4.7405, before_check-plannerFDE1: 8.3154
+[INFO 12-24 21:08:17] before_check-plannerADE1: 7.0942, before_check-plannerFDE1: 14.6016
+[INFO 12-24 21:08:17] check-plannerADE1: 0.3625, check-plannerFDE1: 0.7440
+[INFO 12-24 21:08:17] check-plannerADE1: 0.7826, check-plannerFDE1: 1.3555
+[INFO 12-24 21:08:17] check-plannerADE1: 1.6360, check-plannerFDE1: 5.1464
+[INFO 12-24 21:08:17] In sum: 
+[INFO 12-24 21:08:17] ******************learn*******************
+[INFO 12-24 21:08:17] Task-Progress: [ 17/ 35]  Time: 261.674s/task  
+[INFO 12-24 21:08:17] before-Time:7.507s|20-step  learn-Time: 42.191s|75-step  after-Time: 6.896s|11-step 
+[INFO 12-24 21:08:17] ******************check*******************
+[INFO 12-24 21:08:17] before-Time:7.508s|20-step  check-Time:12.569s|20-step  loss-Val[raw|before|after]:[0.0378|0.0837|0.0491]
+[INFO 12-24 21:08:17] before-Time:7.497s|20-step  check-Time:12.535s|20-step  loss-Val[raw|before|after]:[0.0118|0.0825|0.0954]
+[INFO 12-24 21:08:17] before-Time:9.371s|20-step  check-Time:1.881s| 3-step  loss-Val[raw|before|after]:[0.0238|0.0664|0.0034]
+[INFO 12-24 21:08:17] before-Time:11.406s|20-step  check-Time:12.553s|20-step  loss-Val[raw|before|after]:[0.0452|0.1172|0.0486]
+[INFO 12-24 21:08:17] before-Time:7.511s|20-step  check-Time:12.526s|20-step  loss-Val[raw|before|after]:[0.0381|0.0534|0.1124]
+[INFO 12-24 21:08:17] before-Time:7.500s|20-step  check-Time:10.068s|20-step  loss-Val[raw|before|after]:[0.0081|0.0452|0.0339]
+[INFO 12-24 21:08:17] before-Time:7.498s|20-step  check-Time:10.776s|20-step  loss-Val[raw|before|after]:[0.0210|0.0825|0.0836]
+[INFO 12-24 21:08:17] before-Time:7.470s|20-step  check-Time:11.921s|20-step  loss-Val[raw|before|after]:[0.0371|0.0299|0.0104]
+[INFO 12-24 21:08:17] before-Time:7.490s|20-step  check-Time:1.182s| 2-step  loss-Val[raw|before|after]:[0.0196|0.0314|0.0034]
+[INFO 12-24 21:08:17] before-Time:7.474s|20-step  check-Time:11.777s|20-step  loss-Val[raw|before|after]:[0.0143|0.0701|0.0145]
+[INFO 12-24 21:08:17] check mean result:
+[INFO 12-24 21:08:17] before-MeanTime:8.072s|20.0-step  check-MeanTime:9.779s|16.5-step  loss-MeanVal[raw|before|after]:[0.0257|0.0662|0.0455]
+[INFO 12-24 21:08:17] ******************************************
+[INFO 12-24 21:08:17] ==========================task_i: 18============================
+[INFO 12-24 21:08:17] behavior_i: 6  style_i: 4
+[INFO 12-24 21:08:18] learn result:
+[INFO 12-24 21:08:18] raw loss--> loss:0.0059  IRL-loss:0.0059  end-loss:5.0414  traj-loss:0.7853  plan-cost:0.1021
+[INFO 12-24 21:08:30] before learn --> loss:0.2388  IRL-loss:0.2388  end-loss:21.4884  traj-loss:11.8557  plan-cost:0.1134
+[INFO 12-24 21:11:03] cross learn --> loss:0.0073  IRL-loss:0.0073  end-loss:4.5518  traj-loss:0.7143  plan-cost:0.3811  stop_value:0.0075  
+[INFO 12-24 21:11:03] after learn --> loss:0.0073  IRL-loss:0.0073  end-loss:4.5518  traj-loss:0.7143  plan-cost:0.3811
+[INFO 12-24 21:11:21] train metrics:
+[INFO 12-24 21:11:21] raw-plannerADE1: 0.0760, raw-plannerFDE1: 0.1648
+[INFO 12-24 21:11:21] raw-plannerADE1: 0.2549, raw-plannerFDE1: 0.7445
+[INFO 12-24 21:11:21] raw-plannerADE1: 1.6072, raw-plannerFDE1: 8.5798
+[INFO 12-24 21:11:21] before-plannerADE1: 2.9284, before-plannerFDE1: 6.7503
+[INFO 12-24 21:11:21] before-plannerADE1: 11.6037, before-plannerFDE1: 22.7735
+[INFO 12-24 21:11:21] before-plannerADE1: 18.7841, before-plannerFDE1: 35.4744
+[INFO 12-24 21:11:21] cross-plannerADE1: 0.1131, cross-plannerFDE1: 0.2472
+[INFO 12-24 21:11:21] cross-plannerADE1: 0.4001, cross-plannerFDE1: 0.9174
+[INFO 12-24 21:11:21] cross-plannerADE1: 1.5306, cross-plannerFDE1: 7.6870
+[INFO 12-24 21:11:21] after-plannerADE1: 0.1131, after-plannerFDE1: 0.2472
+[INFO 12-24 21:11:21] after-plannerADE1: 0.4001, after-plannerFDE1: 0.9174
+[INFO 12-24 21:11:21] after-plannerADE1: 1.5306, after-plannerFDE1: 7.6870
+[INFO 12-24 21:11:21] check metrics:
+[INFO 12-24 21:11:21] raw_check-plannerADE1: 0.0758, raw_check-plannerFDE1: 0.1636
+[INFO 12-24 21:11:21] raw_check-plannerADE1: 0.2413, raw_check-plannerFDE1: 0.6997
+[INFO 12-24 21:11:21] raw_check-plannerADE1: 1.4542, raw_check-plannerFDE1: 7.6513
+[INFO 12-24 21:11:21] before_check-plannerADE1: 2.8626, before_check-plannerFDE1: 6.6040
+[INFO 12-24 21:11:21] before_check-plannerADE1: 11.4218, before_check-plannerFDE1: 22.5892
+[INFO 12-24 21:11:21] before_check-plannerADE1: 18.7853, before_check-plannerFDE1: 36.1997
+[INFO 12-24 21:11:21] check-plannerADE1: 0.2240, check-plannerFDE1: 0.4924
+[INFO 12-24 21:11:21] check-plannerADE1: 0.7548, check-plannerFDE1: 1.5634
+[INFO 12-24 21:11:21] check-plannerADE1: 1.9760, check-plannerFDE1: 7.7040
+[INFO 12-24 21:11:21] In sum: 
+[INFO 12-24 21:11:21] ******************learn*******************
+[INFO 12-24 21:11:21] Task-Progress: [ 18/ 35]  Time: 257.399s/task  
+[INFO 12-24 21:11:21] before-Time:12.016s|20-step  learn-Time: 29.039s|41-step  after-Time: 0.628s|1-step 
+[INFO 12-24 21:11:21] ******************check*******************
+[INFO 12-24 21:11:21] before-Time:11.775s|20-step  check-Time:12.491s|20-step  loss-Val[raw|before|after]:[0.0014|0.1963|0.0264]
+[INFO 12-24 21:11:21] before-Time:11.722s|20-step  check-Time:0.630s| 1-step  loss-Val[raw|before|after]:[0.0003|0.1699|0.0060]
+[INFO 12-24 21:11:21] before-Time:12.342s|20-step  check-Time:0.627s| 1-step  loss-Val[raw|before|after]:[0.0014|0.2015|0.0030]
+[INFO 12-24 21:11:21] before-Time:12.589s|20-step  check-Time:0.625s| 1-step  loss-Val[raw|before|after]:[0.0008|0.1943|0.0048]
+[INFO 12-24 21:11:21] before-Time:12.527s|20-step  check-Time:0.628s| 1-step  loss-Val[raw|before|after]:[0.0013|0.1673|0.0040]
+[INFO 12-24 21:11:21] before-Time:12.509s|20-step  check-Time:0.625s| 1-step  loss-Val[raw|before|after]:[0.0048|0.2260|0.0034]
+[INFO 12-24 21:11:21] before-Time:12.541s|20-step  check-Time:0.625s| 1-step  loss-Val[raw|before|after]:[0.0040|0.2135|0.0070]
+[INFO 12-24 21:11:21] before-Time:12.511s|20-step  check-Time:0.626s| 1-step  loss-Val[raw|before|after]:[0.0055|0.2027|0.0012]
+[INFO 12-24 21:11:21] before-Time:12.541s|20-step  check-Time:0.627s| 1-step  loss-Val[raw|before|after]:[0.0020|0.2241|0.0072]
+[INFO 12-24 21:11:21] before-Time:12.519s|20-step  check-Time:0.625s| 1-step  loss-Val[raw|before|after]:[0.0028|0.2024|0.0050]
+[INFO 12-24 21:11:21] check mean result:
+[INFO 12-24 21:11:21] before-MeanTime:12.358s|20.0-step  check-MeanTime:1.813s|2.9-step  loss-MeanVal[raw|before|after]:[0.0024|0.1998|0.0068]
+[INFO 12-24 21:11:21] ******************************************
+[INFO 12-24 21:11:21] ==========================task_i: 19============================
+[INFO 12-24 21:11:21] behavior_i: 8  style_i: 1
+[INFO 12-24 21:11:23] learn result:
+[INFO 12-24 21:11:23] raw loss--> loss:0.0093  IRL-loss:0.0093  end-loss:4.6456  traj-loss:0.7231  plan-cost:0.3904
+[INFO 12-24 21:11:35] before learn --> loss:0.0861  IRL-loss:0.0861  end-loss:7.0282  traj-loss:2.7588  plan-cost:0.0678
+[INFO 12-24 21:17:33] cross learn --> loss:0.0112  IRL-loss:0.0112  end-loss:1.9446  traj-loss:0.7155  plan-cost:0.0122  stop_value:0.0092  
+[INFO 12-24 21:17:46] after learn --> loss:0.0115  IRL-loss:0.0115  end-loss:1.9468  traj-loss:0.7147  plan-cost:0.0107
+[INFO 12-24 21:18:04] train metrics:
+[INFO 12-24 21:18:04] raw-plannerADE1: 0.0599, raw-plannerFDE1: 0.1264
+[INFO 12-24 21:18:04] raw-plannerADE1: 0.2369, raw-plannerFDE1: 0.7268
+[INFO 12-24 21:18:04] raw-plannerADE1: 1.5396, raw-plannerFDE1: 8.1741
+[INFO 12-24 21:18:04] before-plannerADE1: 1.2298, before-plannerFDE1: 2.5827
+[INFO 12-24 21:18:04] before-plannerADE1: 2.9644, before-plannerFDE1: 5.0987
+[INFO 12-24 21:18:04] before-plannerADE1: 4.9297, before-plannerFDE1: 11.4363
+[INFO 12-24 21:18:04] cross-plannerADE1: 0.3100, cross-plannerFDE1: 0.6629
+[INFO 12-24 21:18:04] cross-plannerADE1: 0.9178, cross-plannerFDE1: 1.6923
+[INFO 12-24 21:18:04] cross-plannerADE1: 1.5882, cross-plannerFDE1: 3.6287
+[INFO 12-24 21:18:04] after-plannerADE1: 0.3093, after-plannerFDE1: 0.6609
+[INFO 12-24 21:18:04] after-plannerADE1: 0.9137, after-plannerFDE1: 1.6866
+[INFO 12-24 21:18:04] after-plannerADE1: 1.5866, after-plannerFDE1: 3.6324
+[INFO 12-24 21:18:04] check metrics:
+[INFO 12-24 21:18:04] raw_check-plannerADE1: 0.0602, raw_check-plannerFDE1: 0.1274
+[INFO 12-24 21:18:04] raw_check-plannerADE1: 0.2433, raw_check-plannerFDE1: 0.7294
+[INFO 12-24 21:18:04] raw_check-plannerADE1: 1.4961, raw_check-plannerFDE1: 7.8791
+[INFO 12-24 21:18:04] before_check-plannerADE1: 1.2052, before_check-plannerFDE1: 2.5365
+[INFO 12-24 21:18:04] before_check-plannerADE1: 2.9255, before_check-plannerFDE1: 4.9677
+[INFO 12-24 21:18:04] before_check-plannerADE1: 4.8258, before_check-plannerFDE1: 11.3465
+[INFO 12-24 21:18:04] check-plannerADE1: 0.1227, check-plannerFDE1: 0.2565
+[INFO 12-24 21:18:04] check-plannerADE1: 0.3701, check-plannerFDE1: 0.8730
+[INFO 12-24 21:18:04] check-plannerADE1: 1.4109, check-plannerFDE1: 6.3871
+[INFO 12-24 21:18:04] In sum: 
+[INFO 12-24 21:18:04] ******************learn*******************
+[INFO 12-24 21:18:04] Task-Progress: [ 19/ 35]  Time: 265.067s/task  
+[INFO 12-24 21:18:04] before-Time:11.878s|20-step  learn-Time: 284.186s|500-step  after-Time: 12.756s|20-step 
+[INFO 12-24 21:18:04] ******************check*******************
+[INFO 12-24 21:18:04] before-Time:7.468s|20-step  check-Time:0.636s| 1-step  loss-Val[raw|before|after]:[0.0062|0.0909|0.0038]
+[INFO 12-24 21:18:04] before-Time:7.469s|20-step  check-Time:0.638s| 1-step  loss-Val[raw|before|after]:[0.0046|0.1235|0.0069]
+[INFO 12-24 21:18:04] before-Time:7.459s|20-step  check-Time:0.632s| 1-step  loss-Val[raw|before|after]:[0.0062|0.1396|0.0047]
+[INFO 12-24 21:18:04] before-Time:7.474s|20-step  check-Time:0.639s| 1-step  loss-Val[raw|before|after]:[0.0061|0.1640|0.0053]
+[INFO 12-24 21:18:04] before-Time:7.463s|20-step  check-Time:0.626s| 1-step  loss-Val[raw|before|after]:[0.0036|0.0996|0.0045]
+[INFO 12-24 21:18:04] before-Time:7.445s|20-step  check-Time:0.628s| 1-step  loss-Val[raw|before|after]:[0.0024|0.0688|0.0027]
+[INFO 12-24 21:18:04] before-Time:7.486s|20-step  check-Time:12.598s|20-step  loss-Val[raw|before|after]:[0.0074|0.0921|0.0160]
+[INFO 12-24 21:18:04] before-Time:7.445s|20-step  check-Time:0.623s| 1-step  loss-Val[raw|before|after]:[0.0033|0.0916|0.0058]
+[INFO 12-24 21:18:04] before-Time:7.455s|20-step  check-Time:0.626s| 1-step  loss-Val[raw|before|after]:[0.0042|0.0852|0.0071]
+[INFO 12-24 21:18:04] before-Time:7.495s|20-step  check-Time:0.624s| 1-step  loss-Val[raw|before|after]:[0.0058|0.0551|0.0035]
+[INFO 12-24 21:18:04] check mean result:
+[INFO 12-24 21:18:04] before-MeanTime:7.466s|20.0-step  check-MeanTime:1.827s|2.9-step  loss-MeanVal[raw|before|after]:[0.0050|0.1010|0.0060]
+[INFO 12-24 21:18:04] ******************************************
+[INFO 12-24 21:18:04] ==========================task_i: 20============================
+[INFO 12-24 21:18:04] behavior_i: 4  style_i: 3
+[INFO 12-24 21:18:06] learn result:
+[INFO 12-24 21:18:06] raw loss--> loss:0.0035  IRL-loss:0.0035  end-loss:4.5692  traj-loss:0.7007  plan-cost:0.0716
+[INFO 12-24 21:18:18] before learn --> loss:0.0192  IRL-loss:0.0192  end-loss:6.1327  traj-loss:2.9480  plan-cost:0.0384
+[INFO 12-24 21:25:43] cross learn --> loss:0.0029  IRL-loss:0.0029  end-loss:2.3188  traj-loss:0.8708  plan-cost:0.0694  stop_value:0.0009  
+[INFO 12-24 21:25:55] after learn --> loss:0.0028  IRL-loss:0.0028  end-loss:2.2442  traj-loss:0.8359  plan-cost:0.0709
+[INFO 12-24 21:27:13] train metrics:
+[INFO 12-24 21:27:13] raw-plannerADE1: 0.0423, raw-plannerFDE1: 0.0934
+[INFO 12-24 21:27:13] raw-plannerADE1: 0.1932, raw-plannerFDE1: 0.6733
+[INFO 12-24 21:27:13] raw-plannerADE1: 1.4736, raw-plannerFDE1: 8.0422
+[INFO 12-24 21:27:13] before-plannerADE1: 0.9592, before-plannerFDE1: 2.1814
+[INFO 12-24 21:27:13] before-plannerADE1: 3.4431, before-plannerFDE1: 6.3843
+[INFO 12-24 21:27:13] before-plannerADE1: 5.5310, before-plannerFDE1: 11.0203
+[INFO 12-24 21:27:13] cross-plannerADE1: 0.3042, cross-plannerFDE1: 0.6734
+[INFO 12-24 21:27:13] cross-plannerADE1: 1.0694, cross-plannerFDE1: 2.1738
+[INFO 12-24 21:27:13] cross-plannerADE1: 1.9880, cross-plannerFDE1: 4.6332
+[INFO 12-24 21:27:13] after-plannerADE1: 0.2928, after-plannerFDE1: 0.6486
+[INFO 12-24 21:27:13] after-plannerADE1: 1.0334, after-plannerFDE1: 2.1031
+[INFO 12-24 21:27:13] after-plannerADE1: 1.9269, after-plannerFDE1: 4.5069
+[INFO 12-24 21:27:13] check metrics:
+[INFO 12-24 21:27:13] raw_check-plannerADE1: 0.0420, raw_check-plannerFDE1: 0.0924
+[INFO 12-24 21:27:13] raw_check-plannerADE1: 0.1841, raw_check-plannerFDE1: 0.6520
+[INFO 12-24 21:27:13] raw_check-plannerADE1: 1.4326, raw_check-plannerFDE1: 7.7856
+[INFO 12-24 21:27:13] before_check-plannerADE1: 0.8151, before_check-plannerFDE1: 1.8529
+[INFO 12-24 21:27:13] before_check-plannerADE1: 2.9421, before_check-plannerFDE1: 5.5135
+[INFO 12-24 21:27:13] before_check-plannerADE1: 4.8641, before_check-plannerFDE1: 10.2718
+[INFO 12-24 21:27:13] check-plannerADE1: 0.2103, check-plannerFDE1: 0.4607
+[INFO 12-24 21:27:13] check-plannerADE1: 0.7316, check-plannerFDE1: 1.5713
+[INFO 12-24 21:27:13] check-plannerADE1: 1.6846, check-plannerFDE1: 5.2721
+[INFO 12-24 21:27:13] In sum: 
+[INFO 12-24 21:27:13] ******************learn*******************
+[INFO 12-24 21:27:13] Task-Progress: [ 20/ 35]  Time: 279.249s/task  
+[INFO 12-24 21:27:13] before-Time:12.637s|20-step  learn-Time: 342.234s|500-step  after-Time: 12.577s|20-step 
+[INFO 12-24 21:27:13] ******************check*******************
+[INFO 12-24 21:27:13] before-Time:12.593s|20-step  check-Time:12.607s|20-step  loss-Val[raw|before|after]:[0.0017|0.0368|0.0138]
+[INFO 12-24 21:27:13] before-Time:0.630s| 1-step  check-Time:12.646s|20-step  loss-Val[raw|before|after]:[0.0013|0.0009|0.0032]
+[INFO 12-24 21:27:13] before-Time:12.572s|20-step  check-Time:0.625s| 1-step  loss-Val[raw|before|after]:[0.0011|0.0180|0.0010]
+[INFO 12-24 21:27:13] before-Time:12.592s|20-step  check-Time:12.563s|20-step  loss-Val[raw|before|after]:[0.0024|0.0237|0.0062]
+[INFO 12-24 21:27:13] before-Time:12.590s|20-step  check-Time:0.630s| 1-step  loss-Val[raw|before|after]:[0.0010|0.0225|0.0009]
+[INFO 12-24 21:27:13] before-Time:12.538s|20-step  check-Time:12.566s|20-step  loss-Val[raw|before|after]:[0.0023|0.0201|0.0031]
+[INFO 12-24 21:27:13] before-Time:12.530s|20-step  check-Time:0.629s| 1-step  loss-Val[raw|before|after]:[0.0013|0.0231|0.0010]
+[INFO 12-24 21:27:13] before-Time:0.625s| 1-step  check-Time:0.630s| 1-step  loss-Val[raw|before|after]:[0.0014|0.0009|0.0011]
+[INFO 12-24 21:27:13] before-Time:12.575s|20-step  check-Time:12.619s|20-step  loss-Val[raw|before|after]:[0.0035|0.0210|0.0023]
+[INFO 12-24 21:27:13] before-Time:12.633s|20-step  check-Time:12.510s|20-step  loss-Val[raw|before|after]:[0.0016|0.0226|0.0039]
+[INFO 12-24 21:27:13] check mean result:
+[INFO 12-24 21:27:13] before-MeanTime:10.188s|16.2-step  check-MeanTime:7.802s|12.4-step  loss-MeanVal[raw|before|after]:[0.0018|0.0190|0.0036]
+[INFO 12-24 21:27:13] ******************************************
+[INFO 12-24 21:27:13] ==========================task_i: 21============================
+[INFO 12-24 21:27:13] behavior_i: 4  style_i: 2
+[INFO 12-24 21:27:14] learn result:
+[INFO 12-24 21:27:14] raw loss--> loss:0.0099  IRL-loss:0.0099  end-loss:4.8665  traj-loss:0.7676  plan-cost:0.0666
+[INFO 12-24 21:27:26] before learn --> loss:0.0195  IRL-loss:0.0195  end-loss:3.2126  traj-loss:0.7872  plan-cost:0.1362
+[INFO 12-24 21:28:51] cross learn --> loss:0.0029  IRL-loss:0.0029  end-loss:3.0423  traj-loss:0.5471  plan-cost:0.0976  stop_value:0.0080  
+[INFO 12-24 21:28:53] after learn --> loss:0.0030  IRL-loss:0.0030  end-loss:3.2888  traj-loss:0.5603  plan-cost:0.1202
+[INFO 12-24 21:29:04] train metrics:
+[INFO 12-24 21:29:04] raw-plannerADE1: 0.0519, raw-plannerFDE1: 0.1127
+[INFO 12-24 21:29:04] raw-plannerADE1: 0.2382, raw-plannerFDE1: 0.8104
+[INFO 12-24 21:29:04] raw-plannerADE1: 1.6216, raw-plannerFDE1: 8.5935
+[INFO 12-24 21:29:04] before-plannerADE1: 0.3242, before-plannerFDE1: 0.6591
+[INFO 12-24 21:29:04] before-plannerADE1: 0.8848, before-plannerFDE1: 1.7482
+[INFO 12-24 21:29:04] before-plannerADE1: 1.8584, before-plannerFDE1: 6.4363
+[INFO 12-24 21:29:04] cross-plannerADE1: 0.1332, cross-plannerFDE1: 0.2745
+[INFO 12-24 21:29:04] cross-plannerADE1: 0.3931, cross-plannerFDE1: 0.9176
+[INFO 12-24 21:29:04] cross-plannerADE1: 1.3143, cross-plannerFDE1: 5.7438
+[INFO 12-24 21:29:04] after-plannerADE1: 0.1151, after-plannerFDE1: 0.2376
+[INFO 12-24 21:29:04] after-plannerADE1: 0.3464, after-plannerFDE1: 0.8416
+[INFO 12-24 21:29:04] after-plannerADE1: 1.3143, after-plannerFDE1: 6.0577
+[INFO 12-24 21:29:04] check metrics:
+[INFO 12-24 21:29:04] raw_check-plannerADE1: 0.0521, raw_check-plannerFDE1: 0.1135
+[INFO 12-24 21:29:04] raw_check-plannerADE1: 0.2295, raw_check-plannerFDE1: 0.7383
+[INFO 12-24 21:29:04] raw_check-plannerADE1: 1.5193, raw_check-plannerFDE1: 8.0638
+[INFO 12-24 21:29:04] before_check-plannerADE1: 0.2473, before_check-plannerFDE1: 0.5088
+[INFO 12-24 21:29:04] before_check-plannerADE1: 0.7882, before_check-plannerFDE1: 1.6778
+[INFO 12-24 21:29:04] before_check-plannerADE1: 1.9117, before_check-plannerFDE1: 7.0494
+[INFO 12-24 21:29:04] check-plannerADE1: 0.0845, check-plannerFDE1: 0.1756
+[INFO 12-24 21:29:04] check-plannerADE1: 0.2872, check-plannerFDE1: 0.7582
+[INFO 12-24 21:29:04] check-plannerADE1: 1.3285, check-plannerFDE1: 6.4639
+[INFO 12-24 21:29:04] In sum: 
+[INFO 12-24 21:29:04] ******************learn*******************
+[INFO 12-24 21:29:04] Task-Progress: [ 21/ 35]  Time: 271.235s/task  
+[INFO 12-24 21:29:04] before-Time:12.004s|20-step  learn-Time: 13.655s|24-step  after-Time: 1.911s|3-step 
+[INFO 12-24 21:29:04] ******************check*******************
+[INFO 12-24 21:29:04] before-Time:0.640s| 1-step  check-Time:0.638s| 1-step  loss-Val[raw|before|after]:[0.0050|0.0010|0.0009]
+[INFO 12-24 21:29:04] before-Time:9.884s|20-step  check-Time:0.637s| 1-step  loss-Val[raw|before|after]:[0.0023|0.0151|0.0011]
+[INFO 12-24 21:29:04] before-Time:7.535s|20-step  check-Time:1.264s| 2-step  loss-Val[raw|before|after]:[0.0045|0.0133|0.0025]
+[INFO 12-24 21:29:04] before-Time:7.505s|20-step  check-Time:0.628s| 1-step  loss-Val[raw|before|after]:[0.0041|0.0082|0.0028]
+[INFO 12-24 21:29:04] before-Time:7.490s|20-step  check-Time:0.628s| 1-step  loss-Val[raw|before|after]:[0.0013|0.0189|0.0019]
+[INFO 12-24 21:29:04] before-Time:7.491s|20-step  check-Time:3.151s| 5-step  loss-Val[raw|before|after]:[0.0045|0.0076|0.0023]
+[INFO 12-24 21:29:04] before-Time:7.502s|20-step  check-Time:0.645s| 1-step  loss-Val[raw|before|after]:[0.0014|0.0165|0.0006]
+[INFO 12-24 21:29:04] before-Time:7.512s|20-step  check-Time:0.629s| 1-step  loss-Val[raw|before|after]:[0.0014|0.0091|0.0021]
+[INFO 12-24 21:29:04] before-Time:7.515s|20-step  check-Time:1.901s| 3-step  loss-Val[raw|before|after]:[0.0036|0.0177|0.0028]
+[INFO 12-24 21:29:04] before-Time:7.542s|20-step  check-Time:1.267s| 2-step  loss-Val[raw|before|after]:[0.0053|0.0166|0.0023]
+[INFO 12-24 21:29:04] check mean result:
+[INFO 12-24 21:29:04] before-MeanTime:7.062s|18.1-step  check-MeanTime:1.139s|1.8-step  loss-MeanVal[raw|before|after]:[0.0034|0.0124|0.0019]
+[INFO 12-24 21:29:04] ******************************************
+[INFO 12-24 21:29:04] ==========================task_i: 22============================
+[INFO 12-24 21:29:04] behavior_i: 9  style_i: 0
+[INFO 12-24 21:29:05] learn result:
+[INFO 12-24 21:29:05] raw loss--> loss:0.0113  IRL-loss:0.0113  end-loss:4.5087  traj-loss:0.6942  plan-cost:0.1519
+[INFO 12-24 21:29:18] before learn --> loss:0.3133  IRL-loss:0.3133  end-loss:25.4575  traj-loss:11.7056  plan-cost:0.5130
+[INFO 12-24 21:36:12] cross learn --> loss:0.1058  IRL-loss:0.1058  end-loss:18.7227  traj-loss:10.3271  plan-cost:0.5837  stop_value:0.0158  
+[INFO 12-24 21:36:24] after learn --> loss:0.1054  IRL-loss:0.1054  end-loss:18.6865  traj-loss:10.3353  plan-cost:0.5832
+[INFO 12-24 21:38:22] train metrics:
+[INFO 12-24 21:38:22] raw-plannerADE1: 0.0624, raw-plannerFDE1: 0.1337
+[INFO 12-24 21:38:22] raw-plannerADE1: 0.2227, raw-plannerFDE1: 0.6768
+[INFO 12-24 21:38:22] raw-plannerADE1: 1.4988, raw-plannerFDE1: 8.0597
+[INFO 12-24 21:38:22] before-plannerADE1: 4.1193, before-plannerFDE1: 9.0213
+[INFO 12-24 21:38:22] before-plannerADE1: 11.8483, before-plannerFDE1: 19.5035
+[INFO 12-24 21:38:22] before-plannerADE1: 18.3898, before-plannerFDE1: 37.1367
+[INFO 12-24 21:38:22] cross-plannerADE1: 3.5296, cross-plannerFDE1: 7.8591
+[INFO 12-24 21:38:22] cross-plannerADE1: 11.5608, cross-plannerFDE1: 20.7137
+[INFO 12-24 21:38:22] cross-plannerADE1: 17.3535, cross-plannerFDE1: 30.5545
+[INFO 12-24 21:38:22] after-plannerADE1: 3.5349, after-plannerFDE1: 7.8727
+[INFO 12-24 21:38:22] after-plannerADE1: 11.5863, after-plannerFDE1: 20.7493
+[INFO 12-24 21:38:22] after-plannerADE1: 17.3645, after-plannerFDE1: 30.4912
+[INFO 12-24 21:38:22] check metrics:
+[INFO 12-24 21:38:22] raw_check-plannerADE1: 0.0626, raw_check-plannerFDE1: 0.1345
+[INFO 12-24 21:38:22] raw_check-plannerADE1: 0.2270, raw_check-plannerFDE1: 0.7030
+[INFO 12-24 21:38:22] raw_check-plannerADE1: 1.5155, raw_check-plannerFDE1: 8.0944
+[INFO 12-24 21:38:22] before_check-plannerADE1: 4.1109, before_check-plannerFDE1: 9.0108
+[INFO 12-24 21:38:22] before_check-plannerADE1: 11.8778, before_check-plannerFDE1: 19.5693
+[INFO 12-24 21:38:22] before_check-plannerADE1: 18.3826, before_check-plannerFDE1: 36.9472
+[INFO 12-24 21:38:22] check-plannerADE1: 3.5340, check-plannerFDE1: 7.8759
+[INFO 12-24 21:38:22] check-plannerADE1: 11.5879, check-plannerFDE1: 20.6973
+[INFO 12-24 21:38:22] check-plannerADE1: 17.3074, check-plannerFDE1: 30.3035
+[INFO 12-24 21:38:22] In sum: 
+[INFO 12-24 21:38:22] ******************learn*******************
+[INFO 12-24 21:38:22] Task-Progress: [ 22/ 35]  Time: 284.257s/task  
+[INFO 12-24 21:38:22] before-Time:12.751s|20-step  learn-Time: 300.156s|500-step  after-Time: 12.603s|20-step 
+[INFO 12-24 21:38:22] ******************check*******************
+[INFO 12-24 21:38:22] before-Time:12.613s|20-step  check-Time:12.001s|20-step  loss-Val[raw|before|after]:[0.0042|0.3130|0.1074]
+[INFO 12-24 21:38:22] before-Time:9.535s|20-step  check-Time:11.727s|20-step  loss-Val[raw|before|after]:[0.0035|0.3103|0.1043]
+[INFO 12-24 21:38:22] before-Time:12.769s|20-step  check-Time:11.724s|20-step  loss-Val[raw|before|after]:[0.0070|0.3088|0.1044]
+[INFO 12-24 21:38:22] before-Time:10.285s|20-step  check-Time:11.639s|20-step  loss-Val[raw|before|after]:[0.0049|0.3132|0.1091]
+[INFO 12-24 21:38:22] before-Time:7.473s|20-step  check-Time:11.716s|20-step  loss-Val[raw|before|after]:[0.0022|0.3117|0.1061]
+[INFO 12-24 21:38:22] before-Time:12.066s|20-step  check-Time:11.628s|20-step  loss-Val[raw|before|after]:[0.0061|0.3128|0.1099]
+[INFO 12-24 21:38:22] before-Time:12.764s|20-step  check-Time:11.766s|20-step  loss-Val[raw|before|after]:[0.0037|0.3067|0.1107]
+[INFO 12-24 21:38:22] before-Time:12.710s|20-step  check-Time:11.753s|20-step  loss-Val[raw|before|after]:[0.0041|0.3096|0.1037]
+[INFO 12-24 21:38:22] before-Time:12.694s|20-step  check-Time:11.783s|20-step  loss-Val[raw|before|after]:[0.0021|0.3095|0.1042]
+[INFO 12-24 21:38:22] before-Time:10.449s|20-step  check-Time:11.751s|20-step  loss-Val[raw|before|after]:[0.0070|0.3079|0.1053]
+[INFO 12-24 21:38:22] check mean result:
+[INFO 12-24 21:38:22] before-MeanTime:11.336s|20.0-step  check-MeanTime:11.749s|20.0-step  loss-MeanVal[raw|before|after]:[0.0045|0.3104|0.1065]
+[INFO 12-24 21:38:22] ******************************************
+[INFO 12-24 21:38:22] ==========================task_i: 23============================
+[INFO 12-24 21:38:22] behavior_i: 6  style_i: 3
+[INFO 12-24 21:38:23] learn result:
+[INFO 12-24 21:38:23] raw loss--> loss:0.0100  IRL-loss:0.0100  end-loss:5.4273  traj-loss:0.8363  plan-cost:0.5906
+[INFO 12-24 21:38:36] before learn --> loss:0.4389  IRL-loss:0.4389  end-loss:11.3405  traj-loss:5.4919  plan-cost:0.5463
+[INFO 12-24 21:41:20] cross learn --> loss:0.0099  IRL-loss:0.0099  end-loss:7.9937  traj-loss:3.3241  plan-cost:2.5000  stop_value:0.0152  
+[INFO 12-24 21:41:21] after learn --> loss:0.0099  IRL-loss:0.0099  end-loss:7.9687  traj-loss:3.3106  plan-cost:2.5027
+[INFO 12-24 21:41:39] train metrics:
+[INFO 12-24 21:41:39] raw-plannerADE1: 0.0552, raw-plannerFDE1: 0.1254
+[INFO 12-24 21:41:39] raw-plannerADE1: 0.2187, raw-plannerFDE1: 0.7074
+[INFO 12-24 21:41:39] raw-plannerADE1: 1.6393, raw-plannerFDE1: 8.9675
+[INFO 12-24 21:41:39] before-plannerADE1: 2.6414, before-plannerFDE1: 5.6787
+[INFO 12-24 21:41:39] before-plannerADE1: 6.2785, before-plannerFDE1: 8.8493
+[INFO 12-24 21:41:39] before-plannerADE1: 8.8656, before-plannerFDE1: 18.0996
+[INFO 12-24 21:41:39] cross-plannerADE1: 0.9851, cross-plannerFDE1: 2.2671
+[INFO 12-24 21:41:39] cross-plannerADE1: 3.7273, cross-plannerFDE1: 6.9315
+[INFO 12-24 21:41:39] cross-plannerADE1: 5.9246, cross-plannerFDE1: 13.0814
+[INFO 12-24 21:41:39] after-plannerADE1: 0.9852, after-plannerFDE1: 2.2661
+[INFO 12-24 21:41:39] after-plannerADE1: 3.7174, after-plannerFDE1: 6.9016
+[INFO 12-24 21:41:39] after-plannerADE1: 5.9030, after-plannerFDE1: 13.0450
+[INFO 12-24 21:41:39] check metrics:
+[INFO 12-24 21:41:39] raw_check-plannerADE1: 0.0554, raw_check-plannerFDE1: 0.1260
+[INFO 12-24 21:41:39] raw_check-plannerADE1: 0.2230, raw_check-plannerFDE1: 0.6952
+[INFO 12-24 21:41:39] raw_check-plannerADE1: 1.5233, raw_check-plannerFDE1: 8.2030
+[INFO 12-24 21:41:39] before_check-plannerADE1: 2.8615, before_check-plannerFDE1: 6.1185
+[INFO 12-24 21:41:39] before_check-plannerADE1: 6.2866, before_check-plannerFDE1: 7.6501
+[INFO 12-24 21:41:39] before_check-plannerADE1: 9.0268, before_check-plannerFDE1: 18.4603
+[INFO 12-24 21:41:39] check-plannerADE1: 0.9302, check-plannerFDE1: 2.1070
+[INFO 12-24 21:41:39] check-plannerADE1: 3.2572, check-plannerFDE1: 5.9676
+[INFO 12-24 21:41:39] check-plannerADE1: 5.2838, check-plannerFDE1: 12.1274
+[INFO 12-24 21:41:39] In sum: 
+[INFO 12-24 21:41:39] ******************learn*******************
+[INFO 12-24 21:41:39] Task-Progress: [ 23/ 35]  Time: 280.460s/task  
+[INFO 12-24 21:41:39] before-Time:12.608s|20-step  learn-Time: 43.212s|62-step  after-Time: 1.147s|2-step 
+[INFO 12-24 21:41:39] ******************check*******************
+[INFO 12-24 21:41:39] before-Time:12.646s|20-step  check-Time:0.612s| 1-step  loss-Val[raw|before|after]:[0.0030|0.4982|0.0094]
+[INFO 12-24 21:41:39] before-Time:12.546s|20-step  check-Time:0.566s| 1-step  loss-Val[raw|before|after]:[0.0039|0.3897|0.0050]
+[INFO 12-24 21:41:39] before-Time:12.612s|20-step  check-Time:11.528s|20-step  loss-Val[raw|before|after]:[0.0025|0.3361|0.0611]
+[INFO 12-24 21:41:39] before-Time:12.560s|20-step  check-Time:0.570s| 1-step  loss-Val[raw|before|after]:[0.0029|0.3781|0.0058]
+[INFO 12-24 21:41:39] before-Time:12.019s|20-step  check-Time:0.571s| 1-step  loss-Val[raw|before|after]:[0.0021|0.2831|0.0082]
+[INFO 12-24 21:41:39] before-Time:11.689s|20-step  check-Time:0.585s| 1-step  loss-Val[raw|before|after]:[0.0031|0.3713|0.0068]
+[INFO 12-24 21:41:39] before-Time:11.714s|20-step  check-Time:1.131s| 2-step  loss-Val[raw|before|after]:[0.0069|0.4729|0.0104]
+[INFO 12-24 21:41:39] before-Time:11.703s|20-step  check-Time:0.597s| 1-step  loss-Val[raw|before|after]:[0.0023|0.3105|0.0040]
+[INFO 12-24 21:41:39] before-Time:11.639s|20-step  check-Time:1.147s| 2-step  loss-Val[raw|before|after]:[0.0010|0.3445|0.0085]
+[INFO 12-24 21:41:39] before-Time:11.598s|20-step  check-Time:0.562s| 1-step  loss-Val[raw|before|after]:[0.0039|0.4379|0.0088]
+[INFO 12-24 21:41:39] check mean result:
+[INFO 12-24 21:41:39] before-MeanTime:12.073s|20.0-step  check-MeanTime:1.787s|3.1-step  loss-MeanVal[raw|before|after]:[0.0032|0.3822|0.0128]
+[INFO 12-24 21:41:39] ******************************************
+[INFO 12-24 21:41:39] ==========================task_i: 24============================
+[INFO 12-24 21:41:39] behavior_i: 8  style_i: 3
+[INFO 12-24 21:41:40] learn result:
+[INFO 12-24 21:41:40] raw loss--> loss:0.0049  IRL-loss:0.0049  end-loss:4.2532  traj-loss:0.6447  plan-cost:3.2040
+[INFO 12-24 21:41:52] before learn --> loss:0.4354  IRL-loss:0.4354  end-loss:8.1037  traj-loss:4.5137  plan-cost:0.3991
+[INFO 12-24 21:44:04] cross learn --> loss:0.0087  IRL-loss:0.0087  end-loss:3.8379  traj-loss:0.5770  plan-cost:0.5146  stop_value:0.0125  
+[INFO 12-24 21:44:05] after learn --> loss:0.0087  IRL-loss:0.0087  end-loss:3.8379  traj-loss:0.5770  plan-cost:0.5146
+[INFO 12-24 21:44:11] train metrics:
+[INFO 12-24 21:44:11] raw-plannerADE1: 0.0478, raw-plannerFDE1: 0.1100
+[INFO 12-24 21:44:11] raw-plannerADE1: 0.1905, raw-plannerFDE1: 0.5928
+[INFO 12-24 21:44:11] raw-plannerADE1: 1.3690, raw-plannerFDE1: 7.4267
+[INFO 12-24 21:44:11] before-plannerADE1: 2.8797, before-plannerFDE1: 6.1403
+[INFO 12-24 21:44:11] before-plannerADE1: 6.2840, before-plannerFDE1: 7.7207
+[INFO 12-24 21:44:11] before-plannerADE1: 7.7832, before-plannerFDE1: 14.2544
+[INFO 12-24 21:44:11] cross-plannerADE1: 0.0830, cross-plannerFDE1: 0.1785
+[INFO 12-24 21:44:11] cross-plannerADE1: 0.2913, cross-plannerFDE1: 0.7011
+[INFO 12-24 21:44:11] cross-plannerADE1: 1.3121, cross-plannerFDE1: 6.8841
+[INFO 12-24 21:44:11] after-plannerADE1: 0.0830, after-plannerFDE1: 0.1785
+[INFO 12-24 21:44:11] after-plannerADE1: 0.2913, after-plannerFDE1: 0.7011
+[INFO 12-24 21:44:11] after-plannerADE1: 1.3121, after-plannerFDE1: 6.8841
+[INFO 12-24 21:44:11] check metrics:
+[INFO 12-24 21:44:11] raw_check-plannerADE1: 0.0479, raw_check-plannerFDE1: 0.1103
+[INFO 12-24 21:44:11] raw_check-plannerADE1: 0.1996, raw_check-plannerFDE1: 0.6388
+[INFO 12-24 21:44:11] raw_check-plannerADE1: 1.4233, raw_check-plannerFDE1: 7.6713
+[INFO 12-24 21:44:11] before_check-plannerADE1: 2.8484, before_check-plannerFDE1: 6.0867
+[INFO 12-24 21:44:11] before_check-plannerADE1: 6.3531, before_check-plannerFDE1: 8.1206
+[INFO 12-24 21:44:11] before_check-plannerADE1: 7.8909, before_check-plannerFDE1: 14.0306
+[INFO 12-24 21:44:11] check-plannerADE1: 0.0752, check-plannerFDE1: 0.1621
+[INFO 12-24 21:44:11] check-plannerADE1: 0.2955, check-plannerFDE1: 0.7767
+[INFO 12-24 21:44:11] check-plannerADE1: 1.3693, check-plannerFDE1: 7.0270
+[INFO 12-24 21:44:11] In sum: 
+[INFO 12-24 21:44:11] ******************learn*******************
+[INFO 12-24 21:44:11] Task-Progress: [ 24/ 35]  Time: 275.102s/task  
+[INFO 12-24 21:44:11] before-Time:11.489s|20-step  learn-Time: 14.369s|21-step  after-Time: 0.579s|1-step 
+[INFO 12-24 21:44:11] ******************check*******************
+[INFO 12-24 21:44:11] before-Time:11.556s|20-step  check-Time:0.615s| 1-step  loss-Val[raw|before|after]:[0.0037|0.2624|0.0097]
+[INFO 12-24 21:44:11] before-Time:11.416s|20-step  check-Time:0.571s| 1-step  loss-Val[raw|before|after]:[0.0036|0.3116|0.0054]
+[INFO 12-24 21:44:11] before-Time:11.621s|20-step  check-Time:0.575s| 1-step  loss-Val[raw|before|after]:[0.0014|0.3556|0.0048]
+[INFO 12-24 21:44:11] before-Time:11.513s|20-step  check-Time:0.605s| 1-step  loss-Val[raw|before|after]:[0.0038|0.2505|0.0044]
+[INFO 12-24 21:44:11] before-Time:11.518s|20-step  check-Time:0.574s| 1-step  loss-Val[raw|before|after]:[0.0035|0.3557|0.0079]
+[INFO 12-24 21:44:11] before-Time:11.598s|20-step  check-Time:0.611s| 1-step  loss-Val[raw|before|after]:[0.0014|0.4138|0.0097]
+[INFO 12-24 21:44:11] before-Time:11.667s|20-step  check-Time:0.574s| 1-step  loss-Val[raw|before|after]:[0.0033|0.3773|0.0063]
+[INFO 12-24 21:44:11] before-Time:12.419s|20-step  check-Time:0.542s| 1-step  loss-Val[raw|before|after]:[0.0012|0.2230|0.0017]
+[INFO 12-24 21:44:11] before-Time:12.561s|20-step  check-Time:0.569s| 1-step  loss-Val[raw|before|after]:[0.0026|0.4155|0.0124]
+[INFO 12-24 21:44:11] before-Time:12.416s|20-step  check-Time:0.579s| 1-step  loss-Val[raw|before|after]:[0.0045|0.2955|0.0065]
+[INFO 12-24 21:44:11] check mean result:
+[INFO 12-24 21:44:11] before-MeanTime:11.828s|20.0-step  check-MeanTime:0.581s|1.0-step  loss-MeanVal[raw|before|after]:[0.0029|0.3261|0.0069]
+[INFO 12-24 21:44:11] ******************************************
+[INFO 12-24 21:44:11] ==========================task_i: 25============================
+[INFO 12-24 21:44:11] behavior_i: 4  style_i: 4
+[INFO 12-24 21:44:12] learn result:
+[INFO 12-24 21:44:12] raw loss--> loss:0.0135  IRL-loss:0.0135  end-loss:4.6796  traj-loss:0.7454  plan-cost:0.5187
+[INFO 12-24 21:44:24] before learn --> loss:0.0841  IRL-loss:0.0841  end-loss:15.9631  traj-loss:7.9785  plan-cost:0.0583
+[INFO 12-24 21:47:39] cross learn --> loss:0.0063  IRL-loss:0.0063  end-loss:2.7100  traj-loss:0.6449  plan-cost:0.0481  stop_value:0.0083  
+[INFO 12-24 21:47:41] after learn --> loss:0.0072  IRL-loss:0.0072  end-loss:2.8365  traj-loss:0.6359  plan-cost:0.0531
+[INFO 12-24 21:47:45] train metrics:
+[INFO 12-24 21:47:45] raw-plannerADE1: 0.0631, raw-plannerFDE1: 0.1324
+[INFO 12-24 21:47:45] raw-plannerADE1: 0.2522, raw-plannerFDE1: 0.7962
+[INFO 12-24 21:47:45] raw-plannerADE1: 1.5916, raw-plannerFDE1: 8.2872
+[INFO 12-24 21:47:45] before-plannerADE1: 1.6693, before-plannerFDE1: 3.9213
+[INFO 12-24 21:47:45] before-plannerADE1: 7.3273, before-plannerFDE1: 15.1116
+[INFO 12-24 21:47:45] before-plannerADE1: 12.3200, before-plannerFDE1: 24.5378
+[INFO 12-24 21:47:45] cross-plannerADE1: 0.1719, cross-plannerFDE1: 0.3613
+[INFO 12-24 21:47:45] cross-plannerADE1: 0.6187, cross-plannerFDE1: 1.4413
+[INFO 12-24 21:47:45] cross-plannerADE1: 1.5863, cross-plannerFDE1: 5.5765
+[INFO 12-24 21:47:45] after-plannerADE1: 0.1569, after-plannerFDE1: 0.3285
+[INFO 12-24 21:47:45] after-plannerADE1: 0.5664, after-plannerFDE1: 1.3504
+[INFO 12-24 21:47:45] after-plannerADE1: 1.5639, after-plannerFDE1: 5.7870
+[INFO 12-24 21:47:45] check metrics:
+[INFO 12-24 21:47:45] raw_check-plannerADE1: 0.0630, raw_check-plannerFDE1: 0.1318
+[INFO 12-24 21:47:45] raw_check-plannerADE1: 0.2381, raw_check-plannerFDE1: 0.7365
+[INFO 12-24 21:47:45] raw_check-plannerADE1: 1.5385, raw_check-plannerFDE1: 8.1793
+[INFO 12-24 21:47:45] before_check-plannerADE1: 1.6515, before_check-plannerFDE1: 3.8493
+[INFO 12-24 21:47:45] before_check-plannerADE1: 7.1008, before_check-plannerFDE1: 14.8805
+[INFO 12-24 21:47:45] before_check-plannerADE1: 12.5599, before_check-plannerFDE1: 26.3532
+[INFO 12-24 21:47:45] check-plannerADE1: 0.0757, check-plannerFDE1: 0.1587
+[INFO 12-24 21:47:45] check-plannerADE1: 0.2666, check-plannerFDE1: 0.7361
+[INFO 12-24 21:47:45] check-plannerADE1: 1.3604, check-plannerFDE1: 6.8263
+[INFO 12-24 21:47:45] In sum: 
+[INFO 12-24 21:47:45] ******************learn*******************
+[INFO 12-24 21:47:45] Task-Progress: [ 25/ 35]  Time: 272.671s/task  
+[INFO 12-24 21:47:45] before-Time:11.591s|20-step  learn-Time: 74.855s|146-step  after-Time: 1.881s|5-step 
+[INFO 12-24 21:47:45] ******************check*******************
+[INFO 12-24 21:47:45] before-Time:12.410s|20-step  check-Time:0.377s| 1-step  loss-Val[raw|before|after]:[0.0074|0.1147|0.0043]
+[INFO 12-24 21:47:45] before-Time:12.490s|20-step  check-Time:0.374s| 1-step  loss-Val[raw|before|after]:[0.0090|0.0919|0.0049]
+[INFO 12-24 21:47:45] before-Time:12.470s|20-step  check-Time:0.378s| 1-step  loss-Val[raw|before|after]:[0.0057|0.1163|0.0027]
+[INFO 12-24 21:47:45] before-Time:12.493s|20-step  check-Time:0.371s| 1-step  loss-Val[raw|before|after]:[0.0081|0.0505|0.0058]
+[INFO 12-24 21:47:45] before-Time:12.478s|20-step  check-Time:0.375s| 1-step  loss-Val[raw|before|after]:[0.0070|0.1069|0.0058]
+[INFO 12-24 21:47:45] before-Time:12.453s|20-step  check-Time:0.376s| 1-step  loss-Val[raw|before|after]:[0.0019|0.1371|0.0024]
+[INFO 12-24 21:47:45] before-Time:11.855s|20-step  check-Time:0.371s| 1-step  loss-Val[raw|before|after]:[0.0106|0.1019|0.0080]
+[INFO 12-24 21:47:45] before-Time:11.518s|20-step  check-Time:0.373s| 1-step  loss-Val[raw|before|after]:[0.0034|0.0766|0.0032]
+[INFO 12-24 21:47:45] before-Time:11.650s|20-step  check-Time:0.377s| 1-step  loss-Val[raw|before|after]:[0.0051|0.0551|0.0034]
+[INFO 12-24 21:47:45] before-Time:11.054s|20-step  check-Time:0.388s| 1-step  loss-Val[raw|before|after]:[0.0033|0.0625|0.0020]
+[INFO 12-24 21:47:45] check mean result:
+[INFO 12-24 21:47:45] before-MeanTime:12.087s|20.0-step  check-MeanTime:0.376s|1.0-step  loss-MeanVal[raw|before|after]:[0.0061|0.0913|0.0042]
+[INFO 12-24 21:47:45] ******************************************
+[INFO 12-24 21:47:45] ==========================task_i: 26============================
+[INFO 12-24 21:47:45] behavior_i: 8  style_i: 4
+[INFO 12-24 21:47:46] learn result:
+[INFO 12-24 21:47:46] raw loss--> loss:0.0027  IRL-loss:0.0027  end-loss:4.7933  traj-loss:0.7456  plan-cost:0.1624
+[INFO 12-24 21:47:53] before learn --> loss:0.2880  IRL-loss:0.2880  end-loss:4.7809  traj-loss:2.0673  plan-cost:0.1522
+[INFO 12-24 21:49:17] cross learn --> loss:0.0053  IRL-loss:0.0053  end-loss:3.9575  traj-loss:0.6622  plan-cost:0.2247  stop_value:0.0087  
+[INFO 12-24 21:49:17] after learn --> loss:0.0053  IRL-loss:0.0053  end-loss:3.9575  traj-loss:0.6622  plan-cost:0.2247
+[INFO 12-24 21:49:35] train metrics:
+[INFO 12-24 21:49:35] raw-plannerADE1: 0.0829, raw-plannerFDE1: 0.1761
+[INFO 12-24 21:49:35] raw-plannerADE1: 0.2437, raw-plannerFDE1: 0.6952
+[INFO 12-24 21:49:35] raw-plannerADE1: 1.5601, raw-plannerFDE1: 8.2901
+[INFO 12-24 21:49:35] before-plannerADE1: 1.7647, before-plannerFDE1: 3.5333
+[INFO 12-24 21:49:35] before-plannerADE1: 2.6834, before-plannerFDE1: 3.4656
+[INFO 12-24 21:49:35] before-plannerADE1: 3.7905, before-plannerFDE1: 7.6511
+[INFO 12-24 21:49:35] cross-plannerADE1: 0.1808, cross-plannerFDE1: 0.3682
+[INFO 12-24 21:49:35] cross-plannerADE1: 0.3865, cross-plannerFDE1: 0.8090
+[INFO 12-24 21:49:35] cross-plannerADE1: 1.4698, cross-plannerFDE1: 6.9287
+[INFO 12-24 21:49:35] after-plannerADE1: 0.1808, after-plannerFDE1: 0.3682
+[INFO 12-24 21:49:35] after-plannerADE1: 0.3865, after-plannerFDE1: 0.8090
+[INFO 12-24 21:49:35] after-plannerADE1: 1.4698, after-plannerFDE1: 6.9287
+[INFO 12-24 21:49:35] check metrics:
+[INFO 12-24 21:49:35] raw_check-plannerADE1: 0.0833, raw_check-plannerFDE1: 0.1771
+[INFO 12-24 21:49:35] raw_check-plannerADE1: 0.2550, raw_check-plannerFDE1: 0.7084
+[INFO 12-24 21:49:35] raw_check-plannerADE1: 1.5212, raw_check-plannerFDE1: 7.9851
+[INFO 12-24 21:49:35] before_check-plannerADE1: 1.7320, before_check-plannerFDE1: 3.4719
+[INFO 12-24 21:49:35] before_check-plannerADE1: 2.6388, before_check-plannerFDE1: 3.2794
+[INFO 12-24 21:49:35] before_check-plannerADE1: 3.6189, before_check-plannerFDE1: 7.1494
+[INFO 12-24 21:49:35] check-plannerADE1: 0.3010, check-plannerFDE1: 0.6061
+[INFO 12-24 21:49:35] check-plannerADE1: 0.5551, check-plannerFDE1: 0.9309
+[INFO 12-24 21:49:35] check-plannerADE1: 1.4506, check-plannerFDE1: 5.9765
+[INFO 12-24 21:49:35] In sum: 
+[INFO 12-24 21:49:35] ******************learn*******************
+[INFO 12-24 21:49:35] Task-Progress: [ 26/ 35]  Time: 266.431s/task  
+[INFO 12-24 21:49:35] before-Time:7.483s|20-step  learn-Time: 8.938s|21-step  after-Time: 0.380s|1-step 
+[INFO 12-24 21:49:35] ******************check*******************
+[INFO 12-24 21:49:35] before-Time:7.519s|20-step  check-Time:0.378s| 1-step  loss-Val[raw|before|after]:[0.0010|0.2919|0.0063]
+[INFO 12-24 21:49:35] before-Time:7.447s|20-step  check-Time:0.369s| 1-step  loss-Val[raw|before|after]:[0.0007|0.2972|0.0081]
+[INFO 12-24 21:49:35] before-Time:7.480s|20-step  check-Time:7.497s|20-step  loss-Val[raw|before|after]:[0.0027|0.3522|0.1307]
+[INFO 12-24 21:49:35] before-Time:7.498s|20-step  check-Time:0.375s| 1-step  loss-Val[raw|before|after]:[0.0014|0.2904|0.0031]
+[INFO 12-24 21:49:35] before-Time:7.488s|20-step  check-Time:0.375s| 1-step  loss-Val[raw|before|after]:[0.0010|0.2594|0.0053]
+[INFO 12-24 21:49:35] before-Time:7.481s|20-step  check-Time:0.372s| 1-step  loss-Val[raw|before|after]:[0.0010|0.2361|0.0050]
+[INFO 12-24 21:49:35] before-Time:7.483s|20-step  check-Time:0.371s| 1-step  loss-Val[raw|before|after]:[0.0007|0.3070|0.0075]
+[INFO 12-24 21:49:35] before-Time:7.480s|20-step  check-Time:7.501s|20-step  loss-Val[raw|before|after]:[0.0020|0.2839|0.1152]
+[INFO 12-24 21:49:35] before-Time:7.468s|20-step  check-Time:0.377s| 1-step  loss-Val[raw|before|after]:[0.0007|0.3151|0.0066]
+[INFO 12-24 21:49:35] before-Time:7.466s|20-step  check-Time:0.375s| 1-step  loss-Val[raw|before|after]:[0.0024|0.3175|0.0033]
+[INFO 12-24 21:49:35] check mean result:
+[INFO 12-24 21:49:35] before-MeanTime:7.481s|20.0-step  check-MeanTime:1.799s|4.8-step  loss-MeanVal[raw|before|after]:[0.0014|0.2951|0.0291]
+[INFO 12-24 21:49:35] ******************************************
+[INFO 12-24 21:49:35] ==========================task_i: 27============================
+[INFO 12-24 21:49:35] behavior_i: 5  style_i: 3
+[INFO 12-24 21:49:36] learn result:
+[INFO 12-24 21:49:36] raw loss--> loss:0.0651  IRL-loss:0.0651  end-loss:5.4274  traj-loss:0.8670  plan-cost:0.2008
+[INFO 12-24 21:49:44] before learn --> loss:0.2331  IRL-loss:0.2331  end-loss:23.5453  traj-loss:13.1811  plan-cost:0.6816
+[INFO 12-24 21:56:06] cross learn --> loss:0.0492  IRL-loss:0.0492  end-loss:26.8269  traj-loss:12.8866  plan-cost:0.0244  stop_value:0.0315  
+[INFO 12-24 21:56:18] after learn --> loss:0.0456  IRL-loss:0.0456  end-loss:26.3702  traj-loss:12.6461  plan-cost:0.0243
+[INFO 12-24 21:56:25] train metrics:
+[INFO 12-24 21:56:25] raw-plannerADE1: 0.0588, raw-plannerFDE1: 0.1248
+[INFO 12-24 21:56:25] raw-plannerADE1: 0.2465, raw-plannerFDE1: 0.8195
+[INFO 12-24 21:56:25] raw-plannerADE1: 1.6780, raw-plannerFDE1: 8.8571
+[INFO 12-24 21:56:25] before-plannerADE1: 2.8411, before-plannerFDE1: 6.7121
+[INFO 12-24 21:56:25] before-plannerADE1: 12.4518, before-plannerFDE1: 25.1890
+[INFO 12-24 21:56:25] before-plannerADE1: 20.1846, before-plannerFDE1: 38.5945
+[INFO 12-24 21:56:25] cross-plannerADE1: 2.3026, cross-plannerFDE1: 5.4636
+[INFO 12-24 21:56:25] cross-plannerADE1: 11.1166, cross-plannerFDE1: 24.3040
+[INFO 12-24 21:56:25] cross-plannerADE1: 19.8324, cross-plannerFDE1: 41.4068
+[INFO 12-24 21:56:25] after-plannerADE1: 2.3142, after-plannerFDE1: 5.4497
+[INFO 12-24 21:56:25] after-plannerADE1: 10.9544, after-plannerFDE1: 23.9165
+[INFO 12-24 21:56:25] after-plannerADE1: 19.4980, after-plannerFDE1: 40.5674
+[INFO 12-24 21:56:25] check metrics:
+[INFO 12-24 21:56:25] raw_check-plannerADE1: 0.0584, raw_check-plannerFDE1: 0.1242
+[INFO 12-24 21:56:25] raw_check-plannerADE1: 0.2402, raw_check-plannerFDE1: 0.7529
+[INFO 12-24 21:56:25] raw_check-plannerADE1: 1.5413, raw_check-plannerFDE1: 8.1249
+[INFO 12-24 21:56:25] before_check-plannerADE1: 2.4570, before_check-plannerFDE1: 5.8781
+[INFO 12-24 21:56:25] before_check-plannerADE1: 11.8911, before_check-plannerFDE1: 26.0399
+[INFO 12-24 21:56:25] before_check-plannerADE1: 21.5961, before_check-plannerFDE1: 46.2214
+[INFO 12-24 21:56:25] check-plannerADE1: 0.4474, check-plannerFDE1: 1.0759
+[INFO 12-24 21:56:25] check-plannerADE1: 2.4017, check-plannerFDE1: 5.7200
+[INFO 12-24 21:56:25] check-plannerADE1: 5.2975, check-plannerFDE1: 14.9452
+[INFO 12-24 21:56:25] In sum: 
+[INFO 12-24 21:56:25] ******************learn*******************
+[INFO 12-24 21:56:25] Task-Progress: [ 27/ 35]  Time: 271.737s/task  
+[INFO 12-24 21:56:25] before-Time:7.516s|20-step  learn-Time: 276.152s|500-step  after-Time: 12.615s|20-step 
+[INFO 12-24 21:56:25] ******************check*******************
+[INFO 12-24 21:56:25] before-Time:7.516s|20-step  check-Time:0.630s| 1-step  loss-Val[raw|before|after]:[0.0168|0.0851|0.0185]
+[INFO 12-24 21:56:25] before-Time:7.478s|20-step  check-Time:0.645s| 1-step  loss-Val[raw|before|after]:[0.0426|0.0740|0.0179]
+[INFO 12-24 21:56:25] before-Time:7.514s|20-step  check-Time:0.633s| 1-step  loss-Val[raw|before|after]:[0.0161|0.1078|0.0165]
+[INFO 12-24 21:56:25] before-Time:9.841s|20-step  check-Time:0.629s| 1-step  loss-Val[raw|before|after]:[0.0078|0.0622|0.0030]
+[INFO 12-24 21:56:25] before-Time:12.605s|20-step  check-Time:0.631s| 1-step  loss-Val[raw|before|after]:[0.0049|0.0665|0.0095]
+[INFO 12-24 21:56:25] before-Time:12.518s|20-step  check-Time:0.627s| 1-step  loss-Val[raw|before|after]:[0.0066|0.0986|0.0039]
+[INFO 12-24 21:56:25] before-Time:12.565s|20-step  check-Time:1.255s| 2-step  loss-Val[raw|before|after]:[0.0159|0.1449|0.0121]
+[INFO 12-24 21:56:25] before-Time:12.555s|20-step  check-Time:0.629s| 1-step  loss-Val[raw|before|after]:[0.0087|0.0991|0.0093]
+[INFO 12-24 21:56:25] before-Time:10.863s|20-step  check-Time:0.611s| 1-step  loss-Val[raw|before|after]:[0.0107|0.1656|0.0105]
+[INFO 12-24 21:56:25] before-Time:12.221s|20-step  check-Time:0.629s| 1-step  loss-Val[raw|before|after]:[0.0319|0.1109|0.0207]
+[INFO 12-24 21:56:25] check mean result:
+[INFO 12-24 21:56:25] before-MeanTime:10.568s|20.0-step  check-MeanTime:0.692s|1.1-step  loss-MeanVal[raw|before|after]:[0.0162|0.1015|0.0122]
+[INFO 12-24 21:56:25] ******************************************
+[INFO 12-24 21:56:25] ==========================task_i: 28============================
+[INFO 12-24 21:56:25] behavior_i: 4  style_i: 0
+[INFO 12-24 21:56:26] learn result:
+[INFO 12-24 21:56:26] raw loss--> loss:0.0042  IRL-loss:0.0042  end-loss:5.6680  traj-loss:0.9449  plan-cost:0.0898
+[INFO 12-24 21:56:38] before learn --> loss:0.1233  IRL-loss:0.1233  end-loss:2.6470  traj-loss:1.0392  plan-cost:0.1676
+[INFO 12-24 21:57:58] cross learn --> loss:0.0033  IRL-loss:0.0033  end-loss:4.6634  traj-loss:0.8052  plan-cost:0.2500  stop_value:0.0041  
+[INFO 12-24 21:57:59] after learn --> loss:0.0033  IRL-loss:0.0033  end-loss:4.6634  traj-loss:0.8052  plan-cost:0.2500
+[INFO 12-24 21:58:05] train metrics:
+[INFO 12-24 21:58:05] raw-plannerADE1: 0.0981, raw-plannerFDE1: 0.1955
+[INFO 12-24 21:58:05] raw-plannerADE1: 0.3433, raw-plannerFDE1: 0.9992
+[INFO 12-24 21:58:05] raw-plannerADE1: 1.8826, raw-plannerFDE1: 9.5617
+[INFO 12-24 21:58:05] before-plannerADE1: 0.6863, before-plannerFDE1: 1.4153
+[INFO 12-24 21:58:05] before-plannerADE1: 1.5199, before-plannerFDE1: 2.5011
+[INFO 12-24 21:58:05] before-plannerADE1: 2.3067, before-plannerFDE1: 5.1575
+[INFO 12-24 21:58:05] cross-plannerADE1: 0.0989, cross-plannerFDE1: 0.1963
+[INFO 12-24 21:58:05] cross-plannerADE1: 0.3518, cross-plannerFDE1: 1.0000
+[INFO 12-24 21:58:05] cross-plannerADE1: 1.6684, cross-plannerFDE1: 8.0124
+[INFO 12-24 21:58:05] after-plannerADE1: 0.0989, after-plannerFDE1: 0.1963
+[INFO 12-24 21:58:05] after-plannerADE1: 0.3518, after-plannerFDE1: 1.0000
+[INFO 12-24 21:58:05] after-plannerADE1: 1.6684, after-plannerFDE1: 8.0124
+[INFO 12-24 21:58:05] check metrics:
+[INFO 12-24 21:58:05] raw_check-plannerADE1: 0.0981, raw_check-plannerFDE1: 0.1954
+[INFO 12-24 21:58:05] raw_check-plannerADE1: 0.3146, raw_check-plannerFDE1: 0.8552
+[INFO 12-24 21:58:05] raw_check-plannerADE1: 1.6390, raw_check-plannerFDE1: 8.2956
+[INFO 12-24 21:58:05] before_check-plannerADE1: 0.5793, before_check-plannerFDE1: 1.1945
+[INFO 12-24 21:58:05] before_check-plannerADE1: 1.3567, before_check-plannerFDE1: 2.3221
+[INFO 12-24 21:58:05] before_check-plannerADE1: 2.1118, before_check-plannerFDE1: 4.8092
+[INFO 12-24 21:58:05] check-plannerADE1: 0.0995, check-plannerFDE1: 0.1970
+[INFO 12-24 21:58:05] check-plannerADE1: 0.3320, check-plannerFDE1: 0.8745
+[INFO 12-24 21:58:05] check-plannerADE1: 1.4675, check-plannerFDE1: 6.9984
+[INFO 12-24 21:58:05] In sum: 
+[INFO 12-24 21:58:05] ******************learn*******************
+[INFO 12-24 21:58:05] Task-Progress: [ 28/ 35]  Time: 265.604s/task  
+[INFO 12-24 21:58:05] before-Time:11.667s|20-step  learn-Time: 10.327s|21-step  after-Time: 0.641s|1-step 
+[INFO 12-24 21:58:05] ******************check*******************
+[INFO 12-24 21:58:05] before-Time:7.686s|20-step  check-Time:0.636s| 1-step  loss-Val[raw|before|after]:[0.0025|0.1787|0.0027]
+[INFO 12-24 21:58:05] before-Time:8.922s|20-step  check-Time:0.634s| 1-step  loss-Val[raw|before|after]:[0.0007|0.0838|0.0008]
+[INFO 12-24 21:58:05] before-Time:7.506s|20-step  check-Time:0.633s| 1-step  loss-Val[raw|before|after]:[0.0011|0.0535|0.0019]
+[INFO 12-24 21:58:05] before-Time:7.521s|20-step  check-Time:0.633s| 1-step  loss-Val[raw|before|after]:[0.0019|0.1292|0.0016]
+[INFO 12-24 21:58:05] before-Time:7.488s|20-step  check-Time:0.632s| 1-step  loss-Val[raw|before|after]:[0.0006|0.0893|0.0007]
+[INFO 12-24 21:58:05] before-Time:7.505s|20-step  check-Time:0.632s| 1-step  loss-Val[raw|before|after]:[0.0018|0.1655|0.0016]
+[INFO 12-24 21:58:05] before-Time:7.515s|20-step  check-Time:0.630s| 1-step  loss-Val[raw|before|after]:[0.0005|0.0536|0.0004]
+[INFO 12-24 21:58:05] before-Time:7.514s|20-step  check-Time:0.631s| 1-step  loss-Val[raw|before|after]:[0.0019|0.0754|0.0016]
+[INFO 12-24 21:58:05] before-Time:0.371s| 1-step  check-Time:0.628s| 1-step  loss-Val[raw|before|after]:[0.0004|0.0004|0.0003]
+[INFO 12-24 21:58:05] before-Time:7.648s|20-step  check-Time:0.633s| 1-step  loss-Val[raw|before|after]:[0.0028|0.1928|0.0030]
+[INFO 12-24 21:58:05] check mean result:
+[INFO 12-24 21:58:05] before-MeanTime:6.968s|18.1-step  check-MeanTime:0.632s|1.0-step  loss-MeanVal[raw|before|after]:[0.0014|0.1022|0.0015]
+[INFO 12-24 21:58:05] ******************************************
+[INFO 12-24 21:58:05] ==========================task_i: 29============================
+[INFO 12-24 21:58:05] behavior_i: 9  style_i: 2
+[INFO 12-24 21:58:06] learn result:
+[INFO 12-24 21:58:06] raw loss--> loss:0.0056  IRL-loss:0.0056  end-loss:5.2507  traj-loss:0.8264  plan-cost:0.1986
+[INFO 12-24 21:58:19] before learn --> loss:1.8291  IRL-loss:1.8291  end-loss:11.9533  traj-loss:7.5809  plan-cost:0.1280
+[INFO 12-24 22:02:36] cross learn --> loss:0.0469  IRL-loss:0.0469  end-loss:8.4607  traj-loss:4.2937  plan-cost:8.6873  stop_value:0.0650  
+[INFO 12-24 22:02:37] after learn --> loss:0.0469  IRL-loss:0.0469  end-loss:8.4607  traj-loss:4.2937  plan-cost:8.6873
+[INFO 12-24 22:03:54] train metrics:
+[INFO 12-24 22:03:54] raw-plannerADE1: 0.0634, raw-plannerFDE1: 0.1424
+[INFO 12-24 22:03:54] raw-plannerADE1: 0.2632, raw-plannerFDE1: 0.7974
+[INFO 12-24 22:03:54] raw-plannerADE1: 1.6974, raw-plannerFDE1: 8.9951
+[INFO 12-24 22:03:54] before-plannerADE1: 6.6469, before-plannerFDE1: 14.2016
+[INFO 12-24 22:03:54] before-plannerADE1: 12.6423, before-plannerFDE1: 6.6795
+[INFO 12-24 22:03:54] before-plannerADE1: 11.5873, before-plannerFDE1: 18.0423
+[INFO 12-24 22:03:54] cross-plannerADE1: 2.0704, cross-plannerFDE1: 4.5637
+[INFO 12-24 22:03:54] cross-plannerADE1: 5.8483, cross-plannerFDE1: 8.5829
+[INFO 12-24 22:03:54] cross-plannerADE1: 7.5205, cross-plannerFDE1: 14.0192
+[INFO 12-24 22:03:54] after-plannerADE1: 2.0704, after-plannerFDE1: 4.5637
+[INFO 12-24 22:03:54] after-plannerADE1: 5.8483, after-plannerFDE1: 8.5829
+[INFO 12-24 22:03:54] after-plannerADE1: 7.5205, after-plannerFDE1: 14.0192
+[INFO 12-24 22:03:54] check metrics:
+[INFO 12-24 22:03:54] raw_check-plannerADE1: 0.0635, raw_check-plannerFDE1: 0.1430
+[INFO 12-24 22:03:54] raw_check-plannerADE1: 0.2441, raw_check-plannerFDE1: 0.6736
+[INFO 12-24 22:03:54] raw_check-plannerADE1: 1.4600, raw_check-plannerFDE1: 7.7172
+[INFO 12-24 22:03:54] before_check-plannerADE1: 6.4706, before_check-plannerFDE1: 13.8763
+[INFO 12-24 22:03:54] before_check-plannerADE1: 12.7897, before_check-plannerFDE1: 7.5261
+[INFO 12-24 22:03:54] before_check-plannerADE1: 12.4010, before_check-plannerFDE1: 21.6218
+[INFO 12-24 22:03:54] check-plannerADE1: 5.0095, check-plannerFDE1: 11.1048
+[INFO 12-24 22:03:54] check-plannerADE1: 14.8852, check-plannerFDE1: 23.1409
+[INFO 12-24 22:03:54] check-plannerADE1: 18.8365, check-plannerFDE1: 26.4410
+[INFO 12-24 22:03:54] In sum: 
+[INFO 12-24 22:03:54] ******************learn*******************
+[INFO 12-24 22:03:54] Task-Progress: [ 29/ 35]  Time: 268.484s/task  
+[INFO 12-24 22:03:54] before-Time:12.653s|20-step  learn-Time: 155.551s|281-step  after-Time: 0.634s|1-step 
+[INFO 12-24 22:03:54] ******************check*******************
+[INFO 12-24 22:03:54] before-Time:12.660s|20-step  check-Time:0.600s| 1-step  loss-Val[raw|before|after]:[0.0011|1.5413|0.0559]
+[INFO 12-24 22:03:54] before-Time:12.620s|20-step  check-Time:11.436s|20-step  loss-Val[raw|before|after]:[0.0018|1.8021|0.3283]
+[INFO 12-24 22:03:54] before-Time:12.616s|20-step  check-Time:8.798s|20-step  loss-Val[raw|before|after]:[0.0011|1.7350|0.3145]
+[INFO 12-24 22:03:54] before-Time:12.626s|20-step  check-Time:7.420s|20-step  loss-Val[raw|before|after]:[0.0018|1.6799|0.3163]
+[INFO 12-24 22:03:54] before-Time:7.691s|20-step  check-Time:7.458s|20-step  loss-Val[raw|before|after]:[0.0027|1.6525|0.3192]
+[INFO 12-24 22:03:54] before-Time:7.488s|20-step  check-Time:7.407s|20-step  loss-Val[raw|before|after]:[0.0028|1.7416|0.3144]
+[INFO 12-24 22:03:54] before-Time:7.467s|20-step  check-Time:9.041s|20-step  loss-Val[raw|before|after]:[0.0010|1.6487|0.3157]
+[INFO 12-24 22:03:54] before-Time:7.481s|20-step  check-Time:12.393s|20-step  loss-Val[raw|before|after]:[0.0035|1.6685|0.3074]
+[INFO 12-24 22:03:54] before-Time:7.870s|20-step  check-Time:0.631s| 1-step  loss-Val[raw|before|after]:[0.0037|1.6189|0.0569]
+[INFO 12-24 22:03:54] before-Time:12.737s|20-step  check-Time:12.478s|20-step  loss-Val[raw|before|after]:[0.0029|1.7147|0.3359]
+[INFO 12-24 22:03:54] check mean result:
+[INFO 12-24 22:03:54] before-MeanTime:10.126s|20.0-step  check-MeanTime:7.766s|16.2-step  loss-MeanVal[raw|before|after]:[0.0022|1.6803|0.2665]
+[INFO 12-24 22:03:54] ******************************************
+[INFO 12-24 22:03:54] ==========================task_i: 30============================
+[INFO 12-24 22:03:54] behavior_i: 5  style_i: 1
+[INFO 12-24 22:03:55] learn result:
+[INFO 12-24 22:03:55] raw loss--> loss:0.0058  IRL-loss:0.0058  end-loss:4.3786  traj-loss:0.6681  plan-cost:1.1395
+[INFO 12-24 22:04:02] before learn --> loss:0.4348  IRL-loss:0.4348  end-loss:5.1265  traj-loss:1.6533  plan-cost:0.5928
+[INFO 12-24 22:05:35] cross learn --> loss:0.0040  IRL-loss:0.0040  end-loss:3.8795  traj-loss:0.6173  plan-cost:0.4901  stop_value:0.0046  
+[INFO 12-24 22:05:35] after learn --> loss:0.0040  IRL-loss:0.0040  end-loss:3.8795  traj-loss:0.6173  plan-cost:0.4901
+[INFO 12-24 22:05:46] train metrics:
+[INFO 12-24 22:05:46] raw-plannerADE1: 0.0420, raw-plannerFDE1: 0.0950
+[INFO 12-24 22:05:46] raw-plannerADE1: 0.2064, raw-plannerFDE1: 0.6739
+[INFO 12-24 22:05:46] raw-plannerADE1: 1.4150, raw-plannerFDE1: 7.6215
+[INFO 12-24 22:05:46] before-plannerADE1: 1.3405, before-plannerFDE1: 2.7326
+[INFO 12-24 22:05:46] before-plannerADE1: 2.2808, before-plannerFDE1: 2.6721
+[INFO 12-24 22:05:46] before-plannerADE1: 3.1912, before-plannerFDE1: 8.6327
+[INFO 12-24 22:05:46] cross-plannerADE1: 0.0919, cross-plannerFDE1: 0.2064
+[INFO 12-24 22:05:46] cross-plannerADE1: 0.3378, cross-plannerFDE1: 0.7772
+[INFO 12-24 22:05:46] cross-plannerADE1: 1.3949, cross-plannerFDE1: 6.8952
+[INFO 12-24 22:05:46] after-plannerADE1: 0.0919, after-plannerFDE1: 0.2064
+[INFO 12-24 22:05:46] after-plannerADE1: 0.3378, after-plannerFDE1: 0.7772
+[INFO 12-24 22:05:46] after-plannerADE1: 1.3949, after-plannerFDE1: 6.8952
+[INFO 12-24 22:05:46] check metrics:
+[INFO 12-24 22:05:46] raw_check-plannerADE1: 0.0421, raw_check-plannerFDE1: 0.0951
+[INFO 12-24 22:05:46] raw_check-plannerADE1: 0.1992, raw_check-plannerFDE1: 0.6806
+[INFO 12-24 22:05:46] raw_check-plannerADE1: 1.4985, raw_check-plannerFDE1: 8.1110
+[INFO 12-24 22:05:46] before_check-plannerADE1: 1.2372, before_check-plannerFDE1: 2.5232
+[INFO 12-24 22:05:46] before_check-plannerADE1: 2.2075, before_check-plannerFDE1: 2.7742
+[INFO 12-24 22:05:46] before_check-plannerADE1: 3.3226, before_check-plannerFDE1: 9.2649
+[INFO 12-24 22:05:46] check-plannerADE1: 0.1283, check-plannerFDE1: 0.2806
+[INFO 12-24 22:05:46] check-plannerADE1: 0.4203, check-plannerFDE1: 0.8671
+[INFO 12-24 22:05:46] check-plannerADE1: 1.5481, check-plannerFDE1: 7.4038
+[INFO 12-24 22:05:46] In sum: 
+[INFO 12-24 22:05:46] ******************learn*******************
+[INFO 12-24 22:05:46] Task-Progress: [ 30/ 35]  Time: 263.262s/task  
+[INFO 12-24 22:05:46] before-Time:7.465s|20-step  learn-Time: 8.922s|21-step  after-Time: 0.381s|1-step 
+[INFO 12-24 22:05:46] ******************check*******************
+[INFO 12-24 22:05:46] before-Time:7.454s|20-step  check-Time:0.382s| 1-step  loss-Val[raw|before|after]:[0.0011|0.3818|0.0012]
+[INFO 12-24 22:05:46] before-Time:7.441s|20-step  check-Time:7.483s|20-step  loss-Val[raw|before|after]:[0.0036|0.5290|0.0917]
+[INFO 12-24 22:05:46] before-Time:7.453s|20-step  check-Time:0.374s| 1-step  loss-Val[raw|before|after]:[0.0010|0.3498|0.0020]
+[INFO 12-24 22:05:46] before-Time:7.438s|20-step  check-Time:0.373s| 1-step  loss-Val[raw|before|after]:[0.0022|0.4495|0.0029]
+[INFO 12-24 22:05:46] before-Time:7.396s|20-step  check-Time:0.380s| 1-step  loss-Val[raw|before|after]:[0.0023|0.4130|0.0031]
+[INFO 12-24 22:05:46] before-Time:7.416s|20-step  check-Time:0.374s| 1-step  loss-Val[raw|before|after]:[0.0003|0.4614|0.0009]
+[INFO 12-24 22:05:46] before-Time:11.886s|20-step  check-Time:0.373s| 1-step  loss-Val[raw|before|after]:[0.0019|0.3071|0.0031]
+[INFO 12-24 22:05:46] before-Time:11.260s|20-step  check-Time:0.379s| 1-step  loss-Val[raw|before|after]:[0.0042|0.3995|0.0033]
+[INFO 12-24 22:05:46] before-Time:7.435s|20-step  check-Time:0.370s| 1-step  loss-Val[raw|before|after]:[0.0030|0.3436|0.0040]
+[INFO 12-24 22:05:46] before-Time:8.187s|20-step  check-Time:0.371s| 1-step  loss-Val[raw|before|after]:[0.0024|0.3303|0.0034]
+[INFO 12-24 22:05:46] check mean result:
+[INFO 12-24 22:05:46] before-MeanTime:8.337s|20.0-step  check-MeanTime:1.086s|2.9-step  loss-MeanVal[raw|before|after]:[0.0022|0.3965|0.0116]
+[INFO 12-24 22:05:46] ******************************************
+[INFO 12-24 22:05:46] ==========================task_i: 31============================
+[INFO 12-24 22:05:46] behavior_i: 3  style_i: 4
+[INFO 12-24 22:05:47] learn result:
+[INFO 12-24 22:05:47] raw loss--> loss:0.0053  IRL-loss:0.0053  end-loss:4.9279  traj-loss:0.7620  plan-cost:0.5665
+[INFO 12-24 22:05:54] before learn --> loss:0.0950  IRL-loss:0.0950  end-loss:2.9275  traj-loss:1.2309  plan-cost:0.0159
+[INFO 12-24 22:07:24] cross learn --> loss:0.0034  IRL-loss:0.0034  end-loss:3.4842  traj-loss:0.6635  plan-cost:0.2627  stop_value:0.0050  
+[INFO 12-24 22:07:25] after learn --> loss:0.0034  IRL-loss:0.0034  end-loss:3.4870  traj-loss:0.6642  plan-cost:0.2627
+[INFO 12-24 22:08:04] train metrics:
+[INFO 12-24 22:08:04] raw-plannerADE1: 0.0494, raw-plannerFDE1: 0.1026
+[INFO 12-24 22:08:04] raw-plannerADE1: 0.2059, raw-plannerFDE1: 0.7377
+[INFO 12-24 22:08:04] raw-plannerADE1: 1.5694, raw-plannerFDE1: 8.4816
+[INFO 12-24 22:08:04] before-plannerADE1: 0.5690, before-plannerFDE1: 1.2345
+[INFO 12-24 22:08:04] before-plannerADE1: 1.6262, before-plannerFDE1: 2.8451
+[INFO 12-24 22:08:04] before-plannerADE1: 2.5108, before-plannerFDE1: 5.3181
+[INFO 12-24 22:08:04] cross-plannerADE1: 0.1433, cross-plannerFDE1: 0.3085
+[INFO 12-24 22:08:04] cross-plannerADE1: 0.4732, cross-plannerFDE1: 1.0056
+[INFO 12-24 22:08:04] cross-plannerADE1: 1.4789, cross-plannerFDE1: 6.3216
+[INFO 12-24 22:08:04] after-plannerADE1: 0.1472, after-plannerFDE1: 0.3157
+[INFO 12-24 22:08:04] after-plannerADE1: 0.4750, after-plannerFDE1: 1.0015
+[INFO 12-24 22:08:04] after-plannerADE1: 1.4810, after-plannerFDE1: 6.3265
+[INFO 12-24 22:08:04] check metrics:
+[INFO 12-24 22:08:04] raw_check-plannerADE1: 0.0494, raw_check-plannerFDE1: 0.1025
+[INFO 12-24 22:08:04] raw_check-plannerADE1: 0.1887, raw_check-plannerFDE1: 0.6646
+[INFO 12-24 22:08:04] raw_check-plannerADE1: 1.4651, raw_check-plannerFDE1: 7.9525
+[INFO 12-24 22:08:04] before_check-plannerADE1: 0.5128, before_check-plannerFDE1: 1.1209
+[INFO 12-24 22:08:04] before_check-plannerADE1: 1.5699, before_check-plannerFDE1: 2.7495
+[INFO 12-24 22:08:04] before_check-plannerADE1: 2.4770, before_check-plannerFDE1: 5.4469
+[INFO 12-24 22:08:04] check-plannerADE1: 0.2024, check-plannerFDE1: 0.4393
+[INFO 12-24 22:08:04] check-plannerADE1: 0.6444, check-plannerFDE1: 1.2978
+[INFO 12-24 22:08:04] check-plannerADE1: 1.6625, check-plannerFDE1: 6.1897
+[INFO 12-24 22:08:04] In sum: 
+[INFO 12-24 22:08:04] ******************learn*******************
+[INFO 12-24 22:08:04] Task-Progress: [ 31/ 35]  Time: 259.218s/task  
+[INFO 12-24 22:08:04] before-Time:7.431s|20-step  learn-Time: 14.942s|22-step  after-Time: 1.193s|2-step 
+[INFO 12-24 22:08:04] ******************check*******************
+[INFO 12-24 22:08:04] before-Time:7.474s|20-step  check-Time:11.725s|20-step  loss-Val[raw|before|after]:[0.0044|0.0367|0.0233]
+[INFO 12-24 22:08:04] before-Time:7.438s|20-step  check-Time:0.572s| 1-step  loss-Val[raw|before|after]:[0.0020|0.0495|0.0039]
+[INFO 12-24 22:08:04] before-Time:7.437s|20-step  check-Time:0.574s| 1-step  loss-Val[raw|before|after]:[0.0020|0.0865|0.0042]
+[INFO 12-24 22:08:04] before-Time:7.417s|20-step  check-Time:0.574s| 1-step  loss-Val[raw|before|after]:[0.0018|0.0690|0.0035]
+[INFO 12-24 22:08:04] before-Time:7.478s|20-step  check-Time:0.588s| 1-step  loss-Val[raw|before|after]:[0.0016|0.0495|0.0028]
+[INFO 12-24 22:08:04] before-Time:7.433s|20-step  check-Time:11.598s|20-step  loss-Val[raw|before|after]:[0.0044|0.0673|0.0321]
+[INFO 12-24 22:08:04] before-Time:7.449s|20-step  check-Time:0.569s| 1-step  loss-Val[raw|before|after]:[0.0008|0.0453|0.0032]
+[INFO 12-24 22:08:04] before-Time:7.536s|20-step  check-Time:0.606s| 1-step  loss-Val[raw|before|after]:[0.0007|0.0499|0.0034]
+[INFO 12-24 22:08:04] before-Time:7.433s|20-step  check-Time:11.562s|20-step  loss-Val[raw|before|after]:[0.0038|0.0923|0.0131]
+[INFO 12-24 22:08:04] before-Time:7.437s|20-step  check-Time:0.571s| 1-step  loss-Val[raw|before|after]:[0.0014|0.0464|0.0032]
+[INFO 12-24 22:08:04] check mean result:
+[INFO 12-24 22:08:04] before-MeanTime:7.453s|20.0-step  check-MeanTime:3.894s|6.7-step  loss-MeanVal[raw|before|after]:[0.0023|0.0592|0.0093]
+[INFO 12-24 22:08:04] ******************************************
+[INFO 12-24 22:08:04] ==========================task_i: 32============================
+[INFO 12-24 22:08:04] behavior_i: 4  style_i: 1
+[INFO 12-24 22:08:05] learn result:
+[INFO 12-24 22:08:05] raw loss--> loss:0.0052  IRL-loss:0.0052  end-loss:4.5369  traj-loss:0.6993  plan-cost:0.4098
+[INFO 12-24 22:08:17] before learn --> loss:0.0303  IRL-loss:0.0303  end-loss:5.0108  traj-loss:2.2725  plan-cost:0.0473
+[INFO 12-24 22:10:31] cross learn --> loss:0.0029  IRL-loss:0.0029  end-loss:3.6739  traj-loss:0.5855  plan-cost:0.0639  stop_value:0.0042  
+[INFO 12-24 22:10:31] after learn --> loss:0.0029  IRL-loss:0.0029  end-loss:3.6739  traj-loss:0.5855  plan-cost:0.0639
+[INFO 12-24 22:10:37] train metrics:
+[INFO 12-24 22:10:37] raw-plannerADE1: 0.0643, raw-plannerFDE1: 0.1320
+[INFO 12-24 22:10:37] raw-plannerADE1: 0.2174, raw-plannerFDE1: 0.6904
+[INFO 12-24 22:10:37] raw-plannerADE1: 1.4721, raw-plannerFDE1: 7.8215
+[INFO 12-24 22:10:37] before-plannerADE1: 1.1626, before-plannerFDE1: 2.5024
+[INFO 12-24 22:10:37] before-plannerADE1: 2.9904, before-plannerFDE1: 4.4647
+[INFO 12-24 22:10:37] before-plannerADE1: 4.4135, before-plannerFDE1: 9.1666
+[INFO 12-24 22:10:37] cross-plannerADE1: 0.0810, cross-plannerFDE1: 0.1661
+[INFO 12-24 22:10:37] cross-plannerADE1: 0.2630, cross-plannerFDE1: 0.7092
+[INFO 12-24 22:10:37] cross-plannerADE1: 1.3117, cross-plannerFDE1: 6.4911
+[INFO 12-24 22:10:37] after-plannerADE1: 0.0810, after-plannerFDE1: 0.1661
+[INFO 12-24 22:10:37] after-plannerADE1: 0.2630, after-plannerFDE1: 0.7092
+[INFO 12-24 22:10:37] after-plannerADE1: 1.3117, after-plannerFDE1: 6.4911
+[INFO 12-24 22:10:37] check metrics:
+[INFO 12-24 22:10:37] raw_check-plannerADE1: 0.0642, raw_check-plannerFDE1: 0.1316
+[INFO 12-24 22:10:37] raw_check-plannerADE1: 0.2262, raw_check-plannerFDE1: 0.7099
+[INFO 12-24 22:10:37] raw_check-plannerADE1: 1.5094, raw_check-plannerFDE1: 8.0359
+[INFO 12-24 22:10:37] before_check-plannerADE1: 1.0333, before_check-plannerFDE1: 2.1985
+[INFO 12-24 22:10:37] before_check-plannerADE1: 2.5981, before_check-plannerFDE1: 4.1370
+[INFO 12-24 22:10:37] before_check-plannerADE1: 4.1737, before_check-plannerFDE1: 9.3226
+[INFO 12-24 22:10:37] check-plannerADE1: 0.0776, check-plannerFDE1: 0.1592
+[INFO 12-24 22:10:37] check-plannerADE1: 0.2714, check-plannerFDE1: 0.7375
+[INFO 12-24 22:10:37] check-plannerADE1: 1.3380, check-plannerFDE1: 6.6734
+[INFO 12-24 22:10:37] In sum: 
+[INFO 12-24 22:10:37] ******************learn*******************
+[INFO 12-24 22:10:37] Task-Progress: [ 32/ 35]  Time: 255.901s/task  
+[INFO 12-24 22:10:37] before-Time:11.579s|20-step  learn-Time: 28.386s|41-step  after-Time: 0.565s|1-step 
+[INFO 12-24 22:10:37] ******************check*******************
+[INFO 12-24 22:10:37] before-Time:11.683s|20-step  check-Time:0.623s| 1-step  loss-Val[raw|before|after]:[0.0033|0.0809|0.0012]
+[INFO 12-24 22:10:37] before-Time:11.695s|20-step  check-Time:0.575s| 1-step  loss-Val[raw|before|after]:[0.0025|0.0542|0.0018]
+[INFO 12-24 22:10:37] before-Time:11.538s|20-step  check-Time:0.582s| 1-step  loss-Val[raw|before|after]:[0.0023|0.0715|0.0014]
+[INFO 12-24 22:10:37] before-Time:11.468s|20-step  check-Time:0.608s| 1-step  loss-Val[raw|before|after]:[0.0010|0.0731|0.0010]
+[INFO 12-24 22:10:37] before-Time:11.491s|20-step  check-Time:0.570s| 1-step  loss-Val[raw|before|after]:[0.0011|0.0582|0.0009]
+[INFO 12-24 22:10:37] before-Time:0.577s| 1-step  check-Time:0.614s| 1-step  loss-Val[raw|before|after]:[0.0015|0.0011|0.0015]
+[INFO 12-24 22:10:37] before-Time:11.534s|20-step  check-Time:0.577s| 1-step  loss-Val[raw|before|after]:[0.0024|0.0806|0.0009]
+[INFO 12-24 22:10:37] before-Time:11.483s|20-step  check-Time:0.577s| 1-step  loss-Val[raw|before|after]:[0.0012|0.0951|0.0005]
+[INFO 12-24 22:10:37] before-Time:11.435s|20-step  check-Time:0.578s| 1-step  loss-Val[raw|before|after]:[0.0029|0.0689|0.0026]
+[INFO 12-24 22:10:37] before-Time:12.437s|20-step  check-Time:0.571s| 1-step  loss-Val[raw|before|after]:[0.0026|0.0208|0.0019]
+[INFO 12-24 22:10:37] check mean result:
+[INFO 12-24 22:10:37] before-MeanTime:10.534s|18.1-step  check-MeanTime:0.587s|1.0-step  loss-MeanVal[raw|before|after]:[0.0021|0.0604|0.0014]
+[INFO 12-24 22:10:37] ******************************************
+[INFO 12-24 22:10:37] ==========================task_i: 33============================
+[INFO 12-24 22:10:37] behavior_i: 3  style_i: 2
+[INFO 12-24 22:10:38] learn result:
+[INFO 12-24 22:10:38] raw loss--> loss:0.0053  IRL-loss:0.0053  end-loss:4.8505  traj-loss:0.7540  plan-cost:0.0578
+[INFO 12-24 22:10:50] before learn --> loss:0.0082  IRL-loss:0.0082  end-loss:4.2673  traj-loss:2.0912  plan-cost:0.0262
+[INFO 12-24 22:11:56] cross learn --> loss:0.0010  IRL-loss:0.0010  end-loss:3.9002  traj-loss:0.6238  plan-cost:0.2622  stop_value:0.0013  
+[INFO 12-24 22:11:57] after learn --> loss:0.0010  IRL-loss:0.0010  end-loss:3.9002  traj-loss:0.6238  plan-cost:0.2622
+[INFO 12-24 22:12:40] train metrics:
+[INFO 12-24 22:12:40] raw-plannerADE1: 0.0398, raw-plannerFDE1: 0.0826
+[INFO 12-24 22:12:40] raw-plannerADE1: 0.2032, raw-plannerFDE1: 0.7384
+[INFO 12-24 22:12:40] raw-plannerADE1: 1.5485, raw-plannerFDE1: 8.3436
+[INFO 12-24 22:12:40] before-plannerADE1: 0.5774, before-plannerFDE1: 1.3318
+[INFO 12-24 22:12:40] before-plannerADE1: 2.2990, before-plannerFDE1: 4.5898
+[INFO 12-24 22:12:40] before-plannerADE1: 3.9208, before-plannerFDE1: 8.1384
+[INFO 12-24 22:12:40] cross-plannerADE1: 0.0534, cross-plannerFDE1: 0.1157
+[INFO 12-24 22:12:40] cross-plannerADE1: 0.2497, cross-plannerFDE1: 0.7472
+[INFO 12-24 22:12:40] cross-plannerADE1: 1.3461, cross-plannerFDE1: 6.6833
+[INFO 12-24 22:12:40] after-plannerADE1: 0.0534, after-plannerFDE1: 0.1157
+[INFO 12-24 22:12:40] after-plannerADE1: 0.2497, after-plannerFDE1: 0.7472
+[INFO 12-24 22:12:40] after-plannerADE1: 1.3461, after-plannerFDE1: 6.6833
+[INFO 12-24 22:12:40] check metrics:
+[INFO 12-24 22:12:40] raw_check-plannerADE1: 0.0397, raw_check-plannerFDE1: 0.0823
+[INFO 12-24 22:12:40] raw_check-plannerADE1: 0.1921, raw_check-plannerFDE1: 0.6980
+[INFO 12-24 22:12:40] raw_check-plannerADE1: 1.4761, raw_check-plannerFDE1: 7.9692
+[INFO 12-24 22:12:40] before_check-plannerADE1: 0.2999, before_check-plannerFDE1: 0.6895
+[INFO 12-24 22:12:40] before_check-plannerADE1: 1.2178, before_check-plannerFDE1: 2.5337
+[INFO 12-24 22:12:40] before_check-plannerADE1: 2.4973, before_check-plannerFDE1: 7.1100
+[INFO 12-24 22:12:40] check-plannerADE1: 0.1562, check-plannerFDE1: 0.3549
+[INFO 12-24 22:12:40] check-plannerADE1: 0.6675, check-plannerFDE1: 1.5311
+[INFO 12-24 22:12:40] check-plannerADE1: 1.7444, check-plannerFDE1: 6.1015
+[INFO 12-24 22:12:40] In sum: 
+[INFO 12-24 22:12:40] ******************learn*******************
+[INFO 12-24 22:12:40] Task-Progress: [ 33/ 35]  Time: 251.867s/task  
+[INFO 12-24 22:12:40] before-Time:11.653s|20-step  learn-Time: 14.911s|21-step  after-Time: 0.632s|1-step 
+[INFO 12-24 22:12:40] ******************check*******************
+[INFO 12-24 22:12:40] before-Time:11.776s|20-step  check-Time:12.510s|20-step  loss-Val[raw|before|after]:[0.0013|0.0082|0.0041]
+[INFO 12-24 22:12:40] before-Time:0.626s| 1-step  check-Time:0.623s| 1-step  loss-Val[raw|before|after]:[0.0019|0.0010|0.0015]
+[INFO 12-24 22:12:40] before-Time:0.625s| 1-step  check-Time:1.251s| 2-step  loss-Val[raw|before|after]:[0.0012|0.0009|0.0012]
+[INFO 12-24 22:12:40] before-Time:11.853s|20-step  check-Time:0.623s| 1-step  loss-Val[raw|before|after]:[0.0014|0.0094|0.0010]
+[INFO 12-24 22:12:40] before-Time:1.140s| 2-step  check-Time:1.875s| 3-step  loss-Val[raw|before|after]:[0.0022|0.0009|0.0011]
+[INFO 12-24 22:12:40] before-Time:0.571s| 1-step  check-Time:0.622s| 1-step  loss-Val[raw|before|after]:[0.0015|0.0010|0.0012]
+[INFO 12-24 22:12:40] before-Time:11.638s|20-step  check-Time:12.472s|20-step  loss-Val[raw|before|after]:[0.0039|0.0110|0.0044]
+[INFO 12-24 22:12:40] before-Time:0.570s| 1-step  check-Time:0.626s| 1-step  loss-Val[raw|before|after]:[0.0019|0.0009|0.0015]
+[INFO 12-24 22:12:40] before-Time:0.552s| 1-step  check-Time:0.625s| 1-step  loss-Val[raw|before|after]:[0.0012|0.0012|0.0011]
+[INFO 12-24 22:12:40] before-Time:11.894s|20-step  check-Time:11.751s|20-step  loss-Val[raw|before|after]:[0.0015|0.0162|0.0075]
+[INFO 12-24 22:12:40] check mean result:
+[INFO 12-24 22:12:40] before-MeanTime:5.125s|8.7-step  check-MeanTime:4.298s|7.0-step  loss-MeanVal[raw|before|after]:[0.0018|0.0051|0.0025]
+[INFO 12-24 22:12:40] ******************************************
+[INFO 12-24 22:12:40] ==========================task_i: 34============================
+[INFO 12-24 22:12:40] behavior_i: 6  style_i: 0
+[INFO 12-24 22:12:41] learn result:
+[INFO 12-24 22:12:41] raw loss--> loss:0.0144  IRL-loss:0.0144  end-loss:5.8607  traj-loss:0.9184  plan-cost:0.0408
+[INFO 12-24 22:12:53] before learn --> loss:0.5638  IRL-loss:0.5638  end-loss:7.1049  traj-loss:2.7482  plan-cost:0.0322
+[INFO 12-24 22:15:40] cross learn --> loss:0.0137  IRL-loss:0.0137  end-loss:5.4365  traj-loss:0.8783  plan-cost:0.1180  stop_value:0.0190  
+[INFO 12-24 22:15:40] after learn --> loss:0.0137  IRL-loss:0.0137  end-loss:5.4365  traj-loss:0.8783  plan-cost:0.1180
+[INFO 12-24 22:15:44] train metrics:
+[INFO 12-24 22:15:44] raw-plannerADE1: 0.0533, raw-plannerFDE1: 0.1228
+[INFO 12-24 22:15:44] raw-plannerADE1: 0.2517, raw-plannerFDE1: 0.8402
+[INFO 12-24 22:15:44] raw-plannerADE1: 1.8092, raw-plannerFDE1: 9.8049
+[INFO 12-24 22:15:44] before-plannerADE1: 1.7375, before-plannerFDE1: 3.6323
+[INFO 12-24 22:15:44] before-plannerADE1: 3.4618, before-plannerFDE1: 4.3428
+[INFO 12-24 22:15:44] before-plannerADE1: 4.7130, before-plannerFDE1: 11.3958
+[INFO 12-24 22:15:44] cross-plannerADE1: 0.1176, cross-plannerFDE1: 0.2446
+[INFO 12-24 22:15:44] cross-plannerADE1: 0.3418, cross-plannerFDE1: 0.8678
+[INFO 12-24 22:15:44] cross-plannerADE1: 1.7694, cross-plannerFDE1: 9.0604
+[INFO 12-24 22:15:44] after-plannerADE1: 0.1176, after-plannerFDE1: 0.2446
+[INFO 12-24 22:15:44] after-plannerADE1: 0.3418, after-plannerFDE1: 0.8678
+[INFO 12-24 22:15:44] after-plannerADE1: 1.7694, after-plannerFDE1: 9.0604
+[INFO 12-24 22:15:44] check metrics:
+[INFO 12-24 22:15:44] raw_check-plannerADE1: 0.0528, raw_check-plannerFDE1: 0.1213
+[INFO 12-24 22:15:44] raw_check-plannerADE1: 0.2174, raw_check-plannerFDE1: 0.6882
+[INFO 12-24 22:15:44] raw_check-plannerADE1: 1.5014, raw_check-plannerFDE1: 8.0528
+[INFO 12-24 22:15:44] before_check-plannerADE1: 1.7753, before_check-plannerFDE1: 3.6963
+[INFO 12-24 22:15:44] before_check-plannerADE1: 3.3409, before_check-plannerFDE1: 3.6025
+[INFO 12-24 22:15:44] before_check-plannerADE1: 4.4306, before_check-plannerFDE1: 9.8590
+[INFO 12-24 22:15:44] check-plannerADE1: 0.1129, check-plannerFDE1: 0.2351
+[INFO 12-24 22:15:44] check-plannerADE1: 0.3113, check-plannerFDE1: 0.7605
+[INFO 12-24 22:15:44] check-plannerADE1: 1.4239, check-plannerFDE1: 7.0772
+[INFO 12-24 22:15:44] In sum: 
+[INFO 12-24 22:15:44] ******************learn*******************
+[INFO 12-24 22:15:44] Task-Progress: [ 34/ 35]  Time: 249.884s/task  
+[INFO 12-24 22:15:44] before-Time:11.756s|20-step  learn-Time: 42.977s|61-step  after-Time: 0.378s|1-step 
+[INFO 12-24 22:15:44] ******************check*******************
+[INFO 12-24 22:15:44] before-Time:11.658s|20-step  check-Time:0.384s| 1-step  loss-Val[raw|before|after]:[0.0107|0.4724|0.0058]
+[INFO 12-24 22:15:44] before-Time:12.176s|20-step  check-Time:0.374s| 1-step  loss-Val[raw|before|after]:[0.0019|0.5243|0.0031]
+[INFO 12-24 22:15:44] before-Time:12.495s|20-step  check-Time:0.370s| 1-step  loss-Val[raw|before|after]:[0.0041|0.4721|0.0061]
+[INFO 12-24 22:15:44] before-Time:12.509s|20-step  check-Time:0.370s| 1-step  loss-Val[raw|before|after]:[0.0025|0.6904|0.0025]
+[INFO 12-24 22:15:44] before-Time:12.559s|20-step  check-Time:0.372s| 1-step  loss-Val[raw|before|after]:[0.0016|0.3201|0.0024]
+[INFO 12-24 22:15:44] before-Time:12.582s|20-step  check-Time:0.371s| 1-step  loss-Val[raw|before|after]:[0.0059|0.7376|0.0175]
+[INFO 12-24 22:15:44] before-Time:12.604s|20-step  check-Time:0.371s| 1-step  loss-Val[raw|before|after]:[0.0031|0.3693|0.0018]
+[INFO 12-24 22:15:44] before-Time:12.588s|20-step  check-Time:0.371s| 1-step  loss-Val[raw|before|after]:[0.0028|0.4487|0.0050]
+[INFO 12-24 22:15:44] before-Time:12.566s|20-step  check-Time:0.379s| 1-step  loss-Val[raw|before|after]:[0.0023|0.3181|0.0048]
+[INFO 12-24 22:15:44] before-Time:12.506s|20-step  check-Time:0.375s| 1-step  loss-Val[raw|before|after]:[0.0020|0.6515|0.0047]
+[INFO 12-24 22:15:44] check mean result:
+[INFO 12-24 22:15:44] before-MeanTime:12.424s|20.0-step  check-MeanTime:0.374s|1.0-step  loss-MeanVal[raw|before|after]:[0.0037|0.5004|0.0054]
+[INFO 12-24 22:15:44] ******************************************
+[INFO 12-24 22:15:44] ==========================task_i: 35============================
+[INFO 12-24 22:15:44] behavior_i: 5  style_i: 0
+[INFO 12-24 22:15:45] learn result:
+[INFO 12-24 22:15:45] raw loss--> loss:0.0321  IRL-loss:0.0321  end-loss:4.6088  traj-loss:0.7609  plan-cost:0.1355
+[INFO 12-24 22:15:57] before learn --> loss:0.3267  IRL-loss:0.3267  end-loss:4.5082  traj-loss:0.9491  plan-cost:0.1055
+[INFO 12-24 22:18:13] cross learn --> loss:0.0246  IRL-loss:0.0246  end-loss:3.9939  traj-loss:0.8153  plan-cost:0.0580  stop_value:0.0421  
+[INFO 12-24 22:18:15] after learn --> loss:0.0238  IRL-loss:0.0238  end-loss:3.9949  traj-loss:0.8161  plan-cost:0.0582
+[INFO 12-24 22:18:21] train metrics:
+[INFO 12-24 22:18:21] raw-plannerADE1: 0.0868, raw-plannerFDE1: 0.1764
+[INFO 12-24 22:18:21] raw-plannerADE1: 0.3476, raw-plannerFDE1: 0.9412
+[INFO 12-24 22:18:21] raw-plannerADE1: 1.6313, raw-plannerFDE1: 8.0404
+[INFO 12-24 22:18:21] before-plannerADE1: 0.4659, before-plannerFDE1: 0.9590
+[INFO 12-24 22:18:21] before-plannerADE1: 1.1023, before-plannerFDE1: 1.5390
+[INFO 12-24 22:18:21] before-plannerADE1: 2.0514, before-plannerFDE1: 8.2636
+[INFO 12-24 22:18:21] cross-plannerADE1: 0.2367, cross-plannerFDE1: 0.4835
+[INFO 12-24 22:18:21] cross-plannerADE1: 0.6334, cross-plannerFDE1: 1.2299
+[INFO 12-24 22:18:21] cross-plannerADE1: 1.7094, cross-plannerFDE1: 6.7166
+[INFO 12-24 22:18:21] after-plannerADE1: 0.2367, after-plannerFDE1: 0.4838
+[INFO 12-24 22:18:21] after-plannerADE1: 0.6334, after-plannerFDE1: 1.2285
+[INFO 12-24 22:18:21] after-plannerADE1: 1.7106, after-plannerFDE1: 6.7168
+[INFO 12-24 22:18:21] check metrics:
+[INFO 12-24 22:18:21] raw_check-plannerADE1: 0.0867, raw_check-plannerFDE1: 0.1755
+[INFO 12-24 22:18:21] raw_check-plannerADE1: 0.3197, raw_check-plannerFDE1: 0.8468
+[INFO 12-24 22:18:21] raw_check-plannerADE1: 1.5394, raw_check-plannerFDE1: 7.6649
+[INFO 12-24 22:18:21] before_check-plannerADE1: 0.3967, before_check-plannerFDE1: 0.8230
+[INFO 12-24 22:18:21] before_check-plannerADE1: 0.9576, before_check-plannerFDE1: 1.3697
+[INFO 12-24 22:18:21] before_check-plannerADE1: 1.8721, before_check-plannerFDE1: 7.0798
+[INFO 12-24 22:18:21] check-plannerADE1: 0.1330, check-plannerFDE1: 0.2694
+[INFO 12-24 22:18:21] check-plannerADE1: 0.4094, check-plannerFDE1: 0.8891
+[INFO 12-24 22:18:21] check-plannerADE1: 1.5075, check-plannerFDE1: 6.8716
+[INFO 12-24 22:18:21] In sum: 
+[INFO 12-24 22:18:21] ******************learn*******************
+[INFO 12-24 22:18:21] Task-Progress: [ 35/ 35]  Time: 247.225s/task  
+[INFO 12-24 22:18:21] before-Time:11.808s|20-step  learn-Time: 30.529s|44-step  after-Time: 2.388s|4-step 
+[INFO 12-24 22:18:21] ******************check*******************
+[INFO 12-24 22:18:21] before-Time:11.665s|20-step  check-Time:0.628s| 1-step  loss-Val[raw|before|after]:[0.0010|0.0489|0.0033]
+[INFO 12-24 22:18:21] before-Time:11.567s|20-step  check-Time:0.584s| 1-step  loss-Val[raw|before|after]:[0.0078|0.0241|0.0064]
+[INFO 12-24 22:18:21] before-Time:11.536s|20-step  check-Time:0.578s| 1-step  loss-Val[raw|before|after]:[0.0051|0.0555|0.0053]
+[INFO 12-24 22:18:21] before-Time:0.573s| 1-step  check-Time:0.576s| 1-step  loss-Val[raw|before|after]:[0.0012|0.0005|0.0008]
+[INFO 12-24 22:18:21] before-Time:11.693s|20-step  check-Time:0.619s| 1-step  loss-Val[raw|before|after]:[0.0065|0.1319|0.0039]
+[INFO 12-24 22:18:21] before-Time:11.590s|20-step  check-Time:0.577s| 1-step  loss-Val[raw|before|after]:[0.0018|0.0991|0.0011]
+[INFO 12-24 22:18:21] before-Time:11.653s|20-step  check-Time:0.544s| 1-step  loss-Val[raw|before|after]:[0.0114|0.1368|0.0093]
+[INFO 12-24 22:18:21] before-Time:11.691s|20-step  check-Time:0.583s| 1-step  loss-Val[raw|before|after]:[0.0092|0.0354|0.0068]
+[INFO 12-24 22:18:21] before-Time:11.766s|20-step  check-Time:0.623s| 1-step  loss-Val[raw|before|after]:[0.0023|0.1936|0.0020]
+[INFO 12-24 22:18:21] before-Time:11.630s|20-step  check-Time:0.579s| 1-step  loss-Val[raw|before|after]:[0.0054|0.0313|0.0039]
+[INFO 12-24 22:18:21] check mean result:
+[INFO 12-24 22:18:21] before-MeanTime:10.536s|18.1-step  check-MeanTime:0.589s|1.0-step  loss-MeanVal[raw|before|after]:[0.0052|0.0757|0.0043]
+[INFO 12-24 22:18:21] ******************************************

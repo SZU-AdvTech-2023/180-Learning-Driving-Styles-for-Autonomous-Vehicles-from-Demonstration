@@ -1,0 +1,67 @@
+[INFO 12-09 09:18:33] ------------- train -------------
+[INFO 12-09 09:18:33] Use seed: 25
+[INFO 12-09 09:18:33] Use gpu_id: 0
+[INFO 12-09 09:18:33] dataset size: 10000
+[INFO 12-09 09:18:34] Dataset Prepared: 22189 train data
+
+[INFO 12-09 09:19:11] lat_acc: -1.3399, 1.8122
+[INFO 12-09 09:19:11] lon_acc: -1.1097, 1.1816
+[INFO 12-09 09:19:11] lat_jerk: -1.7929, 0.2007
+[INFO 12-09 09:19:11] lon_jerk: -0.9513, 1.0497
+[INFO 12-09 09:19:11] f_k2: 0.0000, 1.0005
+[INFO 12-09 09:19:11] speed_efficiency: 0.0000, 0.9387
+[INFO 12-09 09:19:11] lane_mean_error: 0.0000, 0.9390
+[INFO 12-09 09:19:11] risky_cost: 0.0000, 1.0725
+[INFO 12-09 09:19:13] behavior_1 length: 2801  percent: 28.0%
+[INFO 12-09 09:19:17] --> style_0  idx: 334  length: 48  percent: 11.9%
+[INFO 12-09 09:19:17] --> style_1  idx: 77  length: 48  percent: 2.7%
+[INFO 12-09 09:19:17] --> style_2  idx: 792  length: 48  percent: 28.3%
+[INFO 12-09 09:19:17] --> style_3  idx: 908  length: 48  percent: 32.4%
+[INFO 12-09 09:19:17] --> style_4  idx: 690  length: 48  percent: 24.6%
+[INFO 12-09 09:19:17] behavior_2 length: 5422  percent: 54.2%
+[INFO 12-09 09:19:25] --> style_0  idx: 801  length: 48  percent: 14.8%
+[INFO 12-09 09:19:25] --> style_1  idx: 918  length: 48  percent: 16.9%
+[INFO 12-09 09:19:25] --> style_2  idx: 842  length: 48  percent: 15.5%
+[INFO 12-09 09:19:25] --> style_3  idx: 1524  length: 48  percent: 28.1%
+[INFO 12-09 09:19:25] --> style_4  idx: 1337  length: 48  percent: 24.7%
+[INFO 12-09 09:19:25] behavior_3 length: 428  percent: 4.3%
+[INFO 12-09 09:19:25] --> style_0  idx: 46  length: 46  percent: 10.7%
+[INFO 12-09 09:19:25] --> style_1  idx: 100  length: 48  percent: 23.4%
+[INFO 12-09 09:19:25] --> style_2  idx: 147  length: 48  percent: 34.3%
+[INFO 12-09 09:19:25] --> style_3  idx: 93  length: 48  percent: 21.7%
+[INFO 12-09 09:19:25] --> style_4  idx: 42  length: 42  percent: 9.8%
+[INFO 12-09 09:19:25] behavior_4 length: 414  percent: 4.1%
+[INFO 12-09 09:19:26] --> style_0  idx: 86  length: 48  percent: 20.8%
+[INFO 12-09 09:19:26] --> style_1  idx: 114  length: 48  percent: 27.5%
+[INFO 12-09 09:19:26] --> style_2  idx: 68  length: 48  percent: 16.4%
+[INFO 12-09 09:19:26] --> style_3  idx: 98  length: 48  percent: 23.7%
+[INFO 12-09 09:19:26] --> style_4  idx: 48  length: 48  percent: 11.6%
+[INFO 12-09 09:19:26] behavior_5 length: 159  percent: 1.6%
+[INFO 12-09 09:19:26] --> style_0  idx: 19  length: 19  percent: 11.9%
+[INFO 12-09 09:19:26] --> style_1  idx: 4  length: 4  percent: 2.5%
+[INFO 12-09 09:19:26] --> style_2  idx: 77  length: 48  percent: 48.4%
+[INFO 12-09 09:19:26] --> style_3  idx: 43  length: 43  percent: 27.0%
+[INFO 12-09 09:19:26] --> style_4  idx: 16  length: 16  percent: 10.1%
+[INFO 12-09 09:19:26] behavior_6 length: 188  percent: 1.9%
+[INFO 12-09 09:19:26] --> style_0  idx: 60  length: 48  percent: 31.9%
+[INFO 12-09 09:19:26] --> style_1  idx: 11  length: 11  percent: 5.9%
+[INFO 12-09 09:19:26] --> style_2  idx: 30  length: 30  percent: 16.0%
+[INFO 12-09 09:19:26] --> style_3  idx: 39  length: 39  percent: 20.7%
+[INFO 12-09 09:19:26] --> style_4  idx: 48  length: 48  percent: 25.5%
+[INFO 12-09 09:19:26] behavior_7 length: 0  percent: 0.0%
+[INFO 12-09 09:19:27] behavior_8 length: 247  percent: 2.5%
+[INFO 12-09 09:19:27] --> style_0  idx: 64  length: 48  percent: 25.9%
+[INFO 12-09 09:19:27] --> style_1  idx: 44  length: 44  percent: 17.8%
+[INFO 12-09 09:19:27] --> style_2  idx: 59  length: 48  percent: 23.9%
+[INFO 12-09 09:19:27] --> style_3  idx: 16  length: 16  percent: 6.5%
+[INFO 12-09 09:19:27] --> style_4  idx: 64  length: 48  percent: 25.9%
+[INFO 12-09 09:19:27] behavior_9 length: 336  percent: 3.4%
+[INFO 12-09 09:19:27] --> style_0  idx: 109  length: 48  percent: 32.4%
+[INFO 12-09 09:19:27] --> style_1  idx: 63  length: 48  percent: 18.8%
+[INFO 12-09 09:19:27] --> style_2  idx: 38  length: 38  percent: 11.3%
+[INFO 12-09 09:19:27] --> style_3  idx: 73  length: 48  percent: 21.7%
+[INFO 12-09 09:19:27] --> style_4  idx: 53  length: 48  percent: 15.8%
+[INFO 12-09 09:19:27] behavior_10 length: 5  percent: 0.1%
+[INFO 12-09 09:19:28] check_find: False
+[INFO 12-09 09:19:28] dataset_length: 1692
+[INFO 12-09 09:19:28] task datasets generate: finished !!!
